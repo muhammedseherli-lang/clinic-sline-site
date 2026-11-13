@@ -218,10 +218,10 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
 GALLERY = {
     "en": ("Patient results", "Patients of Clinic S Line, shown with their consent. Results vary from person to person and are not a guarantee. Suitability is decided at a medical consultation.", "Patient before and after hair transplant"),
     "tr": ("Hasta sonuçları", "Clinic S Line hastaları, rızalarıyla paylaşılmıştır. Sonuçlar kişiden kişiye değişir, garanti değildir. Uygunluk muayenede belirlenir.", "Hastanın saç ekimi öncesi ve sonrası"),
-    "de": ("Patientenergebnisse", "Patienten von Clinic S Line, veröffentlicht mit ihrer Einwilligung. Ergebnisse sind individuell verschieden und keine Garantie. Die Eignung wird in der ärztlichen Beratung geklärt.", "Patient vor und nach der Haartransplantation"),
+    "de": ("Patientenergebnisse", "Patienten von Clinic S Line, veröffentlicht mit ihrer Einwilligung. Ergebnisse sind individuell verschieden und keine Garantie. Die Eignung wird in der individuellen Beratung geklärt.", "Patient vor und nach der Haartransplantation"),
     "fr": ("Résultats de patients", "Patients de Clinic S Line, publiés avec leur accord. Les résultats varient d'une personne à l'autre et ne sont pas garantis. L'indication est établie lors de la consultation médicale.", "Patient avant et après la greffe de cheveux"),
     "ar": ("نتائج المرضى", "مرضى Clinic S Line، تُعرض صورهم بموافقتهم. تختلف النتائج من شخص لآخر ولا تُعدّ ضمانًا. تُحدَّد الملاءمة في الاستشارة الطبية.", "مريض قبل زراعة الشعر وبعدها"),
-    "ru": ("Результаты пациентов", "Пациенты Clinic S Line, фото публикуются с их согласия. Результаты индивидуальны и не гарантируются. Показания определяются на консультации врача.", "Пациент до и после пересадки волос"),
+    "ru": ("Результаты пациентов", "Пациенты Clinic S Line, фото публикуются с их согласия. Результаты индивидуальны и не гарантируются. Показания определяются на индивидуальной консультации.", "Пациент до и после пересадки волос"),
 }
 CLINIC = {
     "en": ("Our clinic", "Clinic interior"), "tr": ("Kliniğimiz", "Klinik içi"), "de": ("Unsere Klinik", "Klinik von innen"),
@@ -531,8 +531,7 @@ def main():
     lines = ["# %s" % BRAND, "",
              "> Hair transplant clinic in Istanbul, Turkey. Patients from Turkey, Europe and Arabic-speaking countries. "
              "Languages: " + ", ".join(LANG_BY[c]["name"] for c in LANG_CODES) + ".", "",
-             "Every treatment plan is confirmed by a licensed doctor. Articles marked as medically reviewed have been read by a licensed physician. "
-             "Prices are fixed and given in writing after a doctor reviews the patient's photos.", ""]
+             "Every treatment plan is confirmed individually. Prices are fixed and given in writing after our team reviews the patient's photos.", ""]
     for lang in LANG_CODES:
         lines.append("## %s" % LANG_BY[lang]["name"])
         lines.append("- [%s](%s/%s/)" % (BRAND, SITE, lang))

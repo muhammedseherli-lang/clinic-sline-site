@@ -14,13 +14,13 @@
   "ui": {
     "en": {
       "guides": "Guides",
-      "hero_title": "Hair transplant in Istanbul, planned by a doctor before you travel",
-      "hero_sub": "Send three photos. A licensed doctor reviews them and replies with a hairline plan, a graft estimate and a fixed price.",
+      "hero_title": "Hair transplant in Istanbul, planned before you travel",
+      "hero_sub": "Send three photos. Our team reviews them and replies with a hairline plan, a graft estimate and a fixed price.",
       "cta": "Send photos on WhatsApp",
       "steps_title": "How it works",
       "steps": [
         ["Send photos", "Front, top and back of your head, on WhatsApp."],
-        ["Doctor review", "A licensed doctor studies your donor area and hair loss."],
+        ["Expert review", "Our team studies your donor area and hair loss."],
         ["Your plan", "Hairline design, graft estimate and a fixed price in writing, usually within 24 hours."],
         ["Surgery and follow-up", "Treatment in Istanbul, then aftercare and photo reviews."]
       ],
@@ -29,20 +29,20 @@
       "reviewed": "Medically reviewed by a licensed physician · Updated {date}",
       "updated_only": "Updated {date}",
       "cta_box_title": "Want a plan for your own hair?",
-      "cta_box_text": "Send three photos and receive a doctor-reviewed plan and a fixed price.",
-      "disclaimer": "This page is general information, not medical advice. Results vary between patients. Every treatment plan is confirmed by a licensed doctor.",
+      "cta_box_text": "Send three photos and receive a personal plan and a fixed price.",
+      "disclaimer": "This page is general information, not medical advice. Results vary between patients. Every treatment plan is confirmed individually.",
       "wa_msg": "Hello, I would like a free hair consultation.",
       "faq": "Frequently asked questions"
     },
     "tr": {
       "guides": "Rehberler",
-      "hero_title": "İstanbul'da saç ekimi: önce doktor planı, sonra yolculuk",
-      "hero_sub": "Üç fotoğraf gönderin. Lisanslı bir doktor inceler; saç çizgisi planı, tahmini greft sayısı ve sabit fiyatla dönüş yapar.",
+      "hero_title": "İstanbul'da saç ekimi: önce plan, sonra yolculuk",
+      "hero_sub": "Üç fotoğraf gönderin. Ekibimiz inceler; saç çizgisi planı, tahmini greft sayısı ve sabit fiyatla dönüş yapar.",
       "cta": "Fotoğrafları WhatsApp'tan gönderin",
       "steps_title": "Nasıl işliyor",
       "steps": [
         ["Fotoğraf gönderin", "Başınızın önden, üstten ve arkadan fotoğraflarını WhatsApp'tan iletin."],
-        ["Doktor incelemesi", "Lisanslı bir doktor donör alanınızı ve saç kaybınızı değerlendirir."],
+        ["Uzman incelemesi", "Ekibimiz donör alanınızı ve saç kaybınızı değerlendirir."],
         ["Planınız", "Saç çizgisi tasarımı, tahmini greft sayısı ve yazılı sabit fiyat, genellikle 24 saat içinde."],
         ["Operasyon ve takip", "İstanbul'da tedavi, ardından bakım ve fotoğraf kontrolleri."]
       ],
@@ -51,20 +51,20 @@
       "reviewed": "Lisanslı bir hekim tarafından tıbbi olarak gözden geçirilmiştir · Güncelleme: {date}",
       "updated_only": "Güncelleme: {date}",
       "cta_box_title": "Kendi saçınız için plan ister misiniz?",
-      "cta_box_text": "Üç fotoğraf gönderin, doktor onaylı plan ve sabit fiyat alın.",
-      "disclaimer": "Bu sayfa genel bilgi içindir, tıbbi tavsiye değildir. Sonuçlar hastadan hastaya değişir. Her tedavi planı lisanslı bir doktor tarafından onaylanır.",
+      "cta_box_text": "Üç fotoğraf gönderin, kişisel plan ve sabit fiyat alın.",
+      "disclaimer": "Bu sayfa genel bilgi içindir, tıbbi tavsiye değildir. Sonuçlar hastadan hastaya değişir. Her tedavi planı kişiye özel onaylanır.",
       "wa_msg": "Merhaba, ücretsiz saç ekimi danışmanlığı almak istiyorum.",
       "faq": "Sık sorulan sorular"
     },
     "de": {
       "guides": "Ratgeber",
-      "hero_title": "Haartransplantation in Istanbul: erst ärztliche Planung, dann die Reise",
-      "hero_sub": "Senden Sie drei Fotos. Ein approbierter Arzt prüft sie und antwortet mit Haarlinienplan, geschätzter Graftanzahl und Festpreis.",
+      "hero_title": "Haartransplantation in Istanbul: erst die Planung, dann die Reise",
+      "hero_sub": "Senden Sie drei Fotos. Unser Team prüft sie und antwortet mit Haarlinienplan, geschätzter Graftanzahl und Festpreis.",
       "cta": "Fotos per WhatsApp senden",
       "steps_title": "So funktioniert es",
       "steps": [
         ["Fotos senden", "Vorder-, Ober- und Rückseite Ihres Kopfes per WhatsApp."],
-        ["Ärztliche Prüfung", "Ein approbierter Arzt beurteilt Spenderbereich und Haarausfall."],
+        ["Fachliche Prüfung", "Unser Team beurteilt Spenderbereich und Haarausfall."],
         ["Ihr Plan", "Haarliniendesign, geschätzte Graftanzahl und ein schriftlicher Festpreis, in der Regel innerhalb von 24 Stunden."],
         ["Operation und Nachsorge", "Behandlung in Istanbul, danach Nachsorge und Fotokontrollen."]
       ],
@@ -73,20 +73,20 @@
       "reviewed": "Ärztlich geprüft von einem approbierten Arzt · Aktualisiert: {date}",
       "updated_only": "Aktualisiert: {date}",
       "cta_box_title": "Möchten Sie einen Plan für Ihr Haar?",
-      "cta_box_text": "Senden Sie drei Fotos und erhalten Sie einen ärztlich geprüften Plan und einen Festpreis.",
-      "disclaimer": "Diese Seite enthält allgemeine Informationen und ersetzt keine ärztliche Beratung. Ergebnisse variieren. Jeder Behandlungsplan wird von einem approbierten Arzt bestätigt.",
+      "cta_box_text": "Senden Sie drei Fotos und erhalten Sie einen persönlichen Plan und einen Festpreis.",
+      "disclaimer": "Diese Seite enthält allgemeine Informationen und ersetzt keine ärztliche Beratung. Ergebnisse variieren. Jeder Behandlungsplan wird individuell bestätigt.",
       "wa_msg": "Guten Tag, ich möchte eine kostenlose Haarberatung.",
       "faq": "Häufige Fragen"
     },
     "fr": {
       "guides": "Guides",
-      "hero_title": "Greffe de cheveux à Istanbul : d'abord le plan du médecin, ensuite le voyage",
-      "hero_sub": "Envoyez trois photos. Un médecin agréé les étudie et répond avec un plan de ligne frontale, une estimation du nombre de greffons et un prix fixe.",
+      "hero_title": "Greffe de cheveux à Istanbul : d'abord le plan, ensuite le voyage",
+      "hero_sub": "Envoyez trois photos. Notre équipe les étudie et répond avec un plan de ligne frontale, une estimation du nombre de greffons et un prix fixe.",
       "cta": "Envoyer mes photos sur WhatsApp",
       "steps_title": "Comment ça marche",
       "steps": [
         ["Envoyez vos photos", "Face, dessus et arrière de la tête, sur WhatsApp."],
-        ["Examen médical", "Un médecin agréé étudie votre zone donneuse et votre perte de cheveux."],
+        ["Examen par l'équipe", "Notre équipe étudie votre zone donneuse et votre perte de cheveux."],
         ["Votre plan", "Dessin de la ligne frontale, estimation des greffons et prix fixe écrit, en général sous 24 h."],
         ["Opération et suivi", "Intervention à Istanbul, puis suivi et contrôles par photos."]
       ],
@@ -95,20 +95,20 @@
       "reviewed": "Relu médicalement par un médecin agréé · Mis à jour le {date}",
       "updated_only": "Mis à jour le {date}",
       "cta_box_title": "Envie d'un plan pour vos cheveux ?",
-      "cta_box_text": "Envoyez trois photos et recevez un plan validé par un médecin et un prix fixe.",
-      "disclaimer": "Cette page donne des informations générales et ne remplace pas un avis médical. Les résultats varient d'un patient à l'autre. Chaque plan de traitement est validé par un médecin agréé.",
+      "cta_box_text": "Envoyez trois photos et recevez un plan personnalisé et un prix fixe.",
+      "disclaimer": "Cette page donne des informations générales et ne remplace pas un avis médical. Les résultats varient d'un patient à l'autre. Chaque plan de traitement est validé individuellement.",
       "wa_msg": "Bonjour, je souhaite une consultation capillaire gratuite.",
       "faq": "Questions fréquentes"
     },
     "ar": {
       "guides": "أدلة",
-      "hero_title": "زراعة الشعر في إسطنبول: خطة الطبيب أولاً ثم السفر",
-      "hero_sub": "أرسل ثلاث صور. يراجعها طبيب مرخّص ويرد عليك بخطة لخط الشعر وعدد البصيلات التقديري وسعر ثابت.",
+      "hero_title": "زراعة الشعر في إسطنبول: الخطة أولاً ثم السفر",
+      "hero_sub": "أرسل ثلاث صور. يراجعها فريقنا ويرد عليك بخطة لخط الشعر وعدد البصيلات التقديري وسعر ثابت.",
       "cta": "أرسل صورك عبر واتساب",
       "steps_title": "كيف نعمل",
       "steps": [
         ["أرسل صورك", "صور لرأسك من الأمام ومن الأعلى ومن الخلف عبر واتساب."],
-        ["مراجعة الطبيب", "يقيّم طبيب مرخّص المنطقة المانحة ودرجة تساقط الشعر."],
+        ["مراجعة المختصين", "يقيّم فريقنا المنطقة المانحة ودرجة تساقط الشعر."],
         ["خطتك", "تصميم خط الشعر وعدد البصيلات التقديري وسعر ثابت مكتوب، عادةً خلال 24 ساعة."],
         ["العملية والمتابعة", "العلاج في إسطنبول ثم الرعاية اللاحقة ومراجعة الصور."]
       ],
@@ -117,20 +117,20 @@
       "reviewed": "راجعه طبيب مرخّص · آخر تحديث: {date}",
       "updated_only": "آخر تحديث: {date}",
       "cta_box_title": "هل تريد خطة لشعرك أنت؟",
-      "cta_box_text": "أرسل ثلاث صور واحصل على خطة يراجعها الطبيب وسعر ثابت.",
-      "disclaimer": "هذه الصفحة معلومات عامة وليست نصيحة طبية. تختلف النتائج من مريض لآخر. يعتمد طبيب مرخّص كل خطة علاج.",
+      "cta_box_text": "أرسل ثلاث صور واحصل على خطة شخصية وسعر ثابت.",
+      "disclaimer": "هذه الصفحة معلومات عامة وليست نصيحة طبية. تختلف النتائج من مريض لآخر. تُعتمد كل خطة علاج بشكل فردي.",
       "wa_msg": "مرحباً، أرغب في استشارة مجانية لزراعة الشعر.",
       "faq": "الأسئلة الشائعة"
     },
     "ru": {
       "guides": "Руководства",
-      "hero_title": "Пересадка волос в Стамбуле: сначала план врача, потом поездка",
-      "hero_sub": "Отправьте три фото. Лицензированный врач изучит их и пришлёт план линии роста, оценку числа графтов и фиксированную цену.",
+      "hero_title": "Пересадка волос в Стамбуле: сначала план, потом поездка",
+      "hero_sub": "Отправьте три фото. Наша команда изучит их и пришлёт план линии роста, оценку числа графтов и фиксированную цену.",
       "cta": "Отправить фото в WhatsApp",
       "steps_title": "Как это работает",
       "steps": [
         ["Отправьте фото", "Голова спереди, сверху и сзади — в WhatsApp."],
-        ["Осмотр врача", "Лицензированный врач оценивает донорскую зону и степень выпадения."],
+        ["Экспертная оценка", "Наша команда оценивает донорскую зону и степень выпадения."],
         ["Ваш план", "Дизайн линии роста, оценка числа графтов и фиксированная цена письменно, обычно в течение 24 часов."],
         ["Операция и наблюдение", "Лечение в Стамбуле, затем уход и контроль по фото."]
       ],
@@ -139,8 +139,8 @@
       "reviewed": "Проверено лицензированным врачом · Обновлено: {date}",
       "updated_only": "Обновлено: {date}",
       "cta_box_title": "Нужен план для ваших волос?",
-      "cta_box_text": "Отправьте три фото и получите план, проверенный врачом, и фиксированную цену.",
-      "disclaimer": "Эта страница содержит общую информацию и не заменяет консультацию врача. Результаты индивидуальны. Каждый план лечения подтверждает лицензированный врач.",
+      "cta_box_text": "Отправьте три фото и получите персональный план и фиксированную цену.",
+      "disclaimer": "Эта страница содержит общую информацию и не заменяет консультацию врача. Результаты индивидуальны. Каждый план лечения подтверждается индивидуально.",
       "wa_msg": "Здравствуйте, хочу бесплатную консультацию по пересадке волос.",
       "faq": "Частые вопросы"
     }

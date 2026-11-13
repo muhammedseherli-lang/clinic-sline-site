@@ -12,10 +12,10 @@ keyword: hair transplant day what to expect
 - You receive aftercare instructions before you leave.
 
 ## Before the procedure
-The doctor confirms the plan with you, checks your donor area and designs the hairline. Ask questions now and do not agree to anything you do not understand.
+the clinic team confirms the plan with you, checks your donor area and designs the hairline. Ask questions now and do not agree to anything you do not understand.
 
 ## During treatment
-Treatment uses local anesthesia, so ask your doctor what you will feel and how discomfort is managed. Grafts are taken from the donor area and placed in the recipient area, using the method agreed in your plan. The length of treatment depends on your case, so ask for a realistic estimate for you.
+Treatment uses local anesthesia, so ask your clinic team what you will feel and how discomfort is managed. Grafts are taken from the donor area and placed in the recipient area, using the method agreed in your plan. The length of treatment depends on your case, so ask for a realistic estimate for you.
 
 ## When treatment ends
 You receive a written aftercare plan, medicines if prescribed and the first washing instructions. Ask whom to contact with questions and how the follow-up photo reviews work.
@@ -32,7 +32,7 @@ You receive a written aftercare plan, medicines if prescribed and the first wash
 
 ::: faq
 Q: Will I feel pain during treatment?
-A: Treatment uses local anesthesia. Ask your doctor how it is given and what you may feel.
+A: Treatment uses local anesthesia. Ask your clinic team how it is given and what you may feel.
 Q: How long does treatment take?
 A: It depends on your case and plan. Ask for a realistic estimate for you.
 Q: What happens when treatment ends?
@@ -50,10 +50,10 @@ keyword: saç ekimi günü neler olur
 - Ayrılmadan önce bakım talimatlarını alırsınız.
 
 ## İşlemden önce
-Doktor planı sizinle onaylar, verici bölgenizi kontrol eder ve saç çizgisini tasarlar. Sorularınızı şimdi sorun ve anlamadığınız hiçbir şeyi kabul etmeyin.
+Ekip planı sizinle onaylar, verici bölgenizi kontrol eder ve saç çizgisini tasarlar. Sorularınızı şimdi sorun ve anlamadığınız hiçbir şeyi kabul etmeyin.
 
 ## İşlem sırasında
-İşlemde lokal anestezi kullanılır. Ne hissedeceğinizi ve rahatsızlığın nasıl yönetildiğini doktorunuza sorun. Greftler verici bölgeden alınır ve planınızda anlaşılan yönteme göre ekim bölgesine yerleştirilir. İşlemin süresi durumunuza bağlıdır, bu yüzden size özel gerçekçi bir tahmin isteyin.
+İşlemde lokal anestezi kullanılır. Ne hissedeceğinizi ve rahatsızlığın nasıl yönetildiğini ekibinize sorun. Greftler verici bölgeden alınır ve planınızda anlaşılan yönteme göre ekim bölgesine yerleştirilir. İşlemin süresi durumunuza bağlıdır, bu yüzden size özel gerçekçi bir tahmin isteyin.
 
 ## İşlem bittiğinde
 Yazılı bir bakım planı, reçeteliyse ilaçlar ve ilk yıkama talimatlarını alırsınız. Sorularınız için kime ulaşacağınızı ve fotoğrafla takibin nasıl işlediğini sorun.
@@ -70,7 +70,7 @@ Yazılı bir bakım planı, reçeteliyse ilaçlar ve ilk yıkama talimatlarını
 
 ::: faq
 Q: İşlem sırasında acı hissedecek miyim?
-A: İşlemde lokal anestezi kullanılır. Nasıl uygulandığını ve neler hissedebileceğinizi doktorunuza sorun.
+A: İşlemde lokal anestezi kullanılır. Nasıl uygulandığını ve neler hissedebileceğinizi ekibinize sorun.
 Q: İşlem ne kadar sürer?
 A: Durumunuza ve planınıza bağlıdır. Size özel gerçekçi bir tahmin isteyin.
 Q: İşlem bitince ne olur?
@@ -88,10 +88,10 @@ keyword: Haartransplantation Ablauf Behandlungstag
 - Vor der Abreise erhalten Sie die Nachsorgehinweise.
 
 ## Vor dem Eingriff
-Der Arzt bestätigt den Plan mit Ihnen, prüft Ihren Spenderbereich und zeichnet die Haarlinie. Stellen Sie jetzt Ihre Fragen und stimmen Sie nichts zu, was Sie nicht verstehen.
+Das Team bestätigt den Plan mit Ihnen, prüft Ihren Spenderbereich und zeichnet die Haarlinie. Stellen Sie jetzt Ihre Fragen und stimmen Sie nichts zu, was Sie nicht verstehen.
 
 ## Während der Behandlung
-Die Behandlung erfolgt unter lokaler Betäubung. Fragen Sie Ihren Arzt, was Sie spüren werden und wie Beschwerden behandelt werden. Die Grafts werden im Spenderbereich entnommen und mit der in Ihrem Plan vereinbarten Methode im Empfängerbereich eingesetzt. Die Dauer hängt von Ihrem Fall ab, lassen Sie sich daher eine realistische Einschätzung für Sie geben.
+Die Behandlung erfolgt unter lokaler Betäubung. Fragen Sie Ihr Team, was Sie spüren werden und wie Beschwerden behandelt werden. Die Grafts werden im Spenderbereich entnommen und mit der in Ihrem Plan vereinbarten Methode im Empfängerbereich eingesetzt. Die Dauer hängt von Ihrem Fall ab, lassen Sie sich daher eine realistische Einschätzung für Sie geben.
 
 ## Am Ende der Behandlung
 Sie erhalten einen schriftlichen Nachsorgeplan, bei Bedarf Medikamente und die ersten Waschhinweise. Fragen Sie, an wen Sie sich mit Fragen wenden und wie die Foto-Kontrollen ablaufen.
@@ -108,7 +108,7 @@ Sie erhalten einen schriftlichen Nachsorgeplan, bei Bedarf Medikamente und die e
 
 ::: faq
 Q: Habe ich während der Behandlung Schmerzen?
-A: Es wird lokal betäubt. Fragen Sie Ihren Arzt, wie das geschieht und was Sie spüren können.
+A: Es wird lokal betäubt. Fragen Sie Ihr Team, wie das geschieht und was Sie spüren können.
 Q: Wie lange dauert die Behandlung?
 A: Das hängt von Ihrem Fall und Plan ab. Lassen Sie sich eine realistische Einschätzung geben.
 Q: Was passiert am Ende der Behandlung?
@@ -126,10 +126,10 @@ keyword: greffe de cheveux déroulement jour J
 - Vous recevez les consignes de soins avant de partir.
 
 ## Avant l'intervention
-Le médecin confirme le plan avec vous, contrôle votre zone donneuse et dessine la ligne frontale. Posez vos questions maintenant et n'acceptez rien que vous ne comprenez pas.
+L'équipe confirme le plan avec vous, contrôle votre zone donneuse et dessine la ligne frontale. Posez vos questions maintenant et n'acceptez rien que vous ne comprenez pas.
 
 ## Pendant le traitement
-Le traitement se fait sous anesthésie locale. Demandez à votre médecin ce que vous ressentirez et comment l'inconfort est géré. Les greffons sont prélevés dans la zone donneuse puis placés dans la zone receveuse selon la méthode convenue dans votre plan. La durée dépend de votre cas, demandez donc une estimation réaliste pour vous.
+Le traitement se fait sous anesthésie locale. Demandez à votre équipe ce que vous ressentirez et comment l'inconfort est géré. Les greffons sont prélevés dans la zone donneuse puis placés dans la zone receveuse selon la méthode convenue dans votre plan. La durée dépend de votre cas, demandez donc une estimation réaliste pour vous.
 
 ## À la fin du traitement
 Vous recevez un plan de soins écrit, des médicaments si nécessaire et les premières consignes de lavage. Demandez qui contacter en cas de question et comment se déroulent les contrôles par photos.
@@ -146,7 +146,7 @@ Vous recevez un plan de soins écrit, des médicaments si nécessaire et les pre
 
 ::: faq
 Q: Aurai-je mal pendant le traitement ?
-A: Le traitement se fait sous anesthésie locale. Demandez à votre médecin comment elle est réalisée et ce que vous pourrez ressentir.
+A: Le traitement se fait sous anesthésie locale. Demandez à votre équipe comment elle est réalisée et ce que vous pourrez ressentir.
 Q: Combien de temps dure le traitement ?
 A: Cela dépend de votre cas et de votre plan. Demandez une estimation réaliste pour vous.
 Q: Que se passe-t-il à la fin du traitement ?
@@ -164,10 +164,10 @@ keyword: يوم عملية زراعة الشعر
 - تتلقى تعليمات العناية قبل أن تغادر.
 
 ## قبل الإجراء
-يؤكد الطبيب الخطة معك ويفحص منطقتك المانحة ويصمّم خط الشعر. اطرح أسئلتك الآن، ولا توافق على أي شيء لا تفهمه.
+يؤكد الفريق الخطة معك ويفحص منطقتك المانحة ويصمّم خط الشعر. اطرح أسئلتك الآن، ولا توافق على أي شيء لا تفهمه.
 
 ## أثناء العملية
-تُجرى العملية بتخدير موضعي، فاسأل طبيبك عمّا ستشعر به وكيف يُتحكَّم في الانزعاج. تُسحب البصيلات من المنطقة المانحة وتُزرع في منطقة الزراعة بالطريقة المتفق عليها في خطتك. وتعتمد مدة العملية على حالتك، فاطلب تقديرًا واقعيًا لك.
+تُجرى العملية بتخدير موضعي، فاسأل فريقك عمّا ستشعر به وكيف يُتحكَّم في الانزعاج. تُسحب البصيلات من المنطقة المانحة وتُزرع في منطقة الزراعة بالطريقة المتفق عليها في خطتك. وتعتمد مدة العملية على حالتك، فاطلب تقديرًا واقعيًا لك.
 
 ## عند انتهاء العملية
 تتلقى خطة عناية مكتوبة وأدوية إن لزم وتعليمات الغسل الأول. اسأل عمّن تتصل به عند وجود أسئلة وكيف تتم مراجعات الصور.
@@ -184,7 +184,7 @@ keyword: يوم عملية زراعة الشعر
 
 ::: faq
 Q: هل سأشعر بألم أثناء العملية؟
-A: تُجرى العملية بتخدير موضعي. اسأل طبيبك كيف يُعطى وما الذي قد تشعر به.
+A: تُجرى العملية بتخدير موضعي. اسأل فريقك كيف يُعطى وما الذي قد تشعر به.
 Q: كم تستغرق العملية؟
 A: يعتمد ذلك على حالتك وخطتك. اطلب تقديرًا واقعيًا لك.
 Q: ماذا يحدث عند انتهاء العملية؟
@@ -202,10 +202,10 @@ keyword: день пересадки волос что происходит
 - Перед уходом вы получаете инструкции по уходу.
 
 ## До операции
-Врач подтверждает с вами план, осматривает донорскую зону и рисует линию роста волос. Задавайте вопросы сейчас и не соглашайтесь на то, что вам непонятно.
+Команда подтверждает с вами план, осматривает донорскую зону и рисует линию роста волос. Задавайте вопросы сейчас и не соглашайтесь на то, что вам непонятно.
 
 ## Во время операции
-Операция проходит под местной анестезией. Спросите врача, что вы будете чувствовать и как справляются с дискомфортом. Графты берут из донорской зоны и устанавливают в зону пересадки тем методом, который указан в вашем плане. Длительность зависит от вашего случая, поэтому попросите реалистичную оценку для вас.
+Операция проходит под местной анестезией. Спросите команду клиники, что вы будете чувствовать и как справляются с дискомфортом. Графты берут из донорской зоны и устанавливают в зону пересадки тем методом, который указан в вашем плане. Длительность зависит от вашего случая, поэтому попросите реалистичную оценку для вас.
 
 ## После операции
 Вы получаете письменный план ухода, лекарства при необходимости и первые инструкции по мытью. Узнайте, к кому обращаться с вопросами и как проходит контроль по фото.
@@ -222,7 +222,7 @@ keyword: день пересадки волос что происходит
 
 ::: faq
 Q: Буду ли я чувствовать боль во время операции?
-A: Операция проходит под местной анестезией. Спросите врача, как её делают и что вы можете почувствовать.
+A: Операция проходит под местной анестезией. Спросите команду клиники, как её делают и что вы можете почувствовать.
 Q: Сколько длится операция?
 A: Это зависит от вашего случая и плана. Попросите реалистичную оценку для вас.
 Q: Что происходит после операции?

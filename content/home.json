@@ -7,10 +7,10 @@
       "guides": "Guides",
       "contact": "Contact"
     },
-    "eyebrow": "Clinic in Istanbul · Doctor-reviewed plans",
+    "eyebrow": "Clinic in Istanbul · Personal plans",
     "cta2": "See how it works",
     "chips": [
-      "A licensed doctor confirms every plan",
+      "Every plan is confirmed individually",
       "Fixed price given in writing",
       "Aftercare and photo reviews"
     ],
@@ -42,7 +42,7 @@
       "Front and crown areas merge. Hair remains at the sides and back.",
       "Only a horseshoe band of hair remains at the sides and back."
     ],
-    "nor_note": "This is a self-check, not a diagnosis. A doctor assesses your donor area, hair quality and how stable your hair loss is.",
+    "nor_note": "This is a self-check, not a diagnosis. Our team assesses your donor area, hair quality and how stable your hair loss is.",
     "nor_interest": "I am interested in",
     "interests": [
       "Hair",
@@ -83,7 +83,7 @@
     "guides_title": "Hair transplant guides",
     "guides_intro": "Clear, source-based answers to the questions patients ask before they choose a clinic.",
     "contact_title": "Talk to us",
-    "contact_text": "Send three photos and a short message. A doctor-reviewed plan follows.",
+    "contact_text": "Send three photos and a short message. A personal plan follows.",
     "faq": [
       [
         "Which photos should I send?",
@@ -91,7 +91,7 @@
       ],
       [
         "Do I need to travel before I get a plan?",
-        "No. You can start with photos on WhatsApp. The doctor confirms the final plan."
+        "No. You can start with photos on WhatsApp. Our team confirms the final plan."
       ],
       [
         "When will I see the result?",
@@ -99,7 +99,7 @@
       ],
       [
         "Am I a suitable candidate?",
-        "It depends on your donor area, hair quality and how stable your hair loss is. A doctor checks this on your photos."
+        "It depends on your donor area, hair quality and how stable your hair loss is. Our team checks this on your photos."
       ]
     ],
     "form": {
@@ -147,10 +147,10 @@
       "guides": "Rehberler",
       "contact": "İletişim"
     },
-    "eyebrow": "İstanbul'da klinik · Doktor onaylı planlar",
+    "eyebrow": "İstanbul'da klinik · Kişiye özel planlar",
     "cta2": "Nasıl çalıştığını gör",
     "chips": [
-      "Her planı lisanslı bir doktor onaylar",
+      "Her plan kişiye özel hazırlanır",
       "Fiyat yazılı olarak verilir",
       "Bakım ve fotoğrafla kontrol"
     ],
@@ -182,7 +182,7 @@
       "Ön ve tepe bölgeleri birleşir. Saç yanlarda ve arkada kalır.",
       "Yanlarda ve arkada yalnızca at nalı şeklinde bir saç bandı kalır."
     ],
-    "nor_note": "Bu bir ön değerlendirmedir, teşhis değildir. Doktor verici bölgenizi, saç kalitenizi ve saç kaybınızın ne kadar durağan olduğunu inceler.",
+    "nor_note": "Bu bir ön değerlendirmedir, teşhis değildir. Ekibimiz verici bölgenizi, saç kalitenizi ve saç kaybınızın ne kadar durağan olduğunu inceler.",
     "nor_interest": "İlgilendiğim alan",
     "interests": [
       "Saç",
@@ -223,7 +223,7 @@
     "guides_title": "Saç ekimi rehberleri",
     "guides_intro": "Hastaların klinik seçmeden önce sorduğu sorulara net, kaynaklı cevaplar.",
     "contact_title": "Bizimle konuşun",
-    "contact_text": "Üç fotoğraf ve kısa bir mesaj gönderin. Doktor onaylı plan size ulaşır.",
+    "contact_text": "Üç fotoğraf ve kısa bir mesaj gönderin. Kişisel plan size ulaşır.",
     "faq": [
       [
         "Hangi fotoğrafları göndermeliyim?",
@@ -231,7 +231,7 @@
       ],
       [
         "Plan almadan önce seyahat etmem gerekir mi?",
-        "Hayır. WhatsApp'tan fotoğraflarla başlayabilirsiniz. Nihai planı doktor onaylar."
+        "Hayır. WhatsApp'tan fotoğraflarla başlayabilirsiniz. Nihai planı ekibimiz onaylar."
       ],
       [
         "Sonucu ne zaman görürüm?",
@@ -239,7 +239,7 @@
       ],
       [
         "Uygun bir aday mıyım?",
-        "Verici bölgenize, saç kalitenize ve saç kaybınızın ne kadar durağan olduğuna bağlıdır. Doktor bunu fotoğraflarınızdan değerlendirir."
+        "Verici bölgenize, saç kalitenize ve saç kaybınızın ne kadar durağan olduğuna bağlıdır. Ekibimiz bunu fotoğraflarınızdan değerlendirir."
       ]
     ],
     "form": {
@@ -290,7 +290,7 @@
     "eyebrow": "Klinik in Istanbul · Ärztlich geprüfte Pläne",
     "cta2": "So funktioniert es",
     "chips": [
-      "Jeden Plan bestätigt ein approbierter Arzt",
+      "Jeder Plan wird individuell bestätigt",
       "Fester Preis schriftlich",
       "Nachsorge und Foto-Kontrollen"
     ],
@@ -322,7 +322,7 @@
       "Die Bereiche vorn und am Hinterkopf gehen ineinander über. Haar bleibt an den Seiten und hinten.",
       "Nur ein hufeisenförmiges Haarband an den Seiten und hinten bleibt."
     ],
-    "nor_note": "Das ist eine Selbsteinschätzung, keine Diagnose. Der Arzt beurteilt Ihren Spenderbereich, Ihre Haarqualität und wie stabil Ihr Haarausfall ist.",
+    "nor_note": "Das ist eine Selbsteinschätzung, keine Diagnose. Unser Team beurteilt Ihren Spenderbereich, Ihre Haarqualität und wie stabil Ihr Haarausfall ist.",
     "nor_interest": "Ich interessiere mich für",
     "interests": [
       "Haare",
@@ -363,7 +363,7 @@
     "guides_title": "Ratgeber zur Haartransplantation",
     "guides_intro": "Klare Antworten mit Quellen auf die Fragen, die Patienten vor der Wahl einer Klinik stellen.",
     "contact_title": "Sprechen Sie mit uns",
-    "contact_text": "Senden Sie drei Fotos und eine kurze Nachricht. Danach erhalten Sie einen ärztlich geprüften Plan.",
+    "contact_text": "Senden Sie drei Fotos und eine kurze Nachricht. Danach erhalten Sie einen persönlichen Plan.",
     "faq": [
       [
         "Welche Fotos soll ich senden?",
@@ -371,7 +371,7 @@
       ],
       [
         "Muss ich vor dem Plan anreisen?",
-        "Nein. Sie können mit Fotos über WhatsApp beginnen. Der Arzt bestätigt den endgültigen Plan."
+        "Nein. Sie können mit Fotos über WhatsApp beginnen. Unser Team bestätigt den endgültigen Plan."
       ],
       [
         "Wann sehe ich das Ergebnis?",
@@ -379,7 +379,7 @@
       ],
       [
         "Bin ich ein geeigneter Kandidat?",
-        "Das hängt von Spenderbereich, Haarqualität und der Stabilität Ihres Haarausfalls ab. Ein Arzt prüft das anhand Ihrer Fotos."
+        "Das hängt von Spenderbereich, Haarqualität und der Stabilität Ihres Haarausfalls ab. Unser Team prüft das anhand Ihrer Fotos."
       ]
     ],
     "form": {
@@ -427,10 +427,10 @@
       "guides": "Guides",
       "contact": "Contact"
     },
-    "eyebrow": "Clinique à Istanbul · Plans validés par un médecin",
+    "eyebrow": "Clinique à Istanbul · Plans personnalisés",
     "cta2": "Voir comment ça marche",
     "chips": [
-      "Un médecin agréé confirme chaque plan",
+      "Chaque plan est confirmé individuellement",
       "Prix fixe donné par écrit",
       "Suivi et contrôles par photos"
     ],
@@ -462,7 +462,7 @@
       "Les zones avant et sommet se rejoignent. Il reste des cheveux sur les côtés et à l'arrière.",
       "Il ne reste qu'une bande de cheveux en fer à cheval sur les côtés et à l'arrière."
     ],
-    "nor_note": "Ceci est une auto-évaluation, pas un diagnostic. Le médecin évalue votre zone donneuse, la qualité de vos cheveux et la stabilité de votre chute.",
+    "nor_note": "Ceci est une auto-évaluation, pas un diagnostic. Notre équipe évalue votre zone donneuse, la qualité de vos cheveux et la stabilité de votre chute.",
     "nor_interest": "Je m'intéresse à",
     "interests": [
       "Cheveux",
@@ -503,7 +503,7 @@
     "guides_title": "Guides sur la greffe de cheveux",
     "guides_intro": "Des réponses claires et sourcées aux questions que se posent les patients avant de choisir une clinique.",
     "contact_title": "Parlons-en",
-    "contact_text": "Envoyez trois photos et un court message. Un plan validé par un médecin vous est ensuite adressé.",
+    "contact_text": "Envoyez trois photos et un court message. Un plan personnalisé vous est ensuite adressé.",
     "faq": [
       [
         "Quelles photos dois-je envoyer ?",
@@ -511,7 +511,7 @@
       ],
       [
         "Dois-je voyager avant d'obtenir un plan ?",
-        "Non. Vous pouvez commencer par des photos sur WhatsApp. Le médecin confirme le plan définitif."
+        "Non. Vous pouvez commencer par des photos sur WhatsApp. Notre équipe confirme le plan définitif."
       ],
       [
         "Quand verrai-je le résultat ?",
@@ -519,7 +519,7 @@
       ],
       [
         "Suis-je un bon candidat ?",
-        "Cela dépend de la zone donneuse, de la qualité des cheveux et de la stabilité de la chute. Un médecin le vérifie sur vos photos."
+        "Cela dépend de la zone donneuse, de la qualité des cheveux et de la stabilité de la chute. Notre équipe le vérifie sur vos photos."
       ]
     ],
     "form": {
@@ -567,10 +567,10 @@
       "guides": "أدلة",
       "contact": "تواصل معنا"
     },
-    "eyebrow": "عيادة في إسطنبول · خطط يراجعها طبيب",
+    "eyebrow": "عيادة في إسطنبول · خطط شخصية",
     "cta2": "تعرّف على آلية العمل",
     "chips": [
-      "طبيب مرخّص يؤكد كل خطة",
+      "تُؤكَّد كل خطة بشكل فردي",
       "سعر ثابت مكتوب",
       "متابعة ومراجعات بالصور"
     ],
@@ -602,7 +602,7 @@
       "تلتقي منطقتا المقدمة والتاج، ويبقى الشعر على الجانبين والخلف.",
       "لا يبقى إلا شريط من الشعر على شكل حدوة حصان على الجانبين والخلف."
     ],
-    "nor_note": "هذا تقييم ذاتي وليس تشخيصًا. يقيّم الطبيب منطقتك المانحة وجودة شعرك ومدى استقرار تساقطه.",
+    "nor_note": "هذا تقييم ذاتي وليس تشخيصًا. يقيّم فريقنا منطقتك المانحة وجودة شعرك ومدى استقرار تساقطه.",
     "nor_interest": "أرغب في",
     "interests": [
       "الشعر",
@@ -643,7 +643,7 @@
     "guides_title": "أدلة زراعة الشعر",
     "guides_intro": "إجابات واضحة ومدعومة بالمصادر عن الأسئلة التي يطرحها المرضى قبل اختيار العيادة.",
     "contact_title": "تحدّث معنا",
-    "contact_text": "أرسل ثلاث صور ورسالة قصيرة، وستصلك خطة يراجعها طبيب.",
+    "contact_text": "أرسل ثلاث صور ورسالة قصيرة، وستصلك خطة شخصية.",
     "faq": [
       [
         "ما الصور التي يجب أن أرسلها؟",
@@ -651,7 +651,7 @@
       ],
       [
         "هل أحتاج إلى السفر قبل الحصول على الخطة؟",
-        "لا. يمكنك البدء بإرسال الصور عبر واتساب، ويؤكد الطبيب الخطة النهائية."
+        "لا. يمكنك البدء بإرسال الصور عبر واتساب، ويؤكد فريقنا الخطة النهائية."
       ],
       [
         "متى سأرى النتيجة؟",
@@ -659,7 +659,7 @@
       ],
       [
         "هل أنا مرشح مناسب؟",
-        "يعتمد ذلك على المنطقة المانحة وجودة الشعر ومدى استقرار التساقط، ويتحقق الطبيب من ذلك عبر صورك."
+        "يعتمد ذلك على المنطقة المانحة وجودة الشعر ومدى استقرار التساقط، ويتحقق فريقنا من ذلك عبر صورك."
       ]
     ],
     "form": {
@@ -707,10 +707,10 @@
       "guides": "Статьи",
       "contact": "Контакты"
     },
-    "eyebrow": "Клиника в Стамбуле · Планы, проверенные врачом",
+    "eyebrow": "Клиника в Стамбуле · Персональные планы",
     "cta2": "Как это работает",
     "chips": [
-      "Каждый план подтверждает лицензированный врач",
+      "Каждый план подтверждается индивидуально",
       "Фиксированная цена в письменном виде",
       "Наблюдение и контроль по фото"
     ],
@@ -742,7 +742,7 @@
       "Передняя зона и макушка сливаются. Волосы остаются по бокам и сзади.",
       "Остаётся только полоса волос в форме подковы по бокам и сзади."
     ],
-    "nor_note": "Это самопроверка, а не диагноз. Врач оценивает донорскую зону, качество волос и стабильность выпадения.",
+    "nor_note": "Это самопроверка, а не диагноз. Наша команда оценивает донорскую зону, качество волос и стабильность выпадения.",
     "nor_interest": "Меня интересует",
     "interests": [
       "Волосы",
@@ -783,7 +783,7 @@
     "guides_title": "Статьи о пересадке волос",
     "guides_intro": "Понятные ответы с источниками на вопросы, которые пациенты задают до выбора клиники.",
     "contact_title": "Свяжитесь с нами",
-    "contact_text": "Отправьте три фото и короткое сообщение. Затем вы получите план, проверенный врачом.",
+    "contact_text": "Отправьте три фото и короткое сообщение. Затем вы получите персональный план.",
     "faq": [
       [
         "Какие фото нужно отправить?",
@@ -791,7 +791,7 @@
       ],
       [
         "Нужно ли приезжать до получения плана?",
-        "Нет. Можно начать с фото в WhatsApp. Окончательный план подтверждает врач."
+        "Нет. Можно начать с фото в WhatsApp. Окончательный план подтверждает наша команда."
       ],
       [
         "Когда я увижу результат?",
@@ -799,7 +799,7 @@
       ],
       [
         "Подхожу ли я для операции?",
-        "Это зависит от донорской зоны, качества волос и стабильности выпадения. Врач проверяет это по вашим фото."
+        "Это зависит от донорской зоны, качества волос и стабильности выпадения. Наша команда проверяет это по вашим фото."
       ]
     ],
     "form": {

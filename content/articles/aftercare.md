@@ -8,14 +8,14 @@ keyword: hair transplant aftercare washing
 
 ## Key takeaways
 - Follow the written aftercare plan from your clinic. Timing depends on your case.
-- Wash, sleep and protect the scalp exactly as your doctor instructs.
+- Wash, sleep and protect the scalp exactly as your clinic team instructs.
 - Contact your clinic early if something worries you.
 
 ## Washing
 Your clinic gives you a wash guide: when to start, which products to use and how to wash the area gently. Follow it exactly. Do not scratch or rub the treated area.
 
 ## Sleep, sun and sport
-Ask your doctor how to position your head when you sleep, how long to avoid direct sun and when you may exercise. These timings depend on your case, so get them in writing.
+Ask your clinic team how to position your head when you sleep, how long to avoid direct sun and when you may exercise. These timings depend on your case, so get them in writing.
 
 ## Warning signs to report
 - Pain that grows worse instead of better.
@@ -36,7 +36,7 @@ Ask your doctor how to position your head when you sleep, how long to avoid dire
 Q: When can I wash my hair normally?
 A: Follow your clinic's wash guide. Ask for the exact timing for your case.
 Q: When can I exercise again?
-A: Your doctor tells you when. Do not start before you have approval.
+A: your clinic team tells you when. Do not start before you have approval.
 Q: When should I contact the clinic?
 A: Early. Worsening pain, fever, signs of infection or heavy bleeding need a call right away.
 
@@ -48,14 +48,14 @@ keyword: saç ekimi sonrası bakım yıkama
 
 ## Öne çıkanlar
 - Kliniğinizin yazılı bakım planına uyun. Zamanlama durumunuza göre değişir.
-- Saçınızı yıkarken, uyurken ve kafa derinizi korurken doktorunuzun talimatını aynen uygulayın.
+- Saçınızı yıkarken, uyurken ve kafa derinizi korurken ekibinizin talimatını aynen uygulayın.
 - Sizi endişelendiren bir şey olursa kliniğinizle erken iletişime geçin.
 
 ## Yıkama
 Kliniğiniz size bir yıkama rehberi verir: ne zaman başlanacağı, hangi ürünlerin kullanılacağı ve bölgenin nasıl nazikçe yıkanacağı. Bunu aynen uygulayın. Ekim bölgesini kaşımayın ve ovmayın.
 
 ## Uyku, güneş ve spor
-Uyurken başınızı nasıl konumlandıracağınızı, doğrudan güneşten ne kadar süre kaçınacağınızı ve ne zaman spor yapabileceğinizi doktorunuza sorun. Bu zamanlamalar durumunuza bağlıdır, yazılı alın.
+Uyurken başınızı nasıl konumlandıracağınızı, doğrudan güneşten ne kadar süre kaçınacağınızı ve ne zaman spor yapabileceğinizi ekibinize sorun. Bu zamanlamalar durumunuza bağlıdır, yazılı alın.
 
 ## Bildirmeniz gereken uyarı işaretleri
 - İyileşmek yerine artan ağrı.
@@ -76,7 +76,7 @@ Uyurken başınızı nasıl konumlandıracağınızı, doğrudan güneşten ne k
 Q: Saçımı ne zaman normal şekilde yıkayabilirim?
 A: Kliniğinizin yıkama rehberine uyun. Durumunuz için net zamanlamayı sorun.
 Q: Ne zaman tekrar spor yapabilirim?
-A: Doktorunuz söyler. Onay almadan başlamayın.
+A: Ekibiniz söyler. Onay almadan başlamayın.
 Q: Kliniği ne zaman aramalıyım?
 A: Erken. Artan ağrı, ateş, enfeksiyon belirtileri ya da yoğun kanama hemen arama gerektirir.
 
@@ -88,14 +88,14 @@ keyword: Haartransplantation Nachsorge Haare waschen
 
 ## Das Wichtigste
 - Halten Sie sich an den schriftlichen Nachsorgeplan Ihrer Klinik. Die Zeitpunkte hängen von Ihrem Fall ab.
-- Waschen, Schlafen und Schutz der Kopfhaut genau nach den Anweisungen Ihres Arztes.
+- Waschen, Schlafen und Schutz der Kopfhaut genau nach den Anweisungen Ihres Teams.
 - Melden Sie sich früh bei Ihrer Klinik, wenn Sie etwas beunruhigt.
 
 ## Waschen
 Ihre Klinik gibt Ihnen eine Waschanleitung: wann Sie beginnen, welche Produkte Sie verwenden und wie Sie den Bereich sanft waschen. Halten Sie sich genau daran. Kratzen und reiben Sie den behandelten Bereich nicht.
 
 ## Schlafen, Sonne und Sport
-Fragen Sie Ihren Arzt, wie Sie den Kopf beim Schlafen lagern, wie lange Sie direkte Sonne meiden und wann Sie wieder Sport treiben dürfen. Diese Zeitpunkte hängen von Ihrem Fall ab, lassen Sie sie sich schriftlich geben.
+Fragen Sie Ihr Team, wie Sie den Kopf beim Schlafen lagern, wie lange Sie direkte Sonne meiden und wann Sie wieder Sport treiben dürfen. Diese Zeitpunkte hängen von Ihrem Fall ab, lassen Sie sie sich schriftlich geben.
 
 ## Warnzeichen, die Sie melden sollten
 - Schmerzen, die schlimmer statt besser werden.
@@ -116,7 +116,7 @@ Fragen Sie Ihren Arzt, wie Sie den Kopf beim Schlafen lagern, wie lange Sie dire
 Q: Wann kann ich meine Haare wieder normal waschen?
 A: Folgen Sie der Waschanleitung Ihrer Klinik. Fragen Sie nach dem genauen Zeitpunkt für Ihren Fall.
 Q: Wann darf ich wieder Sport treiben?
-A: Das sagt Ihnen Ihr Arzt. Beginnen Sie nicht ohne seine Freigabe.
+A: Das sagt Ihnen Ihr Team. Beginnen Sie nicht ohne seine Freigabe.
 Q: Wann sollte ich die Klinik kontaktieren?
 A: Früh. Zunehmende Schmerzen, Fieber, Infektionszeichen oder starke Blutung erfordern sofort einen Anruf.
 
@@ -128,14 +128,14 @@ keyword: soins après greffe de cheveux lavage
 
 ## L'essentiel
 - Suivez le plan de soins écrit de votre clinique. Le calendrier dépend de votre cas.
-- Lavez, dormez et protégez le cuir chevelu exactement comme votre médecin l'indique.
+- Lavez, dormez et protégez le cuir chevelu exactement comme votre équipe l'indique.
 - Contactez tôt votre clinique si quelque chose vous inquiète.
 
 ## Lavage
 Votre clinique vous remet un guide de lavage : quand commencer, quels produits utiliser et comment laver la zone en douceur. Suivez-le à la lettre. Ne grattez pas et ne frottez pas la zone traitée.
 
 ## Sommeil, soleil et sport
-Demandez à votre médecin comment positionner la tête pour dormir, combien de temps éviter le soleil direct et quand reprendre le sport. Ces délais dépendent de votre cas, obtenez-les par écrit.
+Demandez à votre équipe comment positionner la tête pour dormir, combien de temps éviter le soleil direct et quand reprendre le sport. Ces délais dépendent de votre cas, obtenez-les par écrit.
 
 ## Signes d'alerte à signaler
 - Une douleur qui s'aggrave au lieu de diminuer.
@@ -156,7 +156,7 @@ Demandez à votre médecin comment positionner la tête pour dormir, combien de 
 Q: Quand puis-je laver mes cheveux normalement ?
 A: Suivez le guide de lavage de votre clinique. Demandez le délai exact pour votre cas.
 Q: Quand puis-je refaire du sport ?
-A: Votre médecin vous le dit. Ne reprenez pas sans son accord.
+A: Votre équipe vous le dit. Ne reprenez pas sans son accord.
 Q: Quand dois-je contacter la clinique ?
 A: Tôt. Une douleur qui s'aggrave, de la fièvre, des signes d'infection ou un saignement abondant demandent un appel immédiat.
 
@@ -168,14 +168,14 @@ keyword: العناية بعد زراعة الشعر غسل الشعر
 
 ## أهم النقاط
 - اتبع خطة العناية المكتوبة من عيادتك. تختلف المواعيد باختلاف حالتك.
-- اغسل شعرك ونم واحمِ فروة رأسك تمامًا كما يوجّهك طبيبك.
+- اغسل شعرك ونم واحمِ فروة رأسك تمامًا كما يوجّهك فريقك.
 - تواصل مع عيادتك مبكرًا إذا أقلقك أي شيء.
 
 ## الغسل
 تعطيك عيادتك دليلًا للغسل: متى تبدأ وأي المنتجات تستخدم وكيف تغسل المنطقة برفق. اتبعه بدقة. لا تحكّ المنطقة المزروعة ولا تفركها.
 
 ## النوم والشمس والرياضة
-اسأل طبيبك كيف تضع رأسك أثناء النوم وكم من الوقت تتجنب الشمس المباشرة ومتى تستطيع ممارسة الرياضة. تعتمد هذه المواعيد على حالتك، فاحصل عليها مكتوبة.
+اسأل فريقك كيف تضع رأسك أثناء النوم وكم من الوقت تتجنب الشمس المباشرة ومتى تستطيع ممارسة الرياضة. تعتمد هذه المواعيد على حالتك، فاحصل عليها مكتوبة.
 
 ## علامات تحذير يجب الإبلاغ عنها
 - ألم يزداد سوءًا بدل أن يتحسن.
@@ -196,7 +196,7 @@ keyword: العناية بعد زراعة الشعر غسل الشعر
 Q: متى يمكنني غسل شعري بشكل عادي؟
 A: اتبع دليل الغسل من عيادتك. واسأل عن الموعد الدقيق لحالتك.
 Q: متى يمكنني ممارسة الرياضة مجددًا؟
-A: يخبرك طبيبك بذلك. لا تبدأ قبل موافقته.
+A: يخبرك فريقك بذلك. لا تبدأ قبل موافقته.
 Q: متى أتصل بالعيادة؟
 A: مبكرًا. الألم المتزايد أو الحمى أو علامات الالتهاب أو النزيف الغزير تستدعي اتصالًا فوريًا.
 
@@ -208,14 +208,14 @@ keyword: уход после пересадки волос мытьё голов
 
 ## Главное
 - Следуйте письменному плану ухода от клиники. Сроки зависят от вашего случая.
-- Мойте голову, спите и защищайте кожу головы строго так, как говорит врач.
+- Мойте голову, спите и защищайте кожу головы строго так, как говорит команда.
 - Рано обращайтесь в клинику, если что-то вас тревожит.
 
 ## Мытьё
 Клиника даёт вам инструкцию по мытью: когда начинать, какие средства использовать и как аккуратно промывать зону. Следуйте ей точно. Не чешите и не трите зону пересадки.
 
 ## Сон, солнце и спорт
-Спросите врача, как держать голову во сне, как долго избегать прямого солнца и когда можно заниматься спортом. Эти сроки зависят от вашего случая, получите их в письменном виде.
+Спросите команду клиники, как держать голову во сне, как долго избегать прямого солнца и когда можно заниматься спортом. Эти сроки зависят от вашего случая, получите их в письменном виде.
 
 ## Тревожные признаки, о которых нужно сообщить
 - Боль, которая усиливается, а не проходит.
@@ -236,6 +236,6 @@ keyword: уход после пересадки волос мытьё голов
 Q: Когда можно мыть голову как обычно?
 A: Следуйте инструкции клиники по мытью. Уточните точные сроки для вашего случая.
 Q: Когда можно снова заниматься спортом?
-A: Это скажет врач. Не начинайте без его разрешения.
+A: Это скажет команда. Не начинайте без его разрешения.
 Q: Когда обращаться в клинику?
 A: Рано. Усиливающаяся боль, температура, признаки инфекции или сильное кровотечение требуют немедленного звонка.

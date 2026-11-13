@@ -8,7 +8,7 @@ keyword: hair transplant methods
 
 ## Key takeaways
 - FUE and DHI both move your own hair follicles from a donor area to the thinning area.
-- The best method depends on your hair loss, donor area and goals, and your doctor decides it after reviewing your photos.
+- The best method depends on your hair loss, donor area and goals, and your clinic team decides it after reviewing your photos.
 - Be careful with claims that one method is always better. Ask for the reasoning in writing.
 
 ## Sapphire FUE
@@ -21,7 +21,7 @@ DHI (Direct Hair Implantation) uses a pen-like implanter that holds each graft a
 The principle is the same: hair follicles, usually from the scalp, are placed where beard or eyebrow hair is thin or missing. The direction and angle of the hairs need careful planning so that the result looks natural.
 
 ## Which method suits you?
-It depends on how much hair you have lost, the quality of your donor area, the shape of the hairline you want and how stable your hair loss is. Your doctor looks at these points on your photos and in the consultation.
+It depends on how much hair you have lost, the quality of your donor area, the shape of the hairline you want and how stable your hair loss is. your clinic team looks at these points on your photos and in the consultation.
 
 ## What to ask a clinic
 - Who plans the hairline and who performs each step?
@@ -35,11 +35,11 @@ It depends on how much hair you have lost, the quality of your donor area, the s
 
 ::: faq
 Q: Is FUE or DHI better?
-A: Neither is better for everyone. The choice depends on your hair loss, donor area and goals, and your doctor explains the reasons.
+A: Neither is better for everyone. The choice depends on your hair loss, donor area and goals, and your clinic team explains the reasons.
 Q: Can I have a beard or eyebrow transplant?
-A: Often yes, if you have enough donor hair. A doctor checks this on your photos.
+A: Often yes, if you have enough donor hair. Our team checks this on your photos.
 Q: Do I need a second session?
-A: Some patients do, for example if hair loss continues. Your doctor can tell you what is likely in your case.
+A: Some patients do, for example if hair loss continues. Our team can tell you what is likely in your case.
 
 === tr
 slug: sac-ekimi-yontemleri
@@ -49,7 +49,7 @@ keyword: saç ekimi yöntemleri
 
 ## Öne çıkanlar
 - FUE ve DHI, kendi saç köklerinizi verici bölgeden seyrek bölgeye taşır.
-- En uygun yöntem saç kaybınıza, verici bölgenize ve hedefinize bağlıdır. Fotoğraflarınızı inceledikten sonra doktor karar verir.
+- En uygun yöntem saç kaybınıza, verici bölgenize ve hedefinize bağlıdır. Fotoğraflarınızı inceledikten sonra ekip karar verir.
 - Bir yöntemin herkes için daha iyi olduğunu söyleyen iddialara dikkat edin. Gerekçeyi yazılı isteyin.
 
 ## Safir FUE
@@ -62,7 +62,7 @@ DHI (Direct Hair Implantation), her greftı tutan kalem benzeri bir implanter il
 Mantık aynıdır: genellikle saçlı deriden alınan kökler, sakal ya da kaşın seyrek veya eksik olduğu yere yerleştirilir. Doğal görünmesi için kılların yönü ve açısı dikkatle planlanmalıdır.
 
 ## Hangi yöntem size uygun?
-Ne kadar saç kaybettiğinize, verici bölgenizin kalitesine, istediğiniz saç çizgisine ve saç kaybınızın ne kadar durağan olduğuna bağlıdır. Doktor bu noktaları fotoğraflarınızda ve muayenede değerlendirir.
+Ne kadar saç kaybettiğinize, verici bölgenizin kalitesine, istediğiniz saç çizgisine ve saç kaybınızın ne kadar durağan olduğuna bağlıdır. Ekip bu noktaları fotoğraflarınızda ve muayenede değerlendirir.
 
 ## Kliniğe ne sormalı?
 - Saç çizgisini kim planlıyor, her aşamayı kim uyguluyor?
@@ -76,11 +76,11 @@ Ne kadar saç kaybettiğinize, verici bölgenizin kalitesine, istediğiniz saç 
 
 ::: faq
 Q: FUE mi DHI mı daha iyi?
-A: Hiçbiri herkes için daha iyi değildir. Seçim saç kaybınıza, verici bölgenize ve hedefinize bağlıdır, doktor nedenlerini açıklar.
+A: Hiçbiri herkes için daha iyi değildir. Seçim saç kaybınıza, verici bölgenize ve hedefinize bağlıdır, ekip nedenlerini açıklar.
 Q: Sakal ya da kaş ekimi yaptırabilir miyim?
-A: Yeterli verici saçınız varsa çoğu zaman mümkündür. Doktor bunu fotoğraflarınızdan değerlendirir.
+A: Yeterli verici saçınız varsa çoğu zaman mümkündür. Ekip bunu fotoğraflarınızdan değerlendirir.
 Q: İkinci seans gerekir mi?
-A: Bazı hastalarda gerekebilir, örneğin saç dökülmesi sürüyorsa. Sizin durumunuzda neyin olası olduğunu doktor söyler.
+A: Bazı hastalarda gerekebilir, örneğin saç dökülmesi sürüyorsa. Sizin durumunuzda neyin olası olduğunu ekip söyler.
 
 === de
 slug: haartransplantation-methoden
@@ -90,7 +90,7 @@ keyword: Haartransplantation Methoden
 
 ## Das Wichtigste
 - FUE und DHI verpflanzen Ihre eigenen Haarwurzeln aus dem Spenderbereich in die lichten Stellen.
-- Welche Methode passt, hängt von Haarausfall, Spenderbereich und Ziel ab. Das entscheidet der Arzt nach Sichtung Ihrer Fotos.
+- Welche Methode passt, hängt von Haarausfall, Spenderbereich und Ziel ab. Das entscheidet das Team nach Sichtung Ihrer Fotos.
 - Seien Sie vorsichtig bei der Behauptung, eine Methode sei immer besser. Lassen Sie sich die Begründung schriftlich geben.
 
 ## Saphir-FUE
@@ -103,7 +103,7 @@ Bei der DHI (Direct Hair Implantation) hält ein stiftartiger Implanter jedes Gr
 Das Prinzip ist gleich: Haarwurzeln, meist von der Kopfhaut, werden dort eingesetzt, wo Bart oder Augenbrauen dünn sind oder fehlen. Richtung und Winkel der Haare müssen sorgfältig geplant werden, damit das Ergebnis natürlich wirkt.
 
 ## Welche Methode passt zu Ihnen?
-Das hängt davon ab, wie viel Haar Sie verloren haben, wie gut Ihr Spenderbereich ist, welche Haarlinie Sie wünschen und wie stabil Ihr Haarausfall ist. Der Arzt prüft diese Punkte anhand Ihrer Fotos und im Beratungsgespräch.
+Das hängt davon ab, wie viel Haar Sie verloren haben, wie gut Ihr Spenderbereich ist, welche Haarlinie Sie wünschen und wie stabil Ihr Haarausfall ist. Das Team prüft diese Punkte anhand Ihrer Fotos und im Beratungsgespräch.
 
 ## Was Sie eine Klinik fragen sollten
 - Wer plant die Haarlinie und wer führt welchen Schritt aus?
@@ -117,11 +117,11 @@ Das hängt davon ab, wie viel Haar Sie verloren haben, wie gut Ihr Spenderbereic
 
 ::: faq
 Q: Ist FUE oder DHI besser?
-A: Keine Methode ist für alle besser. Die Wahl hängt von Haarausfall, Spenderbereich und Ziel ab, und der Arzt erklärt die Gründe.
+A: Keine Methode ist für alle besser. Die Wahl hängt von Haarausfall, Spenderbereich und Ziel ab, und das Team erklärt die Gründe.
 Q: Ist eine Bart- oder Augenbrauentransplantation möglich?
-A: Oft ja, wenn genug Spenderhaar vorhanden ist. Das prüft ein Arzt anhand Ihrer Fotos.
+A: Oft ja, wenn genug Spenderhaar vorhanden ist. Das prüft unser Team anhand Ihrer Fotos.
 Q: Brauche ich eine zweite Sitzung?
-A: Manche Patienten brauchen sie, zum Beispiel wenn der Haarausfall weitergeht. Der Arzt kann sagen, was in Ihrem Fall wahrscheinlich ist.
+A: Manche Patienten brauchen sie, zum Beispiel wenn der Haarausfall weitergeht. Das Team kann sagen, was in Ihrem Fall wahrscheinlich ist.
 
 === fr
 slug: methodes-greffe-de-cheveux
@@ -131,7 +131,7 @@ keyword: méthodes greffe de cheveux
 
 ## L'essentiel
 - La FUE et la DHI déplacent vos propres follicules d'une zone donneuse vers la zone clairsemée.
-- La meilleure méthode dépend de votre perte de cheveux, de la zone donneuse et de votre objectif. Le médecin décide après examen de vos photos.
+- La meilleure méthode dépend de votre perte de cheveux, de la zone donneuse et de votre objectif. L'équipe décide après examen de vos photos.
 - Méfiez-vous de l'idée qu'une méthode serait toujours meilleure. Demandez les raisons par écrit.
 
 ## FUE saphir
@@ -144,7 +144,7 @@ La DHI (Direct Hair Implantation) utilise un stylo implanteur qui contient chaqu
 Le principe est le même : des follicules, le plus souvent du cuir chevelu, sont placés là où la barbe ou les sourcils sont clairsemés ou absents. La direction et l'angle des poils doivent être planifiés avec soin pour un rendu naturel.
 
 ## Quelle méthode vous convient ?
-Cela dépend de l'étendue de la perte, de la qualité de votre zone donneuse, de la ligne frontale souhaitée et de la stabilité de votre chute de cheveux. Le médecin examine ces points sur vos photos et lors de la consultation.
+Cela dépend de l'étendue de la perte, de la qualité de votre zone donneuse, de la ligne frontale souhaitée et de la stabilité de votre chute de cheveux. L'équipe examine ces points sur vos photos et lors de la consultation.
 
 ## Que demander à une clinique ?
 - Qui dessine la ligne frontale et qui réalise chaque étape ?
@@ -158,11 +158,11 @@ Cela dépend de l'étendue de la perte, de la qualité de votre zone donneuse, d
 
 ::: faq
 Q: La FUE ou la DHI est-elle meilleure ?
-A: Aucune n'est meilleure pour tout le monde. Le choix dépend de votre perte de cheveux, de la zone donneuse et de votre objectif, et le médecin explique ses raisons.
+A: Aucune n'est meilleure pour tout le monde. Le choix dépend de votre perte de cheveux, de la zone donneuse et de votre objectif, et l'équipe explique ses raisons.
 Q: Puis-je faire greffer ma barbe ou mes sourcils ?
-A: Souvent oui, si vous avez assez de cheveux donneurs. Un médecin le vérifie sur vos photos.
+A: Souvent oui, si vous avez assez de cheveux donneurs. Notre équipe le vérifie sur vos photos.
 Q: Une deuxième séance est-elle nécessaire ?
-A: C'est parfois le cas, par exemple si la chute de cheveux continue. Le médecin peut vous dire ce qui est probable pour vous.
+A: C'est parfois le cas, par exemple si la chute de cheveux continue. L'équipe peut vous dire ce qui est probable pour vous.
 
 === ar
 slug: turuq-zira3at-alsha3r
@@ -172,7 +172,7 @@ keyword: طرق زراعة الشعر
 
 ## أهم النقاط
 - تنقل تقنيتا FUE وDHI بصيلات شعرك أنت من المنطقة المانحة إلى المنطقة الخفيفة.
-- تعتمد الطريقة الأنسب على حالة الصلع والمنطقة المانحة وهدفك، ويقرّرها الطبيب بعد مراجعة صورك.
+- تعتمد الطريقة الأنسب على حالة الصلع والمنطقة المانحة وهدفك، ويقرّرها الفريق بعد مراجعة صورك.
 - احذر من الادعاء بأن طريقة واحدة هي الأفضل دائمًا، واطلب التبرير مكتوبًا.
 
 ## FUE بالياقوت
@@ -185,7 +185,7 @@ keyword: طرق زراعة الشعر
 المبدأ نفسه: تُنقل بصيلات، غالبًا من فروة الرأس، إلى المكان الذي تكون فيه اللحية أو الحاجبان خفيفين أو غائبين. ويجب التخطيط بعناية لاتجاه الشعر وزاويته حتى تبدو النتيجة طبيعية.
 
 ## أي طريقة تناسبك؟
-يعتمد ذلك على مقدار الشعر الذي فقدته وجودة المنطقة المانحة وشكل خط الشعر الذي تريده ومدى استقرار تساقط شعرك. ويفحص الطبيب هذه النقاط في صورك وفي الاستشارة.
+يعتمد ذلك على مقدار الشعر الذي فقدته وجودة المنطقة المانحة وشكل خط الشعر الذي تريده ومدى استقرار تساقط شعرك. ويفحص الفريق هذه النقاط في صورك وفي الاستشارة.
 
 ## ماذا تسأل العيادة؟
 - من يصمّم خط الشعر ومن ينفّذ كل مرحلة؟
@@ -199,11 +199,11 @@ keyword: طرق زراعة الشعر
 
 ::: faq
 Q: أيهما أفضل، FUE أم DHI؟
-A: لا توجد طريقة أفضل للجميع. يعتمد الاختيار على حالة تساقط شعرك والمنطقة المانحة وهدفك، ويشرح الطبيب أسبابه.
+A: لا توجد طريقة أفضل للجميع. يعتمد الاختيار على حالة تساقط شعرك والمنطقة المانحة وهدفك، ويشرح الفريق أسبابه.
 Q: هل يمكنني زراعة اللحية أو الحاجبين؟
-A: غالبًا نعم إذا كان لديك شعر مانح كافٍ، ويتحقق الطبيب من ذلك عبر صورك.
+A: غالبًا نعم إذا كان لديك شعر مانح كافٍ، ويتحقق الفريق من ذلك عبر صورك.
 Q: هل أحتاج إلى جلسة ثانية؟
-A: يحتاج بعض المرضى إلى ذلك، مثلًا إذا استمر تساقط الشعر. ويمكن للطبيب أن يخبرك بما هو متوقع في حالتك.
+A: يحتاج بعض المرضى إلى ذلك، مثلًا إذا استمر تساقط الشعر. ويمكن للفريق أن يخبرك بما هو متوقع في حالتك.
 
 === ru
 slug: metody-peresadki-volos
@@ -213,7 +213,7 @@ keyword: методы пересадки волос
 
 ## Главное
 - FUE и DHI переносят ваши собственные волосяные фолликулы из донорской зоны в область, где волос стало мало.
-- Подходящий метод зависит от вашей потери волос, донорской зоны и цели. Решение принимает врач после просмотра ваших фото.
+- Подходящий метод зависит от вашей потери волос, донорской зоны и цели. Решение принимает команда после просмотра ваших фото.
 - Осторожно относитесь к утверждению, что один метод всегда лучше. Просите обоснование в письменном виде.
 
 ## Сапфировая FUE
@@ -226,7 +226,7 @@ keyword: методы пересадки волос
 Принцип тот же: фолликулы, чаще с кожи головы, переносят туда, где борода или брови редкие либо отсутствуют. Направление и угол волос нужно тщательно спланировать, чтобы результат выглядел естественно.
 
 ## Какой метод подойдёт вам?
-Это зависит от того, сколько волос вы потеряли, от качества донорской зоны, от желаемой линии роста и от того, насколько стабильно выпадение. Врач оценивает это по вашим фото и на консультации.
+Это зависит от того, сколько волос вы потеряли, от качества донорской зоны, от желаемой линии роста и от того, насколько стабильно выпадение. Команда оценивает это по вашим фото и на консультации.
 
 ## Что спросить у клиники
 - Кто планирует линию роста волос и кто выполняет каждый этап?
@@ -240,8 +240,8 @@ keyword: методы пересадки волос
 
 ::: faq
 Q: Что лучше, FUE или DHI?
-A: Ни один метод не лучше для всех. Выбор зависит от потери волос, донорской зоны и цели, а причины объясняет врач.
+A: Ни один метод не лучше для всех. Выбор зависит от потери волос, донорской зоны и цели, а причины объясняет команда.
 Q: Можно ли пересадить бороду или брови?
-A: Часто да, если донорских волос достаточно. Врач проверяет это по вашим фото.
+A: Часто да, если донорских волос достаточно. Команда проверяет это по вашим фото.
 Q: Понадобится ли второй сеанс?
-A: Некоторым пациентам он нужен, например если выпадение продолжается. Врач скажет, что вероятно в вашем случае.
+A: Некоторым пациентам он нужен, например если выпадение продолжается. Команда скажет, что вероятно в вашем случае.
