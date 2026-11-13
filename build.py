@@ -185,6 +185,26 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
            disclaimer=E(u["disclaimer"]), addr=addr, year=year, wa=E(wa_link(lang, lang + "/float")))
 
 
+def gallery_html(lang):
+    if not N_RESULTS:
+        return ""
+    t, note, alt = GALLERY[lang]
+    figs = "".join('<img src="/assets/results/result-%d.jpg" alt="%s" loading="lazy" width="900">' % (i, E(alt))
+                   for i in range(1, N_RESULTS + 1))
+    return '<section class="block" id="results"><div class="wrap"><h2>%s</h2><div class="gallery">%s</div><p class="gnote">%s</p></div></section>' % (E(t), figs, E(note))
+
+
+GALLERY = {
+    "en": ("Patient results", "Patients of Clinic S Line, shown with their consent. Results vary from person to person and are not a guarantee. Suitability is decided at a medical consultation.", "Patient before and after hair transplant"),
+    "tr": ("Hasta sonuçları", "Clinic S Line hastaları, rızalarıyla paylaşılmıştır. Sonuçlar kişiden kişiye değişir, garanti değildir. Uygunluk muayenede belirlenir.", "Hastanın saç ekimi öncesi ve sonrası"),
+    "de": ("Patientenergebnisse", "Patienten von Clinic S Line, veröffentlicht mit ihrer Einwilligung. Ergebnisse sind individuell verschieden und keine Garantie. Die Eignung wird in der ärztlichen Beratung geklärt.", "Patient vor und nach der Haartransplantation"),
+    "fr": ("Résultats de patients", "Patients de Clinic S Line, publiés avec leur accord. Les résultats varient d'une personne à l'autre et ne sont pas garantis. L'indication est établie lors de la consultation médicale.", "Patient avant et après la greffe de cheveux"),
+    "ar": ("نتائج المرضى", "مرضى Clinic S Line، تُعرض صورهم بموافقتهم. تختلف النتائج من شخص لآخر ولا تُعدّ ضمانًا. تُحدَّد الملاءمة في الاستشارة الطبية.", "مريض قبل زراعة الشعر وبعدها"),
+    "ru": ("Результаты пациентов", "Пациенты Clinic S Line, фото публикуются с их согласия. Результаты индивидуальны и не гарантируются. Показания определяются на консультации врача.", "Пациент до и после пересадки волос"),
+}
+N_RESULTS = len(list((ROOT / "assets" / "results").glob("result-*.jpg")))
+
+
 def home_page(lang, arts):
     u = UI[lang]
     steps = "".join("<li><b>%s</b><span>%s</span></li>" % (E(t), E(d)) for t, d in u["steps"])
@@ -198,9 +218,10 @@ def home_page(lang, arts):
 <a class="btn" href="{wa}" rel="noopener">{cta}</a>
 </div></section>
 <section class="block"><div class="wrap"><h2>{st}</h2><ol class="steps">{steps}</ol></div></section>
+{gallery}
 <section class="block" id="guides"><div class="wrap"><h2>{latest}</h2><div class="guides">{cards}</div></div></section>""".format(
         h1=E(u["hero_title"]), sub=E(u["hero_sub"]), wa=E(wa_link(lang, lang + "/home")), cta=E(u["cta"]),
-        st=E(u["steps_title"]), steps=steps, latest=E(u["latest"]), cards=cards)
+        gallery=gallery_html(lang), st=E(u["steps_title"]), steps=steps, latest=E(u["latest"]), cards=cards)
     ld = [{
         "@context": "https://schema.org", "@type": "MedicalClinic", "name": BRAND, "url": SITE + "/%s/" % lang,
         "description": u["hero_sub"], "inLanguage": lang,
