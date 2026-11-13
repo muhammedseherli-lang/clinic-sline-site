@@ -4,12 +4,42 @@
   "whatsapp": "905000000000",
   "address": "",
   "languages": [
-    {"code": "en", "name": "English", "dir": "ltr", "locale": "en_US"},
-    {"code": "tr", "name": "Türkçe", "dir": "ltr", "locale": "tr_TR"},
-    {"code": "de", "name": "Deutsch", "dir": "ltr", "locale": "de_DE"},
-    {"code": "fr", "name": "Français", "dir": "ltr", "locale": "fr_FR"},
-    {"code": "ar", "name": "العربية", "dir": "rtl", "locale": "ar_AR"},
-    {"code": "ru", "name": "Русский", "dir": "ltr", "locale": "ru_RU"}
+    {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr",
+      "locale": "en_US"
+    },
+    {
+      "code": "tr",
+      "name": "Türkçe",
+      "dir": "ltr",
+      "locale": "tr_TR"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "locale": "de_DE"
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "locale": "fr_FR"
+    },
+    {
+      "code": "ar",
+      "name": "العربية",
+      "dir": "rtl",
+      "locale": "ar_AR"
+    },
+    {
+      "code": "ru",
+      "name": "Русский",
+      "dir": "ltr",
+      "locale": "ru_RU"
+    }
   ],
   "ui": {
     "en": {
@@ -19,10 +49,22 @@
       "cta": "Send photos on WhatsApp",
       "steps_title": "How it works",
       "steps": [
-        ["Send photos", "Front, top and back of your head, on WhatsApp."],
-        ["Expert review", "Our team studies your donor area and hair loss."],
-        ["Your plan", "Hairline design, graft estimate and a fixed price in writing, usually within 24 hours."],
-        ["Surgery and follow-up", "Treatment in Istanbul, then aftercare and photo reviews."]
+        [
+          "Send photos",
+          "Front, top and back of your head, on WhatsApp."
+        ],
+        [
+          "Expert review",
+          "Our team studies your donor area and hair loss."
+        ],
+        [
+          "Your plan",
+          "Hairline design, graft estimate and a fixed price in writing, usually within 24 hours."
+        ],
+        [
+          "Surgery and follow-up",
+          "Treatment in Istanbul, then aftercare and photo reviews."
+        ]
       ],
       "latest": "Guides",
       "read": "Read the guide",
@@ -41,10 +83,22 @@
       "cta": "Fotoğrafları WhatsApp'tan gönderin",
       "steps_title": "Nasıl işliyor",
       "steps": [
-        ["Fotoğraf gönderin", "Başınızın önden, üstten ve arkadan fotoğraflarını WhatsApp'tan iletin."],
-        ["Uzman incelemesi", "Ekibimiz donör alanınızı ve saç kaybınızı değerlendirir."],
-        ["Planınız", "Saç çizgisi tasarımı, tahmini greft sayısı ve yazılı sabit fiyat, genellikle 24 saat içinde."],
-        ["Operasyon ve takip", "İstanbul'da tedavi, ardından bakım ve fotoğraf kontrolleri."]
+        [
+          "Fotoğraf gönderin",
+          "Başınızın önden, üstten ve arkadan fotoğraflarını WhatsApp'tan iletin."
+        ],
+        [
+          "Uzman incelemesi",
+          "Ekibimiz donör alanınızı ve saç kaybınızı değerlendirir."
+        ],
+        [
+          "Planınız",
+          "Saç çizgisi tasarımı, tahmini greft sayısı ve yazılı sabit fiyat, genellikle 24 saat içinde."
+        ],
+        [
+          "Operasyon ve takip",
+          "İstanbul'da tedavi, ardından bakım ve fotoğraf kontrolleri."
+        ]
       ],
       "latest": "Rehberler",
       "read": "Rehberi okuyun",
@@ -63,10 +117,22 @@
       "cta": "Fotos per WhatsApp senden",
       "steps_title": "So funktioniert es",
       "steps": [
-        ["Fotos senden", "Vorder-, Ober- und Rückseite Ihres Kopfes per WhatsApp."],
-        ["Fachliche Prüfung", "Unser Team beurteilt Spenderbereich und Haarausfall."],
-        ["Ihr Plan", "Haarliniendesign, geschätzte Graftanzahl und ein schriftlicher Festpreis, in der Regel innerhalb von 24 Stunden."],
-        ["Operation und Nachsorge", "Behandlung in Istanbul, danach Nachsorge und Fotokontrollen."]
+        [
+          "Fotos senden",
+          "Vorder-, Ober- und Rückseite Ihres Kopfes per WhatsApp."
+        ],
+        [
+          "Fachliche Prüfung",
+          "Unser Team beurteilt Spenderbereich und Haarausfall."
+        ],
+        [
+          "Ihr Plan",
+          "Haarliniendesign, geschätzte Graftanzahl und ein schriftlicher Festpreis, in der Regel innerhalb von 24 Stunden."
+        ],
+        [
+          "Operation und Nachsorge",
+          "Behandlung in Istanbul, danach Nachsorge und Fotokontrollen."
+        ]
       ],
       "latest": "Ratgeber",
       "read": "Ratgeber lesen",
@@ -85,10 +151,22 @@
       "cta": "Envoyer mes photos sur WhatsApp",
       "steps_title": "Comment ça marche",
       "steps": [
-        ["Envoyez vos photos", "Face, dessus et arrière de la tête, sur WhatsApp."],
-        ["Examen par l'équipe", "Notre équipe étudie votre zone donneuse et votre perte de cheveux."],
-        ["Votre plan", "Dessin de la ligne frontale, estimation des greffons et prix fixe écrit, en général sous 24 h."],
-        ["Opération et suivi", "Intervention à Istanbul, puis suivi et contrôles par photos."]
+        [
+          "Envoyez vos photos",
+          "Face, dessus et arrière de la tête, sur WhatsApp."
+        ],
+        [
+          "Examen par l'équipe",
+          "Notre équipe étudie votre zone donneuse et votre perte de cheveux."
+        ],
+        [
+          "Votre plan",
+          "Dessin de la ligne frontale, estimation des greffons et prix fixe écrit, en général sous 24 h."
+        ],
+        [
+          "Opération et suivi",
+          "Intervention à Istanbul, puis suivi et contrôles par photos."
+        ]
       ],
       "latest": "Guides",
       "read": "Lire le guide",
@@ -107,10 +185,22 @@
       "cta": "أرسل صورك عبر واتساب",
       "steps_title": "كيف نعمل",
       "steps": [
-        ["أرسل صورك", "صور لرأسك من الأمام ومن الأعلى ومن الخلف عبر واتساب."],
-        ["مراجعة المختصين", "يقيّم فريقنا المنطقة المانحة ودرجة تساقط الشعر."],
-        ["خطتك", "تصميم خط الشعر وعدد البصيلات التقديري وسعر ثابت مكتوب، عادةً خلال 24 ساعة."],
-        ["العملية والمتابعة", "العلاج في إسطنبول ثم الرعاية اللاحقة ومراجعة الصور."]
+        [
+          "أرسل صورك",
+          "صور لرأسك من الأمام ومن الأعلى ومن الخلف عبر واتساب."
+        ],
+        [
+          "مراجعة المختصين",
+          "يقيّم فريقنا المنطقة المانحة ودرجة تساقط الشعر."
+        ],
+        [
+          "خطتك",
+          "تصميم خط الشعر وعدد البصيلات التقديري وسعر ثابت مكتوب، عادةً خلال 24 ساعة."
+        ],
+        [
+          "العملية والمتابعة",
+          "العلاج في إسطنبول ثم الرعاية اللاحقة ومراجعة الصور."
+        ]
       ],
       "latest": "أدلة",
       "read": "اقرأ الدليل",
@@ -129,10 +219,22 @@
       "cta": "Отправить фото в WhatsApp",
       "steps_title": "Как это работает",
       "steps": [
-        ["Отправьте фото", "Голова спереди, сверху и сзади — в WhatsApp."],
-        ["Экспертная оценка", "Наша команда оценивает донорскую зону и степень выпадения."],
-        ["Ваш план", "Дизайн линии роста, оценка числа графтов и фиксированная цена письменно, обычно в течение 24 часов."],
-        ["Операция и наблюдение", "Лечение в Стамбуле, затем уход и контроль по фото."]
+        [
+          "Отправьте фото",
+          "Голова спереди, сверху и сзади — в WhatsApp."
+        ],
+        [
+          "Экспертная оценка",
+          "Наша команда оценивает донорскую зону и степень выпадения."
+        ],
+        [
+          "Ваш план",
+          "Дизайн линии роста, оценка числа графтов и фиксированная цена письменно, обычно в течение 24 часов."
+        ],
+        [
+          "Операция и наблюдение",
+          "Лечение в Стамбуле, затем уход и контроль по фото."
+        ]
       ],
       "latest": "Руководства",
       "read": "Читать",
@@ -144,5 +246,9 @@
       "wa_msg": "Здравствуйте, хочу бесплатную консультацию по пересадке волос.",
       "faq": "Частые вопросы"
     }
-  }
+  },
+  "phone": "",
+  "hours": "",
+  "maps_url": "",
+  "reviews_url": ""
 }

@@ -137,6 +137,29 @@
         "Russian"
       ],
       "msg": "Country: {c}\nGender: {g}\nName: {n}\nPhone: {p}\nLanguage: {l}"
+    },
+    "trust": {
+      "title": "Know everything before you book a flight",
+      "sub": "Four things we put in your hands before you travel, so Istanbul holds no surprises.",
+      "items": [
+        [
+          "Your hairline plan",
+          "A design drawn from your photos and shaped around your face and your goals."
+        ],
+        [
+          "Your graft estimate",
+          "A realistic estimate based on your photos, with the reasoning explained."
+        ],
+        [
+          "Your price, in writing",
+          "One fixed price, written down. No surprises after you land."
+        ],
+        [
+          "Your aftercare plan",
+          "Washing, sleep, sun and photo follow-ups, so you are never alone back home."
+        ]
+      ],
+      "note": "Results vary from person to person. Every plan is individual."
     }
   },
   "tr": {
@@ -277,6 +300,29 @@
         "Rusça"
       ],
       "msg": "Ülke: {c}\nCinsiyet: {g}\nAd soyad: {n}\nTelefon: {p}\nDil: {l}"
+    },
+    "trust": {
+      "title": "Uçak bileti almadan önce her şeyi bilin",
+      "sub": "Yola çıkmadan önce elinize dört şey veriyoruz, böylece İstanbul'da sürpriz yaşamazsınız.",
+      "items": [
+        [
+          "Saç çizgisi planınız",
+          "Fotoğraflarınızdan yola çıkılarak, yüzünüze ve hedefinize göre çizilen tasarım."
+        ],
+        [
+          "Tahmini greft sayınız",
+          "Fotoğraflarınıza dayanan gerçekçi bir tahmin ve nedenlerinin açıklaması."
+        ],
+        [
+          "Fiyatınız yazılı",
+          "Tek, sabit ve yazılı bir fiyat. İndikten sonra sürpriz yok."
+        ],
+        [
+          "Bakım planınız",
+          "Yıkama, uyku, güneş ve fotoğrafla takip. Evinize dönünce yalnız kalmazsınız."
+        ]
+      ],
+      "note": "Sonuçlar kişiden kişiye değişir. Her plan kişiye özeldir."
     }
   },
   "de": {
@@ -417,6 +463,29 @@
         "Russisch"
       ],
       "msg": "Land: {c}\nGeschlecht: {g}\nName: {n}\nTelefon: {p}\nSprache: {l}"
+    },
+    "trust": {
+      "title": "Alles wissen, bevor Sie einen Flug buchen",
+      "sub": "Vier Dinge legen wir Ihnen vor der Reise in die Hand, damit Istanbul keine Überraschungen bereithält.",
+      "items": [
+        [
+          "Ihr Haarlinienplan",
+          "Ein Entwurf nach Ihren Fotos, passend zu Gesicht und Zielen."
+        ],
+        [
+          "Ihre Graft-Schätzung",
+          "Eine realistische Schätzung anhand Ihrer Fotos, mit Begründung."
+        ],
+        [
+          "Ihr Preis, schriftlich",
+          "Ein Festpreis, schwarz auf weiß. Keine Überraschungen nach der Landung."
+        ],
+        [
+          "Ihr Nachsorgeplan",
+          "Waschen, Schlafen, Sonne und Foto-Kontrollen, damit Sie zu Hause nicht allein sind."
+        ]
+      ],
+      "note": "Ergebnisse sind individuell verschieden. Jeder Plan ist persönlich."
     }
   },
   "fr": {
@@ -557,6 +626,29 @@
         "Russe"
       ],
       "msg": "Pays : {c}\nSexe : {g}\nNom : {n}\nTéléphone : {p}\nLangue : {l}"
+    },
+    "trust": {
+      "title": "Sachez tout avant de réserver votre vol",
+      "sub": "Quatre choses entre vos mains avant le départ, pour qu'Istanbul ne réserve aucune surprise.",
+      "items": [
+        [
+          "Votre plan de ligne frontale",
+          "Un tracé établi d'après vos photos, adapté à votre visage et à vos objectifs."
+        ],
+        [
+          "Votre estimation de greffons",
+          "Une estimation réaliste d'après vos photos, avec ses explications."
+        ],
+        [
+          "Votre prix, par écrit",
+          "Un prix fixe, noir sur blanc. Aucune surprise à l'arrivée."
+        ],
+        [
+          "Votre plan de soins",
+          "Lavage, sommeil, soleil et suivi par photos, pour ne pas être seul une fois rentré."
+        ]
+      ],
+      "note": "Les résultats varient d'une personne à l'autre. Chaque plan est personnel."
     }
   },
   "ar": {
@@ -697,6 +789,29 @@
         "الروسية"
       ],
       "msg": "الدولة: {c}\nالجنس: {g}\nالاسم: {n}\nالهاتف: {p}\nاللغة: {l}"
+    },
+    "trust": {
+      "title": "اعرف كل شيء قبل أن تحجز تذكرة السفر",
+      "sub": "أربعة أمور نضعها بين يديك قبل السفر، حتى لا تفاجئك إسطنبول بشيء.",
+      "items": [
+        [
+          "خطة خط الشعر لك",
+          "تصميم مبني على صورك ومصمّم وفق ملامح وجهك وأهدافك."
+        ],
+        [
+          "تقدير عدد البصيلات",
+          "تقدير واقعي مبني على صورك مع شرح أسبابه."
+        ],
+        [
+          "سعرك مكتوب",
+          "سعر ثابت واحد مكتوب. لا مفاجآت بعد وصولك."
+        ],
+        [
+          "خطة العناية بعد العملية",
+          "الغسل والنوم والشمس والمتابعة بالصور، فلا تكون وحدك بعد عودتك."
+        ]
+      ],
+      "note": "تختلف النتائج من شخص لآخر. كل خطة فردية."
     }
   },
   "ru": {
@@ -837,6 +952,29 @@
         "Русский"
       ],
       "msg": "Страна: {c}\nПол: {g}\nИмя: {n}\nТелефон: {p}\nЯзык: {l}"
+    },
+    "trust": {
+      "title": "Узнайте всё до покупки билета",
+      "sub": "Четыре вещи, которые вы получите до поездки, чтобы Стамбул не преподнёс сюрпризов.",
+      "items": [
+        [
+          "Ваш план линии роста",
+          "Дизайн по вашим фото с учётом черт лица и ваших целей."
+        ],
+        [
+          "Оценка числа графтов",
+          "Реалистичная оценка по вашим фото с объяснением."
+        ],
+        [
+          "Ваша цена в письменном виде",
+          "Одна фиксированная цена на бумаге. Никаких сюрпризов после прилёта."
+        ],
+        [
+          "План ухода после операции",
+          "Мытьё, сон, солнце и контроль по фото, чтобы дома вы не остались одни."
+        ]
+      ],
+      "note": "Результаты индивидуальны. Каждый план персональный."
     }
   }
 }

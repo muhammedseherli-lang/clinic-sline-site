@@ -25,6 +25,10 @@ SITE = CFG["site_url"].rstrip("/")
 BRAND = CFG["brand"]
 WA_NUMBER = CFG["whatsapp"]
 ADDRESS = CFG.get("address", "")
+PHONE = CFG.get("phone", "")
+HOURS = CFG.get("hours", "")
+MAPS = CFG.get("maps_url", "")
+REVIEWS = CFG.get("reviews_url", "")
 E = html.escape
 H = json.loads((ROOT / "content" / "home.json").read_text(encoding="utf-8"))
 TL_UNIT = {"en": "months", "tr": "ay", "de": "Monate", "fr": "mois", "ar": "أشهر", "ru": "мес."}
@@ -176,7 +180,7 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
         for c in LANG_CODES)
     ld_html = "".join(ld_script(x) for x in (ld or []))
     year = date.today().year
-    addr = "<p>%s</p>" % E(ADDRESS) if ADDRESS else ""
+    addr = ("<p>%s</p>" % E(ADDRESS) if ADDRESS else "") + contact_html()
     return """<!doctype html>
 <html lang="{lang}" dir="{dir}">
 <head>
@@ -334,6 +338,35 @@ def gallery_html(lang):
             '<p class="gnote">%s</p></div></section>') % (E(t), figs, E(note))
 
 
+TRUST_ICONS = [
+    '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 30C14 12 34 12 42 30" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/><path d="M14 34h20" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/></svg>',
+    '<svg viewBox="0 0 48 48" aria-hidden="true"><g fill="currentColor"><circle cx="14" cy="14" r="4"/><circle cx="24" cy="14" r="4"/><circle cx="34" cy="14" r="4"/><circle cx="14" cy="26" r="4"/><circle cx="24" cy="26" r="4"/><circle cx="34" cy="26" r="4"/><circle cx="24" cy="38" r="4"/></g></svg>',
+    '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 10h20l12 12-14 14L8 24z" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round"/><circle cx="17" cy="19" r="3" fill="currentColor"/></svg>',
+    '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6l15 6v11c0 10-7 17-15 19C16 40 9 33 9 23V12z" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round"/><path d="M17 24l5 5 9-10" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+]
+
+
+def trust_html(lang):
+    t = H[lang]["trust"]
+    cards = "".join('<div class="tr-card reveal" style="--d:%.2fs"><span class="tr-ic">%s</span><b>%s</b><span>%s</span></div>' % (
+        i * .1, TRUST_ICONS[i], E(x), E(y)) for i, (x, y) in enumerate(t["items"]))
+    return ('<section class="block trust" id="trust"><div class="wrap"><h2>%s</h2><p class="lead">%s</p><div class="tr-grid">%s</div>'
+            '<p class="gnote">%s</p></div></section>') % (E(t["title"]), E(t["sub"]), cards, E(t["note"]))
+
+
+def contact_html():
+    rows = []
+    if PHONE:
+        rows.append('<a href="tel:%s">%s</a>' % (E(re.sub(r"[^+\d]", "", PHONE)), E(PHONE)))
+    if HOURS:
+        rows.append("<span>%s</span>" % E(HOURS))
+    if MAPS:
+        rows.append('<a href="%s" rel="noopener">Maps</a>' % E(MAPS))
+    if REVIEWS:
+        rows.append('<a href="%s" rel="noopener">Google</a>' % E(REVIEWS))
+    return '<p class="fcontact">%s</p>' % " · ".join(rows) if rows else ""
+
+
 def home_page(lang, arts):
     u = UI[lang]
     h = H[lang]
@@ -402,7 +435,7 @@ def home_page(lang, arts):
                '<a class="btn" href="%s" rel="noopener">%s</a></aside></div></section>') % (
         E(u["cta_box_title"]), E(u["cta_box_text"]), E(wa_link(lang, lang + "/bottom")), E(u["cta"]))
 
-    body = hero + marquee + treat_sec + steps_sec + nor_sec + tl_sec + gallery_html(lang) + clinic_html(lang) + local_sec + guides_sec + faq_sec + cta_sec
+    body = hero + marquee + trust_html(lang) + treat_sec + steps_sec + nor_sec + tl_sec + gallery_html(lang) + clinic_html(lang) + local_sec + guides_sec + faq_sec + cta_sec
     alts = {c: "/%s/" % c for c in LANG_CODES}
     ld = [{
         "@context": "https://schema.org", "@type": "MedicalClinic", "name": BRAND, "logo": SITE + "/assets/logo-dark.png", "image": SITE + "/assets/og.png", "url": SITE + "/%s/" % lang,
