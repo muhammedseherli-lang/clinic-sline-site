@@ -107,7 +107,8 @@ def load_articles():
         # Drafts wait for the doctor's review. `python3 build.py --drafts` previews them.
         if pre.get("draft", "").lower() == "true" and "--drafts" not in sys.argv:
             continue
-        art = {"id": p.stem, "updated": pre.get("updated", str(date.today())), "langs": {}}
+        art = {"id": p.stem, "updated": pre.get("updated", str(date.today())), "langs": {},
+               "reviewed": pre.get("reviewed", "").lower() == "true"}
         for i in range(1, len(parts), 2):
             lang = parts[i]
             if lang not in LANG_BY:
@@ -226,13 +227,13 @@ def article_page(lang, art):
 {faq}
 <aside class="ctabox"><h2>{cbt}</h2><p>{cbx}</p><a class="btn" href="{wa}" rel="noopener">{cta}</a></aside>
 </article></div>""".format(
-        lang=lang, brand=E(BRAND), h1=E(a["title"]), reviewed=E(u["reviewed"].format(date=art["updated"])),
+        lang=lang, brand=E(BRAND), h1=E(a["title"]), reviewed=E(u["reviewed" if art["reviewed"] else "updated_only"].format(date=art["updated"])),
         content=a["html"], faq=faq_html, cbt=E(u["cta_box_title"]), cbx=E(u["cta_box_text"]),
         wa=E(wa_link(lang, "%s/%s" % (lang, a["slug"]))), cta=E(u["cta"]))
     ld = [{
         "@context": "https://schema.org", "@type": "MedicalWebPage", "name": a["title"], "headline": a["title"],
         "description": a["description"], "inLanguage": lang, "url": SITE + path,
-        "lastReviewed": art["updated"], "dateModified": art["updated"],
+        **({"lastReviewed": art["updated"]} if art["reviewed"] else {}), "dateModified": art["updated"],
         "author": {"@type": "Organization", "name": BRAND},
         "publisher": {"@type": "MedicalClinic", "name": BRAND,
                       "address": {"@type": "PostalAddress", "addressLocality": "Istanbul", "addressCountry": "TR"}},
@@ -289,7 +290,7 @@ def main():
     lines = ["# %s" % BRAND, "",
              "> Hair transplant clinic in Istanbul, Turkey. Patients from Turkey, Europe and Arabic-speaking countries. "
              "Languages: " + ", ".join(LANG_BY[c]["name"] for c in LANG_CODES) + ".", "",
-             "Every treatment plan is confirmed by a licensed doctor. Articles are medically reviewed. "
+             "Every treatment plan is confirmed by a licensed doctor. Articles marked as medically reviewed have been read by a licensed physician. "
              "Prices are fixed and given in writing after a doctor reviews the patient's photos.", ""]
     for lang in LANG_CODES:
         lines.append("## %s" % LANG_BY[lang]["name"])

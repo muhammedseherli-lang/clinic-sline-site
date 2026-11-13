@@ -17,7 +17,8 @@ No database, no server. `python3 build.py` turns `content/` and `site.json` into
 
 ```
 updated: YYYY-MM-DD
-draft: true            (remove this line only when the doctor has approved the article)
+reviewed: true         (add this line ONLY after the doctor has really read the article; never add it yourself)
+draft: true            (optional: hides the article from the public build)
 
 === en
 slug: url-slug-in-ascii
@@ -43,15 +44,15 @@ Every language block needs slug, title and description. Body supports `##`, `###
 1. Open `content/keywords.csv`. Take the first row with status `planned`. If none is left, research and add 5 new rows.
 2. Research with web search in each of the six languages: what the first results cover, which questions patients ask, what competitors miss. Search volume is not available, so say "unverified" in notes.
 3. Write one new article in all six languages. Write each language natively, not as a literal translation. Match the search intent of that language.
-4. Set `draft: true` in the file. Run `python3 build.py --drafts` to check it builds, then `python3 build.py` to rebuild the public output without drafts.
-5. Update the row in `content/keywords.csv` to `drafted` with the date.
+4. Do NOT set `reviewed: true` and do not set `draft: true`: the article goes live automatically, showing only "Updated <date>" and no medical-review claim. Run `python3 build.py` and check it builds.
+5. Update the row in `content/keywords.csv` to `published` with the date.
 6. Commit with a clear message and push to `main`.
 
 ## Editorial rules (medical content, high stakes)
 
 - Never invent facts, prices, statistics, studies or quotes. If a number is not from a source you can link, leave it out.
 - No promises of results, no "best", "guaranteed", "painless", "no risk". Say results vary.
-- Do not name the doctor. Articles are marked "medically reviewed by a licensed physician", which is only true after the doctor reads them. That is why new articles stay `draft: true` until approved.
+- Do not name the doctor. The "medically reviewed by a licensed physician" line appears only when the file has `reviewed: true`, which a human adds after the doctor really read it. Never add it, never claim review anywhere else.
 - Do not name or criticise competitor clinics.
 - Cite real, linkable sources in a Sources section (medical societies, health authorities, peer-reviewed work). Check that each link exists.
 - Each article: short key takeaways first, clear headings, a three-question FAQ, one honest "what to ask a clinic" or "warning signs" section.
