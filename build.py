@@ -36,6 +36,7 @@ H = json.loads((ROOT / "content" / "home.json").read_text(encoding="utf-8"))
 TL_UNIT = {"en": "months", "tr": "ay", "de": "Monate", "fr": "mois", "ar": "أشهر", "ru": "мес."}
 GUIDES_SLUG = {"en": "guides", "tr": "rehberler", "de": "ratgeber", "fr": "guides", "ar": "adilla", "ru": "stati"}
 PAGE_SLUGS = {}  # page id -> {lang: slug}
+ART_SLUGS = {}   # article id -> {lang: slug}
 
 
 # ---------- text helpers ----------
@@ -223,7 +224,7 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
 </body>
 </html>
 """.format(lang=lang, dir=l["dir"], title=E(title), desc=E(desc), canon=canon, hrefl=hrefl, og=og,
-           av=ASSET_V, brand=E(BRAND), curflag=FLAG[lang], curcode=lang.upper(), site=SITE, locale=l["locale"], ld=ld_html, switch=switch, menu=nav_html(lang), body=body,
+           av=ASSET_V, brand=E(BRAND), curflag=FLAG[lang], curcode=lang.upper(), site=SITE, locale=l["locale"], ld=ld_html, switch=switch, menu=nav_html(lang) + mpanel_html(lang), body=body,
            disclaimer=E(u["disclaimer"]), addr=addr, year=year, wa=E(wa_link(lang, lang + "/float")))
 
 
@@ -244,6 +245,39 @@ N_CLINIC = len(list((ROOT / "assets" / "clinic").glob("clinic-*.jpg")))
 N_RESULTS = len(list((ROOT / "assets" / "results").glob("result-*.jpg")))
 
 
+
+NAVX = {  # extra menu labels (top-level + short sub labels); ar/ru: please have a native speaker review
+    "tr": dict(guide="Hasta Rehberi", faq="S.S.S", price="Fiyat", clinic="Kliniğimiz", methods="Yöntemler", sapphire="Safir FUE ve DHI", prep="Operasyondan önce", day="Operasyon günü", after="Operasyon sonrası bakım", timeline="Sonuç takvimi"),
+    "en": dict(guide="Patient guide", faq="FAQ", price="Pricing", clinic="Our clinic", methods="Methods", sapphire="Sapphire FUE vs DHI", prep="Before treatment", day="Treatment day", after="Aftercare", timeline="Results timeline"),
+    "de": dict(guide="Patientenratgeber", faq="FAQ", price="Preise", clinic="Unsere Klinik", methods="Methoden", sapphire="Saphir-FUE und DHI", prep="Vor der Behandlung", day="Behandlungstag", after="Nachsorge", timeline="Ergebnisverlauf"),
+    "fr": dict(guide="Guide patient", faq="FAQ", price="Tarifs", clinic="Notre clinique", methods="Méthodes", sapphire="Saphir FUE ou DHI", prep="Avant l'intervention", day="Jour de l'intervention", after="Suites et soins", timeline="Calendrier des résultats"),
+    "ar": dict(guide="دليل المريض", faq="الأسئلة الشائعة", price="الأسعار", clinic="عيادتنا", methods="الطرق", sapphire="الياقوت FUE أم DHI", prep="قبل العملية", day="يوم العملية", after="العناية بعد العملية", timeline="مراحل ظهور النتائج"),
+    "ru": dict(guide="Для пациента", faq="Вопросы и ответы", price="Стоимость", clinic="Клиника", methods="Методы", sapphire="Сапфировая FUE и DHI", prep="Подготовка", day="День процедуры", after="Уход после процедуры", timeline="Сроки результата"),
+}
+
+def mpanel_html(lang):
+    n = H[lang]["nav"]; x = NAVX[lang]
+    def art(i): return "/%s/%s/" % (lang, ART_SLUGS[i][lang]) if lang in ART_SLUGS.get(i, {}) else None
+    def pg(i): return "/%s/%s/" % (lang, PAGE_SLUGS[i][lang]) if lang in PAGE_SLUGS.get(i, {}) else None
+    groups = [
+        (n["treatments"], [(pg("treatments"), x["methods"]), (art("sapphire-vs-dhi"), x["sapphire"]), (pg("process"), n["process"])]),
+        (x["guide"], [(art("prep"), x["prep"]), (art("surgery-day"), x["day"]), (art("aftercare"), x["after"]), (art("results-timeline"), x["timeline"])]),
+    ]
+    flat = [("/%s/%s/" % (lang, GUIDES_SLUG[lang]), n["guides"]), ("/%s/#results" % lang, n["results"]), ("/%s/#clinic" % lang, x["clinic"]), ("/%s/#faq" % lang, x["faq"]), (art("price"), x["price"])]
+    head = ('<div class="mhead"><img src="/assets/logo-header.png" alt="" width="130" height="40">'
+            '<button type="button" class="mclose" aria-label="Close"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>')
+    lis = ""
+    for label, items in groups:
+        items = [(h_, t_) for h_, t_ in items if h_]
+        if items:
+            lis += '<li><details class="mg"><summary>%s</summary><ul>%s</ul></details></li>' % (E(label), "".join('<li><a href="%s">%s</a></li>' % (E(h_), E(t_)) for h_, t_ in items))
+    for h_, t_ in flat:
+        if h_:
+            lis += '<li><a href="%s">%s</a></li>' % (E(h_), E(t_))
+    lis += '<li class="mcta"><a href="%s">%s</a></li>' % (E(wa_link(lang, lang + "/nav")), E(n["contact"]))
+    return '<nav class="mpanel" id="mainmenu" aria-label="Menu">%s<ul>%s</ul></nav>' % (head, lis)
+
+
 def nav_html(lang):
     n = H[lang]["nav"]
     items = []
@@ -253,11 +287,8 @@ def nav_html(lang):
     items.append(("/%s/#results" % lang, n["results"]))
     items.append(("/%s/%s/" % (lang, GUIDES_SLUG[lang]), n["guides"]))
     items.append((wa_link(lang, lang + "/nav"), n["contact"]))
-    lis = "".join('<li%s><a href="%s">%s</a></li>' % (' class="mcta"' if i == len(items) - 1 else "", E(h), E(t))
-                  for i, (h, t) in enumerate(items))
-    head = ('<div class="mhead"><img src="/assets/logo-header.png" alt="" width="130" height="40">'
-            '<button type="button" class="mclose" aria-label="Close"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>')
-    return '<nav class="menu" id="mainmenu" aria-label="Menu">%s<ul>%s</ul></nav>' % (head, lis)
+    return '<nav class="menu" aria-label="Menu"><ul>%s</ul></nav>' % "".join(
+        '<li><a href="%s">%s</a></li>' % (E(h), E(t)) for h, t in items)
 
 
 def breadcrumb_ld(lang, crumbs):
@@ -454,7 +485,7 @@ def home_page(lang, arts):
                   '<p><a class="more" href="/%s/%s/">%s →</a></p></div></section>') % (
         E(u["latest"]), cards, lang, GUIDES_SLUG[lang], E(H[lang]["nav"]["guides"]))
 
-    faq_sec = ('<section class="block"><div class="wrap narrow"><h2>%s</h2>%s</div></section>') % (
+    faq_sec = ('<section class="block" id="faq"><div class="wrap narrow"><h2>%s</h2>%s</div></section>') % (
         E(u["faq"]), "".join('<details class="reveal"><summary>%s</summary><p>%s</p></details>' % (E(q), E(a)) for q, a in h["faq"]))
 
     cta_sec = ('<section class="block"><div class="wrap"><aside class="ctabox reveal"><h2>%s</h2><p>%s</p>'
@@ -563,6 +594,8 @@ def main():
     pages = load_articles("pages")
     for pg in pages:
         PAGE_SLUGS[pg["id"]] = {c: v["slug"] for c, v in pg["langs"].items()}
+    for a_ in arts:
+        ART_SLUGS[a_["id"]] = {c: v["slug"] for c, v in a_["langs"].items()}
     urls = []  # (path, lastmod, alternates)
     newest = max([a["updated"] for a in arts + pages] or [str(date.today())])
 
