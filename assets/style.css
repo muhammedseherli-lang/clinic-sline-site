@@ -243,6 +243,22 @@ section.trust{background:linear-gradient(180deg,var(--tint),var(--bg))}
 .stats{background:var(--hero);color:var(--hero-ink);padding:clamp(34px,6vw,64px) 0;border-block:1px solid rgba(255,255,255,.08)}
 .stats .wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;text-align:center}
 .stat b{display:block;font-size:clamp(44px,8vw,92px);line-height:1;font-weight:800;letter-spacing:-.03em;background:linear-gradient(120deg,#fff,#9fe6dc 60%,#f0c27a);-webkit-background-clip:text;background-clip:text;color:transparent;font-variant-numeric:tabular-nums}
-.stat span{display:block;margin-top:10px;color:var(--hero-muted);font-size:clamp(15px,2vw,19px);letter-spacing:.04em;text-transform:uppercase}
+.stat .st-l{display:block;margin-top:10px;color:var(--hero-muted);font-size:clamp(15px,2vw,19px);letter-spacing:.04em;text-transform:uppercase}
 .stat+.stat{border-inline-start:1px solid rgba(255,255,255,.14)}
 @media (max-width:520px){.stat+.stat{border-inline-start:0}}
+
+.stats{position:relative;overflow:hidden;isolation:isolate}
+.stats .wrap{position:relative}
+.stats .dots{position:absolute;inset:0;z-index:-1}
+.stats .dots i{position:absolute;bottom:-12px;inset-inline-start:var(--x);width:6px;height:6px;border-radius:50%;background:#2fb3a6;opacity:0;animation:floaty var(--s) linear infinite;animation-delay:var(--dl)}
+.stats .dots i:nth-child(even){background:#c98a2b;width:4px;height:4px}
+.st-ic{position:relative;display:grid;place-items:center;width:78px;height:78px;margin:0 auto 16px;color:#9fe6dc}
+.st-ic svg:not(.ring){width:34px;height:34px}
+.st-ic .ring{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+.st-ic .ring circle{fill:none;stroke:#2fb3a6;stroke-width:3;stroke-linecap:round;stroke-dasharray:290;stroke-dashoffset:290;transition:stroke-dashoffset 1.8s cubic-bezier(.2,.7,.2,1) .2s}
+.stat.in .ring circle{stroke-dashoffset:40}
+.st-ic::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:1px solid rgba(47,179,166,.5);animation:ping 2.8s ease-out infinite}
+html:not(.js) .st-ic .ring circle{stroke-dashoffset:40}
+@keyframes floaty{0%{transform:translateY(0);opacity:0}10%{opacity:.8}100%{transform:translateY(-220px);opacity:0}}
+@keyframes ping{0%{transform:scale(.9);opacity:.8}100%{transform:scale(1.35);opacity:0}}
+@media (prefers-reduced-motion:reduce){.stats .dots i,.st-ic::after{animation:none}.st-ic .ring circle{transition:none;stroke-dashoffset:40}}

@@ -354,10 +354,20 @@ def trust_html(lang):
             '<p class="gnote">%s</p></div></section>') % (E(t["title"]), E(t["sub"]), cards, E(t["note"]))
 
 
+STAT_ICONS = [
+    '<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="14" fill="none" stroke="currentColor" stroke-width="3"/><path d="M24 15v10l7 4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    '<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="17" cy="17" r="6" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="33" cy="19" r="5" fill="none" stroke="currentColor" stroke-width="3"/><path d="M6 38c0-7 5-11 11-11s11 4 11 11M30 28c6-1 12 2 12 9" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>',
+]
+
+
 def stats_html(lang):
-    cells = "".join('<div class="stat"><b data-count="%d" data-lang="%s">%s+</b><span>%s</span></div>' % (
-        s["n"], lang, format(s["n"], ",").replace(",", "."), E(s["label"])) for s in H[lang]["stats"])
-    return '<section class="stats" aria-label="%s"><div class="wrap">%s</div></section>' % (E(BRAND), cells)
+    cells = "".join(
+        '<div class="stat reveal" style="--d:%.2fs"><span class="st-ic"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="46"/></svg>%s</span>'
+        '<b data-count="%d" data-lang="%s">%s+</b><span class="st-l">%s</span></div>' % (
+            i * .15, STAT_ICONS[i], s["n"], lang, format(s["n"], ",").replace(",", "."), E(s["label"]))
+        for i, s in enumerate(H[lang]["stats"]))
+    dots = "".join('<i style="--x:%d%%;--s:%ds;--dl:-%ds"></i>' % (8 + i * 12, 9 + (i * 3) % 7, (i * 2) % 9) for i in range(8))
+    return '<section class="stats" aria-label="%s"><div class="dots" aria-hidden="true">%s</div><div class="wrap">%s</div></section>' % (E(BRAND), dots, cells)
 
 
 def contact_html():
