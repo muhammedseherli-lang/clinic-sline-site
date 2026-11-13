@@ -160,7 +160,17 @@
         ]
       ],
       "note": "Results vary from person to person. Every plan is individual."
-    }
+    },
+    "stats": [
+      {
+        "n": 15,
+        "label": "years of experience"
+      },
+      {
+        "n": 18000,
+        "label": "patients"
+      }
+    ]
   },
   "tr": {
     "nav": {
@@ -323,7 +333,17 @@
         ]
       ],
       "note": "Sonuçlar kişiden kişiye değişir. Her plan kişiye özeldir."
-    }
+    },
+    "stats": [
+      {
+        "n": 15,
+        "label": "yıl deneyim"
+      },
+      {
+        "n": 18000,
+        "label": "hasta"
+      }
+    ]
   },
   "de": {
     "nav": {
@@ -486,7 +506,17 @@
         ]
       ],
       "note": "Ergebnisse sind individuell verschieden. Jeder Plan ist persönlich."
-    }
+    },
+    "stats": [
+      {
+        "n": 15,
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "n": 18000,
+        "label": "Patienten"
+      }
+    ]
   },
   "fr": {
     "nav": {
@@ -649,7 +679,17 @@
         ]
       ],
       "note": "Les résultats varient d'une personne à l'autre. Chaque plan est personnel."
-    }
+    },
+    "stats": [
+      {
+        "n": 15,
+        "label": "ans d'expérience"
+      },
+      {
+        "n": 18000,
+        "label": "patients"
+      }
+    ]
   },
   "ar": {
     "nav": {
@@ -812,7 +852,17 @@
         ]
       ],
       "note": "تختلف النتائج من شخص لآخر. كل خطة فردية."
-    }
+    },
+    "stats": [
+      {
+        "n": 15,
+        "label": "سنة من الخبرة"
+      },
+      {
+        "n": 18000,
+        "label": "مريض"
+      }
+    ]
   },
   "ru": {
     "nav": {
@@ -975,6 +1025,16 @@
         ]
       ],
       "note": "Результаты индивидуальны. Каждый план персональный."
-    }
+    },
+    "stats": [
+      {
+        "n": 15,
+        "label": "лет опыта"
+      },
+      {
+        "n": 18000,
+        "label": "пациентов"
+      }
+    ]
   }
 }

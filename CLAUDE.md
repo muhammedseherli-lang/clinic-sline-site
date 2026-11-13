@@ -57,6 +57,7 @@ Every language block needs slug, title and description. Body supports `##`, `###
 - Never invent facts, prices, statistics, studies or quotes. If a number is not from a source you can link, leave it out.
 - No promises of results, no "best", "guaranteed", "painless", "no risk". Say results vary.
 - Do not use doctor wording on the site (the owner decided: no "doctor-approved", "licensed doctor" or doctor mentions). Say "our team" or "specialist". Only for medication safety, point to "whoever prescribed it" and the clinic. Do not name the doctor. The "medically reviewed by a licensed physician" line appears only when the file has `reviewed: true`, which a human adds after the doctor really read it. Never add it, never claim review anywhere else.
+- The home stats band (15+ years of experience, 18,000+ patients) comes from the owner (`stats` in `content/home.json`). Never change these numbers and never add other counters or "happy"/satisfaction claims.
 - Do not name or criticise competitor clinics.
 - Cite real, linkable sources in a Sources section (medical societies, health authorities, peer-reviewed work). Check that each link exists.
 - Each article: short key takeaways first, clear headings, a three-question FAQ, one honest "what to ask a clinic" or "warning signs" section.

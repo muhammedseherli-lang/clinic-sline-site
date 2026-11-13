@@ -238,3 +238,11 @@ section.trust{background:linear-gradient(180deg,var(--tint),var(--bg))}
 .fcontact{font-size:15px}.fcontact a{color:var(--hero-ink)}
 @media (max-width:900px){.tr-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:520px){.tr-grid{grid-template-columns:1fr}}
+
+/* stats band */
+.stats{background:var(--hero);color:var(--hero-ink);padding:clamp(34px,6vw,64px) 0;border-block:1px solid rgba(255,255,255,.08)}
+.stats .wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;text-align:center}
+.stat b{display:block;font-size:clamp(44px,8vw,92px);line-height:1;font-weight:800;letter-spacing:-.03em;background:linear-gradient(120deg,#fff,#9fe6dc 60%,#f0c27a);-webkit-background-clip:text;background-clip:text;color:transparent;font-variant-numeric:tabular-nums}
+.stat span{display:block;margin-top:10px;color:var(--hero-muted);font-size:clamp(15px,2vw,19px);letter-spacing:.04em;text-transform:uppercase}
+.stat+.stat{border-inline-start:1px solid rgba(255,255,255,.14)}
+@media (max-width:520px){.stat+.stat{border-inline-start:0}}

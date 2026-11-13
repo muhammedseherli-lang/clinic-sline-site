@@ -51,6 +51,24 @@
     document.addEventListener("keydown", function(e){ if (e.key === "Escape") ls.removeAttribute("open"); });
   }
 
+  // Count-up numbers (final value is already in the HTML)
+  var counts = document.querySelectorAll("[data-count]");
+  if (counts.length && "IntersectionObserver" in window && !reduce) {
+    var cio = new IntersectionObserver(function(es){
+      es.forEach(function(en){
+        if (!en.isIntersecting) return; cio.unobserve(en.target);
+        var el = en.target, to = +el.getAttribute("data-count"), t0 = performance.now(), dur = 1800;
+        var fmt = new Intl.NumberFormat(el.getAttribute("data-lang") === "en" ? "en-US" : el.getAttribute("data-lang"));
+        (function step(t){
+          var k = Math.min(1, (t - t0) / dur), v = Math.round(to * (1 - Math.pow(1 - k, 3)));
+          el.textContent = fmt.format(v) + "+";
+          if (k < 1) requestAnimationFrame(step);
+        })(t0);
+      });
+    }, {threshold: 0.4});
+    counts.forEach(function(c){ cio.observe(c); });
+  }
+
   // Norwood selector -> WhatsApp message
   var dataEl = document.getElementById("nor-data");
   if (dataEl) {

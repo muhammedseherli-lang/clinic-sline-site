@@ -354,6 +354,12 @@ def trust_html(lang):
             '<p class="gnote">%s</p></div></section>') % (E(t["title"]), E(t["sub"]), cards, E(t["note"]))
 
 
+def stats_html(lang):
+    cells = "".join('<div class="stat"><b data-count="%d" data-lang="%s">%s+</b><span>%s</span></div>' % (
+        s["n"], lang, format(s["n"], ",").replace(",", "."), E(s["label"])) for s in H[lang]["stats"])
+    return '<section class="stats" aria-label="%s"><div class="wrap">%s</div></section>' % (E(BRAND), cells)
+
+
 def contact_html():
     rows = []
     if PHONE:
@@ -435,7 +441,7 @@ def home_page(lang, arts):
                '<a class="btn" href="%s" rel="noopener">%s</a></aside></div></section>') % (
         E(u["cta_box_title"]), E(u["cta_box_text"]), E(wa_link(lang, lang + "/bottom")), E(u["cta"]))
 
-    body = hero + marquee + trust_html(lang) + treat_sec + steps_sec + nor_sec + tl_sec + gallery_html(lang) + clinic_html(lang) + local_sec + guides_sec + faq_sec + cta_sec
+    body = hero + marquee + stats_html(lang) + trust_html(lang) + treat_sec + steps_sec + nor_sec + tl_sec + gallery_html(lang) + clinic_html(lang) + local_sec + guides_sec + faq_sec + cta_sec
     alts = {c: "/%s/" % c for c in LANG_CODES}
     ld = [{
         "@context": "https://schema.org", "@type": "MedicalClinic", "name": BRAND, "logo": SITE + "/assets/logo-dark.png", "image": SITE + "/assets/og.png", "url": SITE + "/%s/" % lang,
