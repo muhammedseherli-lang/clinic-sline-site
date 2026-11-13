@@ -210,6 +210,7 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
 </head>
 <body>
 <div class="progress" aria-hidden="true"></div>
+<div class="bgfx" aria-hidden="true"><i></i><i></i><i></i><svg viewBox="0 0 1200 800" preserveAspectRatio="none"><path d="M-50 600C200 450 400 700 650 520S1000 380 1250 500"/><path d="M-50 680C220 540 420 780 680 600S1020 470 1250 590"/><path d="M-50 520C180 380 380 620 640 440S980 300 1250 420"/></svg></div>
 <header class="top"><div class="wrap"><a class="brand" href="/{lang}/" aria-label="{brand}"><img src="/assets/logo-header.png" alt="{brand}" width="130" height="40"></a>{menu}<nav aria-label="Language"><details class="langsel"><summary>{curflag} {curcode}</summary><ul class="langs">{switch}</ul></details></nav></div></header>
 <main>
 {body}
