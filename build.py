@@ -313,8 +313,8 @@ def clinic_html(lang):
     if not N_CLINIC:
         return ""
     t, alt = CLINIC[lang]
-    figs = "".join('<img src="/assets/clinic/clinic-%d.jpg" alt="%s" loading="lazy" width="642" height="480" class="reveal" style="--d:%.2fs">' % (
-        i, E(alt), (i % 3) * .08) for i in range(1, N_CLINIC + 1))
+    figs = "".join('<picture class="reveal" style="--d:%.2fs"><source srcset="/assets/clinic/clinic-%d.webp" type="image/webp"><img src="/assets/clinic/clinic-%d.jpg" alt="%s" loading="lazy" width="642" height="480"></picture>' % (
+        (i % 3) * .08, i, i, E(alt)) for i in range(1, N_CLINIC + 1))
     return '<section class="block alt" id="clinic"><div class="wrap"><h2>%s</h2><div class="gallery">%s</div></div></section>' % (E(t), figs)
 
 
@@ -322,8 +322,8 @@ def gallery_html(lang):
     if not N_RESULTS:
         return ""
     t, note, alt = GALLERY[lang]
-    figs = "".join('<img src="/assets/results/result-%d.jpg" alt="%s" loading="lazy" width="900" height="900" class="reveal" style="--d:%.2fs">' % (
-        i, E(alt), (i % 4) * .08) for i in range(1, N_RESULTS + 1))
+    figs = "".join('<picture class="reveal" style="--d:%.2fs"><source srcset="/assets/results/result-%d.webp" type="image/webp"><img src="/assets/results/result-%d.jpg" alt="%s" loading="lazy" width="900" height="900"></picture>' % (
+        (i % 4) * .08, i, i, E(alt)) for i in range(1, N_RESULTS + 1))
     return ('<section class="block" id="results"><div class="wrap"><h2>%s</h2><div class="gallery">%s</div>'
             '<p class="gnote">%s</p></div></section>') % (E(t), figs, E(note))
 

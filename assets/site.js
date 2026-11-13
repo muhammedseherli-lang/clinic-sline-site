@@ -76,6 +76,6 @@
     var dlg = document.createElement("dialog"); dlg.className = "lb";
     var big = document.createElement("img"); dlg.appendChild(big); document.body.appendChild(dlg);
     dlg.addEventListener("click", function(){ dlg.close(); });
-    imgs.forEach(function(i){ i.addEventListener("click", function(){ big.src = i.src; big.alt = i.alt; dlg.showModal(); }); });
+    imgs.forEach(function(i){ i.addEventListener("click", function(){ big.src = i.currentSrc || i.src; big.alt = i.alt; dlg.showModal(); }); });
   }
 })();

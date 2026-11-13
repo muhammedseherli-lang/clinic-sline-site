@@ -200,3 +200,11 @@ h2{font-size:clamp(28px,4.6vw,46px);letter-spacing:-.02em}
 .lead-form .gnote{margin:10px 0 0;font-size:12.5px;color:var(--hero-muted)}
 .langs a{font-weight:600;letter-spacing:.02em}
 @media (max-width:900px){.herogrid{grid-template-columns:1fr}}
+
+/* picture wrappers + compact header */
+.gallery picture{display:block}
+.gallery picture img{width:100%;height:auto;display:block}
+@media (min-width:980px) and (max-width:1240px){.langs a{padding:5px 8px;font-size:13px}.menu{margin-inline-start:14px}.menu ul{gap:4px 12px}.menu a{font-size:14px}}
+/* masonry: photos keep their own height, no gaps */
+.gallery{display:block;column-width:260px;column-gap:16px}
+.gallery picture{break-inside:avoid;margin:0 0 16px}
