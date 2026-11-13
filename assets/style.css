@@ -262,3 +262,24 @@ html:not(.js) .st-ic .ring circle{stroke-dashoffset:40}
 @keyframes floaty{0%{transform:translateY(0);opacity:0}10%{opacity:.8}100%{transform:translateY(-220px);opacity:0}}
 @keyframes ping{0%{transform:scale(.9);opacity:.8}100%{transform:scale(1.35);opacity:0}}
 @media (prefers-reduced-motion:reduce){.stats .dots i,.st-ic::after{animation:none}.st-ic .ring circle{transition:none;stroke-dashoffset:40}}
+
+/* stats band: richer */
+.stats{padding:clamp(56px,9vw,120px) 0;background:linear-gradient(180deg,#0a1b2a,#0f2a3c 55%,#0a1b2a)}
+.stats .aurora{position:absolute;inset:-20% -10%;z-index:-2;background:radial-gradient(40% 50% at 20% 40%,rgba(20,168,154,.38),transparent 70%),radial-gradient(35% 45% at 80% 60%,rgba(201,138,43,.26),transparent 70%);filter:blur(30px);animation:aur 14s ease-in-out infinite alternate}
+.stats .strands{z-index:-1;opacity:.28}
+.stats .wrap{gap:clamp(14px,3vw,34px);max-width:1000px}
+.stat{position:relative;padding:clamp(26px,4vw,46px) 16px;border:1px solid rgba(255,255,255,.14);border-radius:26px;background:linear-gradient(160deg,rgba(255,255,255,.09),rgba(255,255,255,.02));-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:0 20px 60px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.18);transition:transform .25s ease,box-shadow .25s ease,border-color .25s;transform-style:preserve-3d;will-change:transform}
+.stat+.stat{border-inline-start:1px solid rgba(255,255,255,.14)}
+.stat:hover{border-color:rgba(47,179,166,.6);box-shadow:0 26px 70px rgba(15,118,110,.35),inset 0 1px 0 rgba(255,255,255,.25)}
+.stat::before{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.16) 50%,transparent 65%);transform:translateX(-120%);animation:shine 5.5s ease-in-out infinite;pointer-events:none}
+.stat:nth-child(2)::before{animation-delay:2.2s}
+.stat b{font-size:clamp(52px,9vw,110px);filter:drop-shadow(0 0 22px rgba(47,179,166,.45));animation:glow 3.6s ease-in-out infinite alternate}
+.st-ic{width:92px;height:92px;margin-bottom:20px}
+.st-ic svg:not(.ring){width:40px;height:40px}
+.st-ic::before{content:"";position:absolute;inset:-4px;border-radius:50%;background:conic-gradient(from 0deg,transparent 0 60%,#2fb3a6 85%,#f0c27a 100%);-webkit-mask:radial-gradient(circle,transparent 62%,#000 64%);mask:radial-gradient(circle,transparent 62%,#000 64%);animation:spin 3.2s linear infinite;opacity:.9}
+@keyframes aur{from{transform:translate3d(-3%,-2%,0) scale(1)}to{transform:translate3d(4%,3%,0) scale(1.12)}}
+@keyframes shine{0%,55%{transform:translateX(-120%)}100%{transform:translateX(120%)}}
+@keyframes glow{from{filter:drop-shadow(0 0 12px rgba(47,179,166,.25))}to{filter:drop-shadow(0 0 30px rgba(240,194,122,.5))}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (max-width:520px){.stats .wrap{grid-template-columns:1fr}.stat+.stat{border-inline-start:1px solid rgba(255,255,255,.14)}}
+@media (prefers-reduced-motion:reduce){.stats .aurora,.stat::before,.stat b,.st-ic::before{animation:none}}

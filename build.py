@@ -367,7 +367,11 @@ def stats_html(lang):
             i * .15, STAT_ICONS[i], s["n"], lang, format(s["n"], ",").replace(",", "."), E(s["label"]))
         for i, s in enumerate(H[lang]["stats"]))
     dots = "".join('<i style="--x:%d%%;--s:%ds;--dl:-%ds"></i>' % (8 + i * 12, 9 + (i * 3) % 7, (i * 2) % 9) for i in range(8))
-    return '<section class="stats" aria-label="%s"><div class="dots" aria-hidden="true">%s</div><div class="wrap">%s</div></section>' % (E(BRAND), dots, cells)
+    strands = "".join('<path d="M-20 %d C 200 %d, 380 %d, 640 %d S 980 %d, 1240 %d" style="--d:%ds"/>' % (
+        30 + i * 36, 0 + i * 40, 120 + i * 24, 40 + i * 34, 0 + i * 40, 70 + i * 26, 16 + i * 3) for i in range(6))
+    return ('<section class="stats" aria-label="%s"><div class="aurora" aria-hidden="true"></div>'
+            '<svg class="strands" viewBox="0 0 1200 300" preserveAspectRatio="none" aria-hidden="true">%s</svg>'
+            '<div class="dots" aria-hidden="true">%s</div><div class="wrap">%s</div></section>') % (E(BRAND), strands, dots, cells)
 
 
 def contact_html():

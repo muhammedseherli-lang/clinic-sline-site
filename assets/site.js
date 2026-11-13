@@ -69,6 +69,17 @@
     counts.forEach(function(c){ cio.observe(c); });
   }
 
+  // 3D tilt on stat cards (pointer devices only)
+  if (!reduce && window.matchMedia && matchMedia("(hover: hover)").matches) {
+    document.querySelectorAll(".stat").forEach(function(c){
+      c.addEventListener("pointermove", function(e){
+        var r = c.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+        c.style.transform = "perspective(800px) rotateY(" + (x * 10) + "deg) rotateX(" + (-y * 10) + "deg) translateY(-4px)";
+      });
+      c.addEventListener("pointerleave", function(){ c.style.transform = ""; });
+    });
+  }
+
   // Norwood selector -> WhatsApp message
   var dataEl = document.getElementById("nor-data");
   if (dataEl) {
