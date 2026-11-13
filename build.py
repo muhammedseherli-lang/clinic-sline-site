@@ -211,7 +211,7 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
 <body>
 <div class="progress" aria-hidden="true"></div>
 <div class="bgfx" aria-hidden="true"><i></i><i></i><i></i><svg viewBox="0 0 1200 800" preserveAspectRatio="none"><path d="M-50 600C200 450 400 700 650 520S1000 380 1250 500"/><path d="M-50 680C220 540 420 780 680 600S1020 470 1250 590"/><path d="M-50 520C180 380 380 620 640 440S980 300 1250 420"/></svg></div>
-<header class="top"><div class="wrap"><a class="brand" href="/{lang}/" aria-label="{brand}"><img src="/assets/logo-header.png" alt="{brand}" width="130" height="40"></a>{menu}<nav aria-label="Language"><details class="langsel"><summary>{curflag} {curcode}</summary><ul class="langs">{switch}</ul></details></nav></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="/{lang}/" aria-label="{brand}"><img src="/assets/logo-header.png" alt="{brand}" width="130" height="40"></a>{menu}<nav aria-label="Language"><details class="langsel"><summary>{curflag} {curcode}</summary><ul class="langs">{switch}</ul></details></nav><button type="button" class="burger" aria-label="Menu" aria-controls="mainmenu" aria-expanded="false"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div></header>
 <main>
 {body}
 </main>
@@ -251,8 +251,11 @@ def nav_html(lang):
     items.append(("/%s/#results" % lang, n["results"]))
     items.append(("/%s/%s/" % (lang, GUIDES_SLUG[lang]), n["guides"]))
     items.append((wa_link(lang, lang + "/nav"), n["contact"]))
-    return '<nav class="menu" aria-label="Menu"><ul>%s</ul></nav>' % "".join(
-        '<li><a href="%s">%s</a></li>' % (E(h), E(t)) for h, t in items)
+    lis = "".join('<li%s><a href="%s">%s</a></li>' % (' class="mcta"' if i == len(items) - 1 else "", E(h), E(t))
+                  for i, (h, t) in enumerate(items))
+    head = ('<div class="mhead"><img src="/assets/logo-header.png" alt="" width="130" height="40">'
+            '<button type="button" class="mclose" aria-label="Close"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>')
+    return '<nav class="menu" id="mainmenu" aria-label="Menu">%s<ul>%s</ul></nav>' % (head, lis)
 
 
 def breadcrumb_ld(lang, crumbs):

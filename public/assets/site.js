@@ -115,3 +115,21 @@
     imgs.forEach(function(i){ i.addEventListener("click", function(){ big.src = i.currentSrc || i.src; big.alt = i.alt; dlg.showModal(); }); });
   }
 })();
+
+/* mobile menu */
+(function () {
+  var b = document.querySelector(".burger"), m = document.getElementById("mainmenu");
+  if (!b || !m) return;
+  function set(o) {
+    m.classList.toggle("open", o);
+    b.setAttribute("aria-expanded", o ? "true" : "false");
+    document.documentElement.style.overflow = o ? "hidden" : "";
+  }
+  b.addEventListener("click", function () { set(!m.classList.contains("open")); });
+  m.querySelector(".mclose").addEventListener("click", function () { set(false); });
+  m.addEventListener("click", function (e) { if (e.target.closest("a")) set(false); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") set(false); });
+  document.addEventListener("click", function (e) {
+    if (m.classList.contains("open") && !m.contains(e.target) && !b.contains(e.target)) set(false);
+  });
+})();

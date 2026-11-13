@@ -312,3 +312,23 @@ section.trust{background:linear-gradient(180deg,color-mix(in srgb,var(--tint) 70
 .hero{background:#0c1f24}
 .hero::selection{background:transparent}
 .herobg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,22,27,.9) 0,rgba(8,22,27,.62) 42%,rgba(8,22,27,.22) 100%)}
+
+/* mobile menu panel */
+.burger,.mhead{display:none}
+@media (max-width:979px){
+  header.top{-webkit-backdrop-filter:none;backdrop-filter:none;background:var(--hero)}
+  header.top .wrap{flex-wrap:nowrap;align-items:center}
+  header.top nav[aria-label=Language]{margin-inline-start:auto}
+  .burger{display:grid;place-items:center;width:46px;height:46px;border:1px solid rgba(255,255,255,.28);border-radius:12px;background:transparent;color:var(--hero-ink);cursor:pointer}
+  .menu{position:fixed;inset-block:0;inset-inline-end:0;width:min(92vw,520px);z-index:200;background:#102a3a;box-shadow:0 0 0 100vmax rgba(0,0,0,.55);padding:20px 24px max(24px,env(safe-area-inset-bottom));overflow-y:auto;transform:translateX(105%);visibility:hidden;transition:transform .3s cubic-bezier(.2,.7,.2,1),visibility 0s .3s;margin:0;flex:none;order:0}
+  [dir=rtl] .menu{transform:translateX(-105%)}
+  .menu.open{transform:none;visibility:visible;transition:transform .3s cubic-bezier(.2,.7,.2,1)}
+  .mhead{display:flex;align-items:center;justify-content:space-between;padding-bottom:18px;border-bottom:1px solid rgba(255,255,255,.18)}
+  .mclose{display:grid;place-items:center;width:46px;height:46px;border:1px solid rgba(255,255,255,.28);border-radius:12px;background:transparent;color:#fff;cursor:pointer}
+  .menu ul{display:block}
+  .menu li{border-bottom:1px solid rgba(255,255,255,.18)}
+  .menu a{padding:20px 0;font-size:22px;font-weight:500;opacity:1;border:0}
+  .menu li.mcta{border:0;margin-top:26px}
+  .menu li.mcta a{background:#f47b2a;color:#fff;border-radius:14px;padding:17px 20px;font-size:19px;font-weight:600;text-align:center}
+}
+@media (max-width:979px) and (prefers-reduced-motion:reduce){.menu{transition:none}}
