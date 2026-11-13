@@ -9,6 +9,10 @@ No database, no server. `python3 build.py` turns `content/` and `site.json` into
 
 - `site.json`: brand, site URL, WhatsApp number, language list, all UI texts per language
 - `content/articles/<id>.md`: one file per article, all six languages in one file
+- `content/pages/<id>.md`: fixed pages (treatments, process), same format as articles
+- `content/home.json`: home page, menu and chart texts per language (no invented numbers)
+- `assets/site.js`: reveal animation, Norwood selector (builds the WhatsApp message), results lightbox
+- `assets/results/`: patient before/after photos supplied by the clinic (patients consented). The weekly task never adds or changes photos
 - `content/keywords.csv`: keyword plan and status (the source of truth for what to write next)
 - `assets/style.css`: the only stylesheet
 - `build.py`: generator. Never edit `public/` by hand.
@@ -56,7 +60,7 @@ Every language block needs slug, title and description. Body supports `##`, `###
 - Do not name or criticise competitor clinics.
 - Cite real, linkable sources in a Sources section (medical societies, health authorities, peer-reviewed work). Check that each link exists.
 - Each article: short key takeaways first, clear headings, a three-question FAQ, one honest "what to ask a clinic" or "warning signs" section.
-- Turkish regulations restrict health advertising and before/after images. Do not add patient photos, testimonials or discount offers.
+- Turkish regulations restrict health advertising. The clinic decided to show consented before/after photos on the home page. Do not add testimonials, discount offers or prices, and do not add or change photos in the weekly task.
 - Arabic and Russian texts must be natural. Mark anything uncertain in the commit message for human review.
 
 ## Placeholders to replace before launch
