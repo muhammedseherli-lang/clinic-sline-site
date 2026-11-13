@@ -28,6 +28,22 @@
     });
   });
 
+  // Lead form -> WhatsApp message (nothing is stored)
+  var lf = document.getElementById("lead-form");
+  if (lf) {
+    var ld = JSON.parse(document.getElementById("lead-data").textContent);
+    lf.addEventListener("submit", function(e){
+      e.preventDefault();
+      var f = lf.elements, ok = true;
+      ["n","p"].forEach(function(k){ var bad = !f[k].value.trim(); f[k].classList.toggle("bad", bad); if (bad) ok = false; });
+      if (!ok) return;
+      var body = ld.msg.replace("{c}", f.c.value).replace("{g}", f.g.value).replace("{n}", f.n.value.trim())
+        .replace("{p}", f.cc.value + " " + f.p.value.trim()).replace("{l}", f.l.value);
+      var url = ld.wa + encodeURIComponent(ld.hello + "\n" + body + "\n" + ld.tag);
+      window.open(url, "_blank", "noopener") || (location.href = url);
+    });
+  }
+
   // Norwood selector -> WhatsApp message
   var dataEl = document.getElementById("nor-data");
   if (dataEl) {

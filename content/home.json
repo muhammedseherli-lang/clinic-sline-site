@@ -1,188 +1,842 @@
 {
-"en": {
- "nav": {"treatments": "Treatments", "process": "How it works", "results": "Results", "guides": "Guides", "contact": "Contact"},
- "eyebrow": "Clinic in Istanbul · Doctor-reviewed plans",
- "cta2": "See how it works",
- "chips": ["A licensed doctor confirms every plan", "Fixed price given in writing", "Aftercare and photo reviews"],
- "treat_title": "Treatments",
- "treat": [["Sapphire FUE", "Follicles taken one by one and placed in channels opened with sapphire blades."], ["DHI", "Grafts placed directly with a pen-like implanter."], ["Beard and eyebrows", "The same principle for thin or missing beard and eyebrow hair."]],
- "treat_more": "Compare the methods",
- "nor_title": "Where are you on the Norwood scale?",
- "nor_intro": "The Norwood scale describes male pattern hair loss in seven stages. Tap the one closest to yours.",
- "nor_stage": "Stage {n}",
- "nor_desc": ["No significant recession.", "Slight recession at the temples.", "Clear recession at the temples.", "Deeper recession at the front and thinning at the crown, with a band of hair between them.", "Larger front and crown areas, with a narrower band between them.", "Front and crown areas merge. Hair remains at the sides and back.", "Only a horseshoe band of hair remains at the sides and back."],
- "nor_note": "This is a self-check, not a diagnosis. A doctor assesses your donor area, hair quality and how stable your hair loss is.",
- "nor_interest": "I am interested in",
- "interests": ["Hair", "Beard", "Eyebrows"],
- "nor_cta": "Send photos for stage {n}",
- "wa_finder": "Hello, I would like a free hair consultation. Norwood stage: {stage}. Interest: {interest}.",
- "tl_title": "Recovery timeline",
- "tl_intro": "What most patients can expect after a hair transplant, from the first days to month 12.",
- "tl_axis": "Visible density",
- "tl_phases": [["Days 1 to 14", "Redness and small scabs settle"], ["Weeks 2 to 4", "Transplanted hairs shed"], ["Months 3 to 6", "New hair starts to grow"], ["Months 6 to 12", "Hair thickens"], ["About 12 months", "Final result"]],
- "tl_note": "Illustrative curve, not a measurement. Timing and results vary between patients.",
- "local_title": "Living in Turkey?",
- "local_text": "You can start with photos too. Send them on WhatsApp, ask your questions in your own language and arrange a consultation in Istanbul when you are ready.",
- "local_cta": "Write on WhatsApp",
- "guides_title": "Hair transplant guides",
- "guides_intro": "Clear, source-based answers to the questions patients ask before they choose a clinic.",
- "contact_title": "Talk to us",
- "contact_text": "Send three photos and a short message. A doctor-reviewed plan follows.",
- "faq": [["Which photos should I send?", "Front, top, back and both sides of your head, in daylight and without a hat."], ["Do I need to travel before I get a plan?", "No. You can start with photos on WhatsApp. The doctor confirms the final plan."], ["When will I see the result?", "Hairs usually shed in the first weeks and regrow. Most patients see a clear result at around 6 months and the final result at around 12 months."], ["Am I a suitable candidate?", "It depends on your donor area, hair quality and how stable your hair loss is. A doctor checks this on your photos."]]
-},
-"tr": {
- "nav": {"treatments": "Tedaviler", "process": "Nasıl çalışır", "results": "Sonuçlar", "guides": "Rehberler", "contact": "İletişim"},
- "eyebrow": "İstanbul'da klinik · Doktor onaylı planlar",
- "cta2": "Nasıl çalıştığını gör",
- "chips": ["Her planı lisanslı bir doktor onaylar", "Fiyat yazılı olarak verilir", "Bakım ve fotoğrafla kontrol"],
- "treat_title": "Tedaviler",
- "treat": [["Safir FUE", "Kökler tek tek alınır ve safir bıçaklarla açılan kanallara yerleştirilir."], ["DHI", "Greftler kalem benzeri bir implanterle doğrudan yerleştirilir."], ["Sakal ve kaş", "Seyrek ya da eksik sakal ve kaş için aynı prensip."]],
- "treat_more": "Yöntemleri karşılaştır",
- "nor_title": "Norwood skalasında neredesiniz?",
- "nor_intro": "Norwood skalası erkek tipi saç kaybını yedi evrede anlatır. Size en yakın olana dokunun.",
- "nor_stage": "{n}. evre",
- "nor_desc": ["Belirgin bir geri çekilme yok.", "Şakaklarda hafif geri çekilme.", "Şakaklarda belirgin geri çekilme.", "Önde daha derin geri çekilme, tepede seyrelme ve ikisinin arasında bir saç bandı.", "Ön ve tepe bölgeleri daha geniş, aradaki bant daha dar.", "Ön ve tepe bölgeleri birleşir. Saç yanlarda ve arkada kalır.", "Yanlarda ve arkada yalnızca at nalı şeklinde bir saç bandı kalır."],
- "nor_note": "Bu bir ön değerlendirmedir, teşhis değildir. Doktor verici bölgenizi, saç kalitenizi ve saç kaybınızın ne kadar durağan olduğunu inceler.",
- "nor_interest": "İlgilendiğim alan",
- "interests": ["Saç", "Sakal", "Kaş"],
- "nor_cta": "{n}. evre için fotoğraf gönder",
- "wa_finder": "Merhaba, ücretsiz saç danışmanlığı almak istiyorum. Norwood evresi: {stage}. İlgilendiğim alan: {interest}.",
- "tl_title": "İyileşme takvimi",
- "tl_intro": "Saç ekiminden sonra çoğu hastanın ilk günlerden 12. aya kadar neler yaşadığı.",
- "tl_axis": "Görünür yoğunluk",
- "tl_phases": [["1-14. günler", "Kızarıklık ve küçük kabuklar geçer"], ["2-4. haftalar", "Ekilen saçlar dökülür"], ["3-6. aylar", "Yeni saç çıkmaya başlar"], ["6-12. aylar", "Saç kalınlaşır"], ["Yaklaşık 12. ay", "Nihai sonuç"]],
- "tl_note": "Örnekleyici eğridir, ölçüm değildir. Süreler ve sonuçlar hastadan hastaya değişir.",
- "local_title": "Türkiye'de mi yaşıyorsunuz?",
- "local_text": "Siz de fotoğraflarla başlayabilirsiniz. WhatsApp'tan gönderin, sorularınızı kendi dilinizde sorun ve hazır olduğunuzda İstanbul'da muayene planlayın.",
- "local_cta": "WhatsApp'tan yaz",
- "guides_title": "Saç ekimi rehberleri",
- "guides_intro": "Hastaların klinik seçmeden önce sorduğu sorulara net, kaynaklı cevaplar.",
- "contact_title": "Bizimle konuşun",
- "contact_text": "Üç fotoğraf ve kısa bir mesaj gönderin. Doktor onaylı plan size ulaşır.",
- "faq": [["Hangi fotoğrafları göndermeliyim?", "Baş önden, üstten, arkadan ve iki yandan, gün ışığında ve şapkasız."], ["Plan almadan önce seyahat etmem gerekir mi?", "Hayır. WhatsApp'tan fotoğraflarla başlayabilirsiniz. Nihai planı doktor onaylar."], ["Sonucu ne zaman görürüm?", "Ekilen saçlar genellikle ilk haftalarda dökülür ve yeniden çıkar. Çoğu hasta yaklaşık 6. ayda belirgin sonucu, yaklaşık 12. ayda nihai sonucu görür."], ["Uygun bir aday mıyım?", "Verici bölgenize, saç kalitenize ve saç kaybınızın ne kadar durağan olduğuna bağlıdır. Doktor bunu fotoğraflarınızdan değerlendirir."]]
-},
-"de": {
- "nav": {"treatments": "Behandlungen", "process": "So funktioniert es", "results": "Ergebnisse", "guides": "Ratgeber", "contact": "Kontakt"},
- "eyebrow": "Klinik in Istanbul · Ärztlich geprüfte Pläne",
- "cta2": "So funktioniert es",
- "chips": ["Jeden Plan bestätigt ein approbierter Arzt", "Fester Preis schriftlich", "Nachsorge und Foto-Kontrollen"],
- "treat_title": "Behandlungen",
- "treat": [["Saphir-FUE", "Haarwurzeln werden einzeln entnommen und in Kanäle gesetzt, die mit Saphirklingen geöffnet werden."], ["DHI", "Die Grafts werden mit einem stiftartigen Implanter direkt gesetzt."], ["Bart und Augenbrauen", "Dasselbe Prinzip bei dünnem oder fehlendem Bart und Augenbrauenhaar."]],
- "treat_more": "Methoden vergleichen",
- "nor_title": "Wo stehen Sie auf der Norwood-Skala?",
- "nor_intro": "Die Norwood-Skala beschreibt den männlichen Haarausfall in sieben Stadien. Tippen Sie auf das, das Ihrem am nächsten kommt.",
- "nor_stage": "Stadium {n}",
- "nor_desc": ["Kein nennenswerter Haarrückgang.", "Leichte Geheimratsecken.", "Deutliche Geheimratsecken.", "Tiefere Geheimratsecken und lichtes Haar am Hinterkopf, dazwischen ein Haarband.", "Größere Bereiche vorn und am Hinterkopf, das Band dazwischen ist schmaler.", "Die Bereiche vorn und am Hinterkopf gehen ineinander über. Haar bleibt an den Seiten und hinten.", "Nur ein hufeisenförmiges Haarband an den Seiten und hinten bleibt."],
- "nor_note": "Das ist eine Selbsteinschätzung, keine Diagnose. Der Arzt beurteilt Ihren Spenderbereich, Ihre Haarqualität und wie stabil Ihr Haarausfall ist.",
- "nor_interest": "Ich interessiere mich für",
- "interests": ["Haare", "Bart", "Augenbrauen"],
- "nor_cta": "Fotos für Stadium {n} senden",
- "wa_finder": "Guten Tag, ich möchte eine kostenlose Haarberatung. Norwood-Stadium: {stage}. Interesse: {interest}.",
- "tl_title": "Heilungsverlauf",
- "tl_intro": "Was die meisten Patienten nach einer Haartransplantation erwarten können, von den ersten Tagen bis zum 12. Monat.",
- "tl_axis": "Sichtbare Dichte",
- "tl_phases": [["Tag 1 bis 14", "Rötung und kleine Krusten klingen ab"], ["Woche 2 bis 4", "Die verpflanzten Haare fallen aus"], ["Monat 3 bis 6", "Neues Haar beginnt zu wachsen"], ["Monat 6 bis 12", "Das Haar wird dichter"], ["Etwa 12 Monate", "Endergebnis"]],
- "tl_note": "Veranschaulichende Kurve, keine Messung. Zeitpunkt und Ergebnis sind von Patient zu Patient verschieden.",
- "local_title": "Sie leben in der Türkei?",
- "local_text": "Sie können ebenfalls mit Fotos beginnen. Senden Sie sie per WhatsApp, stellen Sie Ihre Fragen in Ihrer Sprache und vereinbaren Sie in Istanbul eine Beratung, wenn Sie bereit sind.",
- "local_cta": "Per WhatsApp schreiben",
- "guides_title": "Ratgeber zur Haartransplantation",
- "guides_intro": "Klare Antworten mit Quellen auf die Fragen, die Patienten vor der Wahl einer Klinik stellen.",
- "contact_title": "Sprechen Sie mit uns",
- "contact_text": "Senden Sie drei Fotos und eine kurze Nachricht. Danach erhalten Sie einen ärztlich geprüften Plan.",
- "faq": [["Welche Fotos soll ich senden?", "Vorderansicht, Oberseite, Hinterkopf und beide Seiten, bei Tageslicht und ohne Mütze."], ["Muss ich vor dem Plan anreisen?", "Nein. Sie können mit Fotos über WhatsApp beginnen. Der Arzt bestätigt den endgültigen Plan."], ["Wann sehe ich das Ergebnis?", "Die verpflanzten Haare fallen meist in den ersten Wochen aus und wachsen nach. Die meisten Patienten sehen nach etwa 6 Monaten ein deutliches und nach etwa 12 Monaten das endgültige Ergebnis."], ["Bin ich ein geeigneter Kandidat?", "Das hängt von Spenderbereich, Haarqualität und der Stabilität Ihres Haarausfalls ab. Ein Arzt prüft das anhand Ihrer Fotos."]]
-},
-"fr": {
- "nav": {"treatments": "Traitements", "process": "Comment ça marche", "results": "Résultats", "guides": "Guides", "contact": "Contact"},
- "eyebrow": "Clinique à Istanbul · Plans validés par un médecin",
- "cta2": "Voir comment ça marche",
- "chips": ["Un médecin agréé confirme chaque plan", "Prix fixe donné par écrit", "Suivi et contrôles par photos"],
- "treat_title": "Traitements",
- "treat": [["FUE saphir", "Les follicules sont prélevés un à un et placés dans des canaux ouverts avec des lames en saphir."], ["DHI", "Les greffons sont placés directement avec un stylo implanteur."], ["Barbe et sourcils", "Le même principe pour une barbe ou des sourcils clairsemés ou absents."]],
- "treat_more": "Comparer les méthodes",
- "nor_title": "Où vous situez-vous sur l'échelle de Norwood ?",
- "nor_intro": "L'échelle de Norwood décrit la calvitie masculine en sept stades. Touchez celui qui se rapproche le plus du vôtre.",
- "nor_stage": "Stade {n}",
- "nor_desc": ["Pas de recul notable.", "Léger recul aux tempes.", "Recul net aux tempes.", "Recul plus profond à l'avant et éclaircie au sommet, avec une bande de cheveux entre les deux.", "Zones avant et sommet plus larges, avec une bande plus étroite entre elles.", "Les zones avant et sommet se rejoignent. Il reste des cheveux sur les côtés et à l'arrière.", "Il ne reste qu'une bande de cheveux en fer à cheval sur les côtés et à l'arrière."],
- "nor_note": "Ceci est une auto-évaluation, pas un diagnostic. Le médecin évalue votre zone donneuse, la qualité de vos cheveux et la stabilité de votre chute.",
- "nor_interest": "Je m'intéresse à",
- "interests": ["Cheveux", "Barbe", "Sourcils"],
- "nor_cta": "Envoyer mes photos (stade {n})",
- "wa_finder": "Bonjour, je souhaite une consultation gratuite pour mes cheveux. Stade de Norwood : {stage}. Intérêt : {interest}.",
- "tl_title": "Calendrier de récupération",
- "tl_intro": "À quoi s'attendre après une greffe de cheveux, des premiers jours jusqu'au 12e mois.",
- "tl_axis": "Densité visible",
- "tl_phases": [["Jours 1 à 14", "Les rougeurs et les petites croûtes disparaissent"], ["Semaines 2 à 4", "Les cheveux greffés tombent"], ["Mois 3 à 6", "De nouveaux cheveux commencent à pousser"], ["Mois 6 à 12", "Les cheveux s'épaississent"], ["Environ 12 mois", "Résultat final"]],
- "tl_note": "Courbe illustrative, pas une mesure. Le calendrier et les résultats varient d'un patient à l'autre.",
- "local_title": "Vous vivez en Turquie ?",
- "local_text": "Vous pouvez aussi commencer par des photos. Envoyez-les sur WhatsApp, posez vos questions dans votre langue et organisez une consultation à Istanbul quand vous serez prêt.",
- "local_cta": "Écrire sur WhatsApp",
- "guides_title": "Guides sur la greffe de cheveux",
- "guides_intro": "Des réponses claires et sourcées aux questions que se posent les patients avant de choisir une clinique.",
- "contact_title": "Parlons-en",
- "contact_text": "Envoyez trois photos et un court message. Un plan validé par un médecin vous est ensuite adressé.",
- "faq": [["Quelles photos dois-je envoyer ?", "Face, dessus, arrière et les deux côtés de la tête, à la lumière du jour et sans casquette."], ["Dois-je voyager avant d'obtenir un plan ?", "Non. Vous pouvez commencer par des photos sur WhatsApp. Le médecin confirme le plan définitif."], ["Quand verrai-je le résultat ?", "Les cheveux greffés tombent en général dans les premières semaines puis repoussent. La plupart des patients voient un résultat net vers 6 mois et le résultat final vers 12 mois."], ["Suis-je un bon candidat ?", "Cela dépend de la zone donneuse, de la qualité des cheveux et de la stabilité de la chute. Un médecin le vérifie sur vos photos."]]
-},
-"ar": {
- "nav": {"treatments": "العلاجات", "process": "كيف نعمل", "results": "النتائج", "guides": "أدلة", "contact": "تواصل معنا"},
- "eyebrow": "عيادة في إسطنبول · خطط يراجعها طبيب",
- "cta2": "تعرّف على آلية العمل",
- "chips": ["طبيب مرخّص يؤكد كل خطة", "سعر ثابت مكتوب", "متابعة ومراجعات بالصور"],
- "treat_title": "العلاجات",
- "treat": [["FUE بالياقوت", "تُؤخذ البصيلات واحدة واحدة وتوضع في قنوات تُفتح بشفرات الياقوت."], ["DHI", "تُوضع البصيلات مباشرة بأداة تشبه القلم."], ["اللحية والحاجبان", "المبدأ نفسه للحية أو الحاجبين الخفيفين أو الغائبين."]],
- "treat_more": "قارن بين الطرق",
- "nor_title": "أين أنت على مقياس نوروود؟",
- "nor_intro": "يصف مقياس نوروود الصلع الوراثي عند الرجال في سبع مراحل. اضغط على المرحلة الأقرب إلى حالتك.",
- "nor_stage": "المرحلة {n}",
- "nor_desc": ["لا تراجع ملحوظ في خط الشعر.", "تراجع طفيف عند الصدغين.", "تراجع واضح عند الصدغين.", "تراجع أعمق في المقدمة وخفة في الشعر عند التاج، مع شريط من الشعر بينهما.", "منطقتا المقدمة والتاج أكبر، والشريط بينهما أضيق.", "تلتقي منطقتا المقدمة والتاج، ويبقى الشعر على الجانبين والخلف.", "لا يبقى إلا شريط من الشعر على شكل حدوة حصان على الجانبين والخلف."],
- "nor_note": "هذا تقييم ذاتي وليس تشخيصًا. يقيّم الطبيب منطقتك المانحة وجودة شعرك ومدى استقرار تساقطه.",
- "nor_interest": "أرغب في",
- "interests": ["الشعر", "اللحية", "الحاجبين"],
- "nor_cta": "أرسل صورك للمرحلة {n}",
- "wa_finder": "مرحبًا، أرغب في استشارة مجانية بخصوص الشعر. مرحلة نوروود: {stage}. المطلوب: {interest}.",
- "tl_title": "الجدول الزمني للتعافي",
- "tl_intro": "ما يمكن أن يتوقعه معظم المرضى بعد زراعة الشعر، من الأيام الأولى حتى الشهر 12.",
- "tl_axis": "الكثافة الظاهرة",
- "tl_phases": [["الأيام 1 إلى 14", "يزول الاحمرار والقشور الصغيرة"], ["الأسابيع 2 إلى 4", "يتساقط الشعر المزروع"], ["الأشهر 3 إلى 6", "يبدأ نمو شعر جديد"], ["الأشهر 6 إلى 12", "يزداد الشعر كثافة"], ["نحو 12 شهرًا", "النتيجة النهائية"]],
- "tl_note": "منحنى توضيحي وليس قياسًا. يختلف التوقيت والنتائج من مريض إلى آخر.",
- "local_title": "هل تقيم في تركيا؟",
- "local_text": "يمكنك أيضًا البدء بإرسال الصور. أرسلها عبر واتساب، واطرح أسئلتك بلغتك، واحجز استشارة في إسطنبول عندما تكون مستعدًا.",
- "local_cta": "راسلنا على واتساب",
- "guides_title": "أدلة زراعة الشعر",
- "guides_intro": "إجابات واضحة ومدعومة بالمصادر عن الأسئلة التي يطرحها المرضى قبل اختيار العيادة.",
- "contact_title": "تحدّث معنا",
- "contact_text": "أرسل ثلاث صور ورسالة قصيرة، وستصلك خطة يراجعها طبيب.",
- "faq": [["ما الصور التي يجب أن أرسلها؟", "من الأمام ومن الأعلى ومن الخلف ومن الجانبين، في ضوء النهار وبدون قبعة."], ["هل أحتاج إلى السفر قبل الحصول على الخطة؟", "لا. يمكنك البدء بإرسال الصور عبر واتساب، ويؤكد الطبيب الخطة النهائية."], ["متى سأرى النتيجة؟", "يتساقط الشعر المزروع عادة في الأسابيع الأولى ثم ينمو من جديد. يرى معظم المرضى نتيجة واضحة بعد نحو 6 أشهر، والنتيجة النهائية بعد نحو 12 شهرًا."], ["هل أنا مرشح مناسب؟", "يعتمد ذلك على المنطقة المانحة وجودة الشعر ومدى استقرار التساقط، ويتحقق الطبيب من ذلك عبر صورك."]]
-},
-"ru": {
- "nav": {"treatments": "Методы", "process": "Как это работает", "results": "Результаты", "guides": "Статьи", "contact": "Контакты"},
- "eyebrow": "Клиника в Стамбуле · Планы, проверенные врачом",
- "cta2": "Как это работает",
- "chips": ["Каждый план подтверждает лицензированный врач", "Фиксированная цена в письменном виде", "Наблюдение и контроль по фото"],
- "treat_title": "Методы",
- "treat": [["Сапфировая FUE", "Фолликулы берут по одному и помещают в каналы, вскрытые сапфировыми лезвиями."], ["DHI", "Графты помещают прямо в кожу специальным имплантером в виде ручки."], ["Борода и брови", "Тот же принцип для редкой или отсутствующей бороды и бровей."]],
- "treat_more": "Сравнить методы",
- "nor_title": "Какая у вас стадия по шкале Норвуда?",
- "nor_intro": "Шкала Норвуда описывает мужское облысение в семи стадиях. Выберите ту, что ближе всего к вашей.",
- "nor_stage": "Стадия {n}",
- "nor_desc": ["Заметного отступления линии роста нет.", "Небольшие залысины на висках.", "Выраженные залысины на висках.", "Более глубокие залысины спереди и поредение на макушке, между ними полоса волос.", "Передняя зона и макушка больше, полоса между ними уже.", "Передняя зона и макушка сливаются. Волосы остаются по бокам и сзади.", "Остаётся только полоса волос в форме подковы по бокам и сзади."],
- "nor_note": "Это самопроверка, а не диагноз. Врач оценивает донорскую зону, качество волос и стабильность выпадения.",
- "nor_interest": "Меня интересует",
- "interests": ["Волосы", "Борода", "Брови"],
- "nor_cta": "Отправить фото (стадия {n})",
- "wa_finder": "Здравствуйте, хочу получить бесплатную консультацию по волосам. Стадия по Норвуду: {stage}. Интерес: {interest}.",
- "tl_title": "Как проходит восстановление",
- "tl_intro": "Чего может ожидать большинство пациентов после пересадки волос, от первых дней до 12-го месяца.",
- "tl_axis": "Видимая густота",
- "tl_phases": [["Дни 1-14", "Покраснение и небольшие корочки проходят"], ["Недели 2-4", "Пересаженные волосы выпадают"], ["Месяцы 3-6", "Начинают расти новые волосы"], ["Месяцы 6-12", "Волосы становятся гуще"], ["Около 12 месяцев", "Окончательный результат"]],
- "tl_note": "Иллюстративная кривая, а не измерение. Сроки и результат у разных пациентов различаются.",
- "local_title": "Живёте в Турции?",
- "local_text": "Начать можно и с фото. Отправьте их в WhatsApp, задайте вопросы на своём языке и запишитесь на консультацию в Стамбуле, когда будете готовы.",
- "local_cta": "Написать в WhatsApp",
- "guides_title": "Статьи о пересадке волос",
- "guides_intro": "Понятные ответы с источниками на вопросы, которые пациенты задают до выбора клиники.",
- "contact_title": "Свяжитесь с нами",
- "contact_text": "Отправьте три фото и короткое сообщение. Затем вы получите план, проверенный врачом.",
- "faq": [["Какие фото нужно отправить?", "Спереди, сверху, сзади и с обеих сторон головы, при дневном свете и без головного убора."], ["Нужно ли приезжать до получения плана?", "Нет. Можно начать с фото в WhatsApp. Окончательный план подтверждает врач."], ["Когда я увижу результат?", "Пересаженные волосы обычно выпадают в первые недели и затем отрастают. Большинство пациентов видят заметный результат примерно через 6 месяцев, окончательный примерно через 12 месяцев."], ["Подхожу ли я для операции?", "Это зависит от донорской зоны, качества волос и стабильности выпадения. Врач проверяет это по вашим фото."]]
-}
+  "en": {
+    "nav": {
+      "treatments": "Treatments",
+      "process": "How it works",
+      "results": "Results",
+      "guides": "Guides",
+      "contact": "Contact"
+    },
+    "eyebrow": "Clinic in Istanbul · Doctor-reviewed plans",
+    "cta2": "See how it works",
+    "chips": [
+      "A licensed doctor confirms every plan",
+      "Fixed price given in writing",
+      "Aftercare and photo reviews"
+    ],
+    "treat_title": "Treatments",
+    "treat": [
+      [
+        "Sapphire FUE",
+        "Follicles taken one by one and placed in channels opened with sapphire blades."
+      ],
+      [
+        "DHI",
+        "Grafts placed directly with a pen-like implanter."
+      ],
+      [
+        "Beard and eyebrows",
+        "The same principle for thin or missing beard and eyebrow hair."
+      ]
+    ],
+    "treat_more": "Compare the methods",
+    "nor_title": "Where are you on the Norwood scale?",
+    "nor_intro": "The Norwood scale describes male pattern hair loss in seven stages. Tap the one closest to yours.",
+    "nor_stage": "Stage {n}",
+    "nor_desc": [
+      "No significant recession.",
+      "Slight recession at the temples.",
+      "Clear recession at the temples.",
+      "Deeper recession at the front and thinning at the crown, with a band of hair between them.",
+      "Larger front and crown areas, with a narrower band between them.",
+      "Front and crown areas merge. Hair remains at the sides and back.",
+      "Only a horseshoe band of hair remains at the sides and back."
+    ],
+    "nor_note": "This is a self-check, not a diagnosis. A doctor assesses your donor area, hair quality and how stable your hair loss is.",
+    "nor_interest": "I am interested in",
+    "interests": [
+      "Hair",
+      "Beard",
+      "Eyebrows"
+    ],
+    "nor_cta": "Send photos for stage {n}",
+    "wa_finder": "Hello, I would like a free hair consultation. Norwood stage: {stage}. Interest: {interest}.",
+    "tl_title": "Recovery timeline",
+    "tl_intro": "What most patients can expect after a hair transplant, from the first days to month 12.",
+    "tl_axis": "Visible density",
+    "tl_phases": [
+      [
+        "Days 1 to 14",
+        "Redness and small scabs settle"
+      ],
+      [
+        "Weeks 2 to 4",
+        "Transplanted hairs shed"
+      ],
+      [
+        "Months 3 to 6",
+        "New hair starts to grow"
+      ],
+      [
+        "Months 6 to 12",
+        "Hair thickens"
+      ],
+      [
+        "About 12 months",
+        "Final result"
+      ]
+    ],
+    "tl_note": "Illustrative curve, not a measurement. Timing and results vary between patients.",
+    "local_title": "Living in Turkey?",
+    "local_text": "You can start with photos too. Send them on WhatsApp, ask your questions in your own language and arrange a consultation in Istanbul when you are ready.",
+    "local_cta": "Write on WhatsApp",
+    "guides_title": "Hair transplant guides",
+    "guides_intro": "Clear, source-based answers to the questions patients ask before they choose a clinic.",
+    "contact_title": "Talk to us",
+    "contact_text": "Send three photos and a short message. A doctor-reviewed plan follows.",
+    "faq": [
+      [
+        "Which photos should I send?",
+        "Front, top, back and both sides of your head, in daylight and without a hat."
+      ],
+      [
+        "Do I need to travel before I get a plan?",
+        "No. You can start with photos on WhatsApp. The doctor confirms the final plan."
+      ],
+      [
+        "When will I see the result?",
+        "Hairs usually shed in the first weeks and regrow. Most patients see a clear result at around 6 months and the final result at around 12 months."
+      ],
+      [
+        "Am I a suitable candidate?",
+        "It depends on your donor area, hair quality and how stable your hair loss is. A doctor checks this on your photos."
+      ]
+    ],
+    "form": {
+      "title": "Get a free hair consultation",
+      "sub": "Your details go into a WhatsApp message to our team.",
+      "country": "Where I live",
+      "gender": "Gender",
+      "g": [
+        "Male",
+        "Female"
+      ],
+      "name": "Full name",
+      "phone": "Phone",
+      "lang": "Language",
+      "submit": "Continue on WhatsApp",
+      "note": "Nothing is stored on this site. The details only fill your WhatsApp message.",
+      "countries": [
+        "Türkiye",
+        "Germany",
+        "United Kingdom",
+        "France",
+        "Netherlands",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "Russia",
+        "United States",
+        "Other"
+      ],
+      "langs": [
+        "English",
+        "Turkish",
+        "German",
+        "French",
+        "Arabic",
+        "Russian"
+      ],
+      "msg": "Country: {c}\nGender: {g}\nName: {n}\nPhone: {p}\nLanguage: {l}"
+    }
+  },
+  "tr": {
+    "nav": {
+      "treatments": "Tedaviler",
+      "process": "Nasıl çalışır",
+      "results": "Sonuçlar",
+      "guides": "Rehberler",
+      "contact": "İletişim"
+    },
+    "eyebrow": "İstanbul'da klinik · Doktor onaylı planlar",
+    "cta2": "Nasıl çalıştığını gör",
+    "chips": [
+      "Her planı lisanslı bir doktor onaylar",
+      "Fiyat yazılı olarak verilir",
+      "Bakım ve fotoğrafla kontrol"
+    ],
+    "treat_title": "Tedaviler",
+    "treat": [
+      [
+        "Safir FUE",
+        "Kökler tek tek alınır ve safir bıçaklarla açılan kanallara yerleştirilir."
+      ],
+      [
+        "DHI",
+        "Greftler kalem benzeri bir implanterle doğrudan yerleştirilir."
+      ],
+      [
+        "Sakal ve kaş",
+        "Seyrek ya da eksik sakal ve kaş için aynı prensip."
+      ]
+    ],
+    "treat_more": "Yöntemleri karşılaştır",
+    "nor_title": "Norwood skalasında neredesiniz?",
+    "nor_intro": "Norwood skalası erkek tipi saç kaybını yedi evrede anlatır. Size en yakın olana dokunun.",
+    "nor_stage": "{n}. evre",
+    "nor_desc": [
+      "Belirgin bir geri çekilme yok.",
+      "Şakaklarda hafif geri çekilme.",
+      "Şakaklarda belirgin geri çekilme.",
+      "Önde daha derin geri çekilme, tepede seyrelme ve ikisinin arasında bir saç bandı.",
+      "Ön ve tepe bölgeleri daha geniş, aradaki bant daha dar.",
+      "Ön ve tepe bölgeleri birleşir. Saç yanlarda ve arkada kalır.",
+      "Yanlarda ve arkada yalnızca at nalı şeklinde bir saç bandı kalır."
+    ],
+    "nor_note": "Bu bir ön değerlendirmedir, teşhis değildir. Doktor verici bölgenizi, saç kalitenizi ve saç kaybınızın ne kadar durağan olduğunu inceler.",
+    "nor_interest": "İlgilendiğim alan",
+    "interests": [
+      "Saç",
+      "Sakal",
+      "Kaş"
+    ],
+    "nor_cta": "{n}. evre için fotoğraf gönder",
+    "wa_finder": "Merhaba, ücretsiz saç danışmanlığı almak istiyorum. Norwood evresi: {stage}. İlgilendiğim alan: {interest}.",
+    "tl_title": "İyileşme takvimi",
+    "tl_intro": "Saç ekiminden sonra çoğu hastanın ilk günlerden 12. aya kadar neler yaşadığı.",
+    "tl_axis": "Görünür yoğunluk",
+    "tl_phases": [
+      [
+        "1-14. günler",
+        "Kızarıklık ve küçük kabuklar geçer"
+      ],
+      [
+        "2-4. haftalar",
+        "Ekilen saçlar dökülür"
+      ],
+      [
+        "3-6. aylar",
+        "Yeni saç çıkmaya başlar"
+      ],
+      [
+        "6-12. aylar",
+        "Saç kalınlaşır"
+      ],
+      [
+        "Yaklaşık 12. ay",
+        "Nihai sonuç"
+      ]
+    ],
+    "tl_note": "Örnekleyici eğridir, ölçüm değildir. Süreler ve sonuçlar hastadan hastaya değişir.",
+    "local_title": "Türkiye'de mi yaşıyorsunuz?",
+    "local_text": "Siz de fotoğraflarla başlayabilirsiniz. WhatsApp'tan gönderin, sorularınızı kendi dilinizde sorun ve hazır olduğunuzda İstanbul'da muayene planlayın.",
+    "local_cta": "WhatsApp'tan yaz",
+    "guides_title": "Saç ekimi rehberleri",
+    "guides_intro": "Hastaların klinik seçmeden önce sorduğu sorulara net, kaynaklı cevaplar.",
+    "contact_title": "Bizimle konuşun",
+    "contact_text": "Üç fotoğraf ve kısa bir mesaj gönderin. Doktor onaylı plan size ulaşır.",
+    "faq": [
+      [
+        "Hangi fotoğrafları göndermeliyim?",
+        "Baş önden, üstten, arkadan ve iki yandan, gün ışığında ve şapkasız."
+      ],
+      [
+        "Plan almadan önce seyahat etmem gerekir mi?",
+        "Hayır. WhatsApp'tan fotoğraflarla başlayabilirsiniz. Nihai planı doktor onaylar."
+      ],
+      [
+        "Sonucu ne zaman görürüm?",
+        "Ekilen saçlar genellikle ilk haftalarda dökülür ve yeniden çıkar. Çoğu hasta yaklaşık 6. ayda belirgin sonucu, yaklaşık 12. ayda nihai sonucu görür."
+      ],
+      [
+        "Uygun bir aday mıyım?",
+        "Verici bölgenize, saç kalitenize ve saç kaybınızın ne kadar durağan olduğuna bağlıdır. Doktor bunu fotoğraflarınızdan değerlendirir."
+      ]
+    ],
+    "form": {
+      "title": "Ücretsiz saç danışmanlığı alın",
+      "sub": "Bilgileriniz ekibimize giden bir WhatsApp mesajına eklenir.",
+      "country": "Yaşadığım yer",
+      "gender": "Cinsiyet",
+      "g": [
+        "Erkek",
+        "Kadın"
+      ],
+      "name": "Ad soyad",
+      "phone": "Telefon",
+      "lang": "Dil",
+      "submit": "WhatsApp'ta devam et",
+      "note": "Bu sitede hiçbir bilgi saklanmaz. Bilgiler yalnızca WhatsApp mesajınızı doldurur.",
+      "countries": [
+        "Türkiye",
+        "Almanya",
+        "Birleşik Krallık",
+        "Fransa",
+        "Hollanda",
+        "Suudi Arabistan",
+        "Birleşik Arap Emirlikleri",
+        "Rusya",
+        "ABD",
+        "Diğer"
+      ],
+      "langs": [
+        "İngilizce",
+        "Türkçe",
+        "Almanca",
+        "Fransızca",
+        "Arapça",
+        "Rusça"
+      ],
+      "msg": "Ülke: {c}\nCinsiyet: {g}\nAd soyad: {n}\nTelefon: {p}\nDil: {l}"
+    }
+  },
+  "de": {
+    "nav": {
+      "treatments": "Behandlungen",
+      "process": "So funktioniert es",
+      "results": "Ergebnisse",
+      "guides": "Ratgeber",
+      "contact": "Kontakt"
+    },
+    "eyebrow": "Klinik in Istanbul · Ärztlich geprüfte Pläne",
+    "cta2": "So funktioniert es",
+    "chips": [
+      "Jeden Plan bestätigt ein approbierter Arzt",
+      "Fester Preis schriftlich",
+      "Nachsorge und Foto-Kontrollen"
+    ],
+    "treat_title": "Behandlungen",
+    "treat": [
+      [
+        "Saphir-FUE",
+        "Haarwurzeln werden einzeln entnommen und in Kanäle gesetzt, die mit Saphirklingen geöffnet werden."
+      ],
+      [
+        "DHI",
+        "Die Grafts werden mit einem stiftartigen Implanter direkt gesetzt."
+      ],
+      [
+        "Bart und Augenbrauen",
+        "Dasselbe Prinzip bei dünnem oder fehlendem Bart und Augenbrauenhaar."
+      ]
+    ],
+    "treat_more": "Methoden vergleichen",
+    "nor_title": "Wo stehen Sie auf der Norwood-Skala?",
+    "nor_intro": "Die Norwood-Skala beschreibt den männlichen Haarausfall in sieben Stadien. Tippen Sie auf das, das Ihrem am nächsten kommt.",
+    "nor_stage": "Stadium {n}",
+    "nor_desc": [
+      "Kein nennenswerter Haarrückgang.",
+      "Leichte Geheimratsecken.",
+      "Deutliche Geheimratsecken.",
+      "Tiefere Geheimratsecken und lichtes Haar am Hinterkopf, dazwischen ein Haarband.",
+      "Größere Bereiche vorn und am Hinterkopf, das Band dazwischen ist schmaler.",
+      "Die Bereiche vorn und am Hinterkopf gehen ineinander über. Haar bleibt an den Seiten und hinten.",
+      "Nur ein hufeisenförmiges Haarband an den Seiten und hinten bleibt."
+    ],
+    "nor_note": "Das ist eine Selbsteinschätzung, keine Diagnose. Der Arzt beurteilt Ihren Spenderbereich, Ihre Haarqualität und wie stabil Ihr Haarausfall ist.",
+    "nor_interest": "Ich interessiere mich für",
+    "interests": [
+      "Haare",
+      "Bart",
+      "Augenbrauen"
+    ],
+    "nor_cta": "Fotos für Stadium {n} senden",
+    "wa_finder": "Guten Tag, ich möchte eine kostenlose Haarberatung. Norwood-Stadium: {stage}. Interesse: {interest}.",
+    "tl_title": "Heilungsverlauf",
+    "tl_intro": "Was die meisten Patienten nach einer Haartransplantation erwarten können, von den ersten Tagen bis zum 12. Monat.",
+    "tl_axis": "Sichtbare Dichte",
+    "tl_phases": [
+      [
+        "Tag 1 bis 14",
+        "Rötung und kleine Krusten klingen ab"
+      ],
+      [
+        "Woche 2 bis 4",
+        "Die verpflanzten Haare fallen aus"
+      ],
+      [
+        "Monat 3 bis 6",
+        "Neues Haar beginnt zu wachsen"
+      ],
+      [
+        "Monat 6 bis 12",
+        "Das Haar wird dichter"
+      ],
+      [
+        "Etwa 12 Monate",
+        "Endergebnis"
+      ]
+    ],
+    "tl_note": "Veranschaulichende Kurve, keine Messung. Zeitpunkt und Ergebnis sind von Patient zu Patient verschieden.",
+    "local_title": "Sie leben in der Türkei?",
+    "local_text": "Sie können ebenfalls mit Fotos beginnen. Senden Sie sie per WhatsApp, stellen Sie Ihre Fragen in Ihrer Sprache und vereinbaren Sie in Istanbul eine Beratung, wenn Sie bereit sind.",
+    "local_cta": "Per WhatsApp schreiben",
+    "guides_title": "Ratgeber zur Haartransplantation",
+    "guides_intro": "Klare Antworten mit Quellen auf die Fragen, die Patienten vor der Wahl einer Klinik stellen.",
+    "contact_title": "Sprechen Sie mit uns",
+    "contact_text": "Senden Sie drei Fotos und eine kurze Nachricht. Danach erhalten Sie einen ärztlich geprüften Plan.",
+    "faq": [
+      [
+        "Welche Fotos soll ich senden?",
+        "Vorderansicht, Oberseite, Hinterkopf und beide Seiten, bei Tageslicht und ohne Mütze."
+      ],
+      [
+        "Muss ich vor dem Plan anreisen?",
+        "Nein. Sie können mit Fotos über WhatsApp beginnen. Der Arzt bestätigt den endgültigen Plan."
+      ],
+      [
+        "Wann sehe ich das Ergebnis?",
+        "Die verpflanzten Haare fallen meist in den ersten Wochen aus und wachsen nach. Die meisten Patienten sehen nach etwa 6 Monaten ein deutliches und nach etwa 12 Monaten das endgültige Ergebnis."
+      ],
+      [
+        "Bin ich ein geeigneter Kandidat?",
+        "Das hängt von Spenderbereich, Haarqualität und der Stabilität Ihres Haarausfalls ab. Ein Arzt prüft das anhand Ihrer Fotos."
+      ]
+    ],
+    "form": {
+      "title": "Kostenlose Haarberatung anfragen",
+      "sub": "Ihre Angaben gehen in eine WhatsApp-Nachricht an unser Team.",
+      "country": "Wohnort",
+      "gender": "Geschlecht",
+      "g": [
+        "Männlich",
+        "Weiblich"
+      ],
+      "name": "Vor- und Nachname",
+      "phone": "Telefon",
+      "lang": "Sprache",
+      "submit": "Weiter per WhatsApp",
+      "note": "Auf dieser Seite wird nichts gespeichert. Die Angaben füllen nur Ihre WhatsApp-Nachricht.",
+      "countries": [
+        "Türkei",
+        "Deutschland",
+        "Vereinigtes Königreich",
+        "Frankreich",
+        "Niederlande",
+        "Saudi-Arabien",
+        "Vereinigte Arabische Emirate",
+        "Russland",
+        "USA",
+        "Andere"
+      ],
+      "langs": [
+        "Englisch",
+        "Türkisch",
+        "Deutsch",
+        "Französisch",
+        "Arabisch",
+        "Russisch"
+      ],
+      "msg": "Land: {c}\nGeschlecht: {g}\nName: {n}\nTelefon: {p}\nSprache: {l}"
+    }
+  },
+  "fr": {
+    "nav": {
+      "treatments": "Traitements",
+      "process": "Comment ça marche",
+      "results": "Résultats",
+      "guides": "Guides",
+      "contact": "Contact"
+    },
+    "eyebrow": "Clinique à Istanbul · Plans validés par un médecin",
+    "cta2": "Voir comment ça marche",
+    "chips": [
+      "Un médecin agréé confirme chaque plan",
+      "Prix fixe donné par écrit",
+      "Suivi et contrôles par photos"
+    ],
+    "treat_title": "Traitements",
+    "treat": [
+      [
+        "FUE saphir",
+        "Les follicules sont prélevés un à un et placés dans des canaux ouverts avec des lames en saphir."
+      ],
+      [
+        "DHI",
+        "Les greffons sont placés directement avec un stylo implanteur."
+      ],
+      [
+        "Barbe et sourcils",
+        "Le même principe pour une barbe ou des sourcils clairsemés ou absents."
+      ]
+    ],
+    "treat_more": "Comparer les méthodes",
+    "nor_title": "Où vous situez-vous sur l'échelle de Norwood ?",
+    "nor_intro": "L'échelle de Norwood décrit la calvitie masculine en sept stades. Touchez celui qui se rapproche le plus du vôtre.",
+    "nor_stage": "Stade {n}",
+    "nor_desc": [
+      "Pas de recul notable.",
+      "Léger recul aux tempes.",
+      "Recul net aux tempes.",
+      "Recul plus profond à l'avant et éclaircie au sommet, avec une bande de cheveux entre les deux.",
+      "Zones avant et sommet plus larges, avec une bande plus étroite entre elles.",
+      "Les zones avant et sommet se rejoignent. Il reste des cheveux sur les côtés et à l'arrière.",
+      "Il ne reste qu'une bande de cheveux en fer à cheval sur les côtés et à l'arrière."
+    ],
+    "nor_note": "Ceci est une auto-évaluation, pas un diagnostic. Le médecin évalue votre zone donneuse, la qualité de vos cheveux et la stabilité de votre chute.",
+    "nor_interest": "Je m'intéresse à",
+    "interests": [
+      "Cheveux",
+      "Barbe",
+      "Sourcils"
+    ],
+    "nor_cta": "Envoyer mes photos (stade {n})",
+    "wa_finder": "Bonjour, je souhaite une consultation gratuite pour mes cheveux. Stade de Norwood : {stage}. Intérêt : {interest}.",
+    "tl_title": "Calendrier de récupération",
+    "tl_intro": "À quoi s'attendre après une greffe de cheveux, des premiers jours jusqu'au 12e mois.",
+    "tl_axis": "Densité visible",
+    "tl_phases": [
+      [
+        "Jours 1 à 14",
+        "Les rougeurs et les petites croûtes disparaissent"
+      ],
+      [
+        "Semaines 2 à 4",
+        "Les cheveux greffés tombent"
+      ],
+      [
+        "Mois 3 à 6",
+        "De nouveaux cheveux commencent à pousser"
+      ],
+      [
+        "Mois 6 à 12",
+        "Les cheveux s'épaississent"
+      ],
+      [
+        "Environ 12 mois",
+        "Résultat final"
+      ]
+    ],
+    "tl_note": "Courbe illustrative, pas une mesure. Le calendrier et les résultats varient d'un patient à l'autre.",
+    "local_title": "Vous vivez en Turquie ?",
+    "local_text": "Vous pouvez aussi commencer par des photos. Envoyez-les sur WhatsApp, posez vos questions dans votre langue et organisez une consultation à Istanbul quand vous serez prêt.",
+    "local_cta": "Écrire sur WhatsApp",
+    "guides_title": "Guides sur la greffe de cheveux",
+    "guides_intro": "Des réponses claires et sourcées aux questions que se posent les patients avant de choisir une clinique.",
+    "contact_title": "Parlons-en",
+    "contact_text": "Envoyez trois photos et un court message. Un plan validé par un médecin vous est ensuite adressé.",
+    "faq": [
+      [
+        "Quelles photos dois-je envoyer ?",
+        "Face, dessus, arrière et les deux côtés de la tête, à la lumière du jour et sans casquette."
+      ],
+      [
+        "Dois-je voyager avant d'obtenir un plan ?",
+        "Non. Vous pouvez commencer par des photos sur WhatsApp. Le médecin confirme le plan définitif."
+      ],
+      [
+        "Quand verrai-je le résultat ?",
+        "Les cheveux greffés tombent en général dans les premières semaines puis repoussent. La plupart des patients voient un résultat net vers 6 mois et le résultat final vers 12 mois."
+      ],
+      [
+        "Suis-je un bon candidat ?",
+        "Cela dépend de la zone donneuse, de la qualité des cheveux et de la stabilité de la chute. Un médecin le vérifie sur vos photos."
+      ]
+    ],
+    "form": {
+      "title": "Demandez une consultation capillaire gratuite",
+      "sub": "Vos informations sont ajoutées à un message WhatsApp pour notre équipe.",
+      "country": "Pays de résidence",
+      "gender": "Sexe",
+      "g": [
+        "Homme",
+        "Femme"
+      ],
+      "name": "Nom et prénom",
+      "phone": "Téléphone",
+      "lang": "Langue",
+      "submit": "Continuer sur WhatsApp",
+      "note": "Rien n'est enregistré sur ce site. Les informations remplissent seulement votre message WhatsApp.",
+      "countries": [
+        "Turquie",
+        "Allemagne",
+        "Royaume-Uni",
+        "France",
+        "Pays-Bas",
+        "Arabie saoudite",
+        "Émirats arabes unis",
+        "Russie",
+        "États-Unis",
+        "Autre"
+      ],
+      "langs": [
+        "Anglais",
+        "Turc",
+        "Allemand",
+        "Français",
+        "Arabe",
+        "Russe"
+      ],
+      "msg": "Pays : {c}\nSexe : {g}\nNom : {n}\nTéléphone : {p}\nLangue : {l}"
+    }
+  },
+  "ar": {
+    "nav": {
+      "treatments": "العلاجات",
+      "process": "كيف نعمل",
+      "results": "النتائج",
+      "guides": "أدلة",
+      "contact": "تواصل معنا"
+    },
+    "eyebrow": "عيادة في إسطنبول · خطط يراجعها طبيب",
+    "cta2": "تعرّف على آلية العمل",
+    "chips": [
+      "طبيب مرخّص يؤكد كل خطة",
+      "سعر ثابت مكتوب",
+      "متابعة ومراجعات بالصور"
+    ],
+    "treat_title": "العلاجات",
+    "treat": [
+      [
+        "FUE بالياقوت",
+        "تُؤخذ البصيلات واحدة واحدة وتوضع في قنوات تُفتح بشفرات الياقوت."
+      ],
+      [
+        "DHI",
+        "تُوضع البصيلات مباشرة بأداة تشبه القلم."
+      ],
+      [
+        "اللحية والحاجبان",
+        "المبدأ نفسه للحية أو الحاجبين الخفيفين أو الغائبين."
+      ]
+    ],
+    "treat_more": "قارن بين الطرق",
+    "nor_title": "أين أنت على مقياس نوروود؟",
+    "nor_intro": "يصف مقياس نوروود الصلع الوراثي عند الرجال في سبع مراحل. اضغط على المرحلة الأقرب إلى حالتك.",
+    "nor_stage": "المرحلة {n}",
+    "nor_desc": [
+      "لا تراجع ملحوظ في خط الشعر.",
+      "تراجع طفيف عند الصدغين.",
+      "تراجع واضح عند الصدغين.",
+      "تراجع أعمق في المقدمة وخفة في الشعر عند التاج، مع شريط من الشعر بينهما.",
+      "منطقتا المقدمة والتاج أكبر، والشريط بينهما أضيق.",
+      "تلتقي منطقتا المقدمة والتاج، ويبقى الشعر على الجانبين والخلف.",
+      "لا يبقى إلا شريط من الشعر على شكل حدوة حصان على الجانبين والخلف."
+    ],
+    "nor_note": "هذا تقييم ذاتي وليس تشخيصًا. يقيّم الطبيب منطقتك المانحة وجودة شعرك ومدى استقرار تساقطه.",
+    "nor_interest": "أرغب في",
+    "interests": [
+      "الشعر",
+      "اللحية",
+      "الحاجبين"
+    ],
+    "nor_cta": "أرسل صورك للمرحلة {n}",
+    "wa_finder": "مرحبًا، أرغب في استشارة مجانية بخصوص الشعر. مرحلة نوروود: {stage}. المطلوب: {interest}.",
+    "tl_title": "الجدول الزمني للتعافي",
+    "tl_intro": "ما يمكن أن يتوقعه معظم المرضى بعد زراعة الشعر، من الأيام الأولى حتى الشهر 12.",
+    "tl_axis": "الكثافة الظاهرة",
+    "tl_phases": [
+      [
+        "الأيام 1 إلى 14",
+        "يزول الاحمرار والقشور الصغيرة"
+      ],
+      [
+        "الأسابيع 2 إلى 4",
+        "يتساقط الشعر المزروع"
+      ],
+      [
+        "الأشهر 3 إلى 6",
+        "يبدأ نمو شعر جديد"
+      ],
+      [
+        "الأشهر 6 إلى 12",
+        "يزداد الشعر كثافة"
+      ],
+      [
+        "نحو 12 شهرًا",
+        "النتيجة النهائية"
+      ]
+    ],
+    "tl_note": "منحنى توضيحي وليس قياسًا. يختلف التوقيت والنتائج من مريض إلى آخر.",
+    "local_title": "هل تقيم في تركيا؟",
+    "local_text": "يمكنك أيضًا البدء بإرسال الصور. أرسلها عبر واتساب، واطرح أسئلتك بلغتك، واحجز استشارة في إسطنبول عندما تكون مستعدًا.",
+    "local_cta": "راسلنا على واتساب",
+    "guides_title": "أدلة زراعة الشعر",
+    "guides_intro": "إجابات واضحة ومدعومة بالمصادر عن الأسئلة التي يطرحها المرضى قبل اختيار العيادة.",
+    "contact_title": "تحدّث معنا",
+    "contact_text": "أرسل ثلاث صور ورسالة قصيرة، وستصلك خطة يراجعها طبيب.",
+    "faq": [
+      [
+        "ما الصور التي يجب أن أرسلها؟",
+        "من الأمام ومن الأعلى ومن الخلف ومن الجانبين، في ضوء النهار وبدون قبعة."
+      ],
+      [
+        "هل أحتاج إلى السفر قبل الحصول على الخطة؟",
+        "لا. يمكنك البدء بإرسال الصور عبر واتساب، ويؤكد الطبيب الخطة النهائية."
+      ],
+      [
+        "متى سأرى النتيجة؟",
+        "يتساقط الشعر المزروع عادة في الأسابيع الأولى ثم ينمو من جديد. يرى معظم المرضى نتيجة واضحة بعد نحو 6 أشهر، والنتيجة النهائية بعد نحو 12 شهرًا."
+      ],
+      [
+        "هل أنا مرشح مناسب؟",
+        "يعتمد ذلك على المنطقة المانحة وجودة الشعر ومدى استقرار التساقط، ويتحقق الطبيب من ذلك عبر صورك."
+      ]
+    ],
+    "form": {
+      "title": "احصل على استشارة مجانية للشعر",
+      "sub": "تُضاف بياناتك إلى رسالة واتساب موجّهة إلى فريقنا.",
+      "country": "بلد الإقامة",
+      "gender": "الجنس",
+      "g": [
+        "ذكر",
+        "أنثى"
+      ],
+      "name": "الاسم الكامل",
+      "phone": "الهاتف",
+      "lang": "اللغة",
+      "submit": "تابع عبر واتساب",
+      "note": "لا يُحفظ أي شيء على هذا الموقع. البيانات فقط تملأ رسالة واتساب الخاصة بك.",
+      "countries": [
+        "تركيا",
+        "ألمانيا",
+        "المملكة المتحدة",
+        "فرنسا",
+        "هولندا",
+        "السعودية",
+        "الإمارات",
+        "روسيا",
+        "الولايات المتحدة",
+        "أخرى"
+      ],
+      "langs": [
+        "الإنجليزية",
+        "التركية",
+        "الألمانية",
+        "الفرنسية",
+        "العربية",
+        "الروسية"
+      ],
+      "msg": "الدولة: {c}\nالجنس: {g}\nالاسم: {n}\nالهاتف: {p}\nاللغة: {l}"
+    }
+  },
+  "ru": {
+    "nav": {
+      "treatments": "Методы",
+      "process": "Как это работает",
+      "results": "Результаты",
+      "guides": "Статьи",
+      "contact": "Контакты"
+    },
+    "eyebrow": "Клиника в Стамбуле · Планы, проверенные врачом",
+    "cta2": "Как это работает",
+    "chips": [
+      "Каждый план подтверждает лицензированный врач",
+      "Фиксированная цена в письменном виде",
+      "Наблюдение и контроль по фото"
+    ],
+    "treat_title": "Методы",
+    "treat": [
+      [
+        "Сапфировая FUE",
+        "Фолликулы берут по одному и помещают в каналы, вскрытые сапфировыми лезвиями."
+      ],
+      [
+        "DHI",
+        "Графты помещают прямо в кожу специальным имплантером в виде ручки."
+      ],
+      [
+        "Борода и брови",
+        "Тот же принцип для редкой или отсутствующей бороды и бровей."
+      ]
+    ],
+    "treat_more": "Сравнить методы",
+    "nor_title": "Какая у вас стадия по шкале Норвуда?",
+    "nor_intro": "Шкала Норвуда описывает мужское облысение в семи стадиях. Выберите ту, что ближе всего к вашей.",
+    "nor_stage": "Стадия {n}",
+    "nor_desc": [
+      "Заметного отступления линии роста нет.",
+      "Небольшие залысины на висках.",
+      "Выраженные залысины на висках.",
+      "Более глубокие залысины спереди и поредение на макушке, между ними полоса волос.",
+      "Передняя зона и макушка больше, полоса между ними уже.",
+      "Передняя зона и макушка сливаются. Волосы остаются по бокам и сзади.",
+      "Остаётся только полоса волос в форме подковы по бокам и сзади."
+    ],
+    "nor_note": "Это самопроверка, а не диагноз. Врач оценивает донорскую зону, качество волос и стабильность выпадения.",
+    "nor_interest": "Меня интересует",
+    "interests": [
+      "Волосы",
+      "Борода",
+      "Брови"
+    ],
+    "nor_cta": "Отправить фото (стадия {n})",
+    "wa_finder": "Здравствуйте, хочу получить бесплатную консультацию по волосам. Стадия по Норвуду: {stage}. Интерес: {interest}.",
+    "tl_title": "Как проходит восстановление",
+    "tl_intro": "Чего может ожидать большинство пациентов после пересадки волос, от первых дней до 12-го месяца.",
+    "tl_axis": "Видимая густота",
+    "tl_phases": [
+      [
+        "Дни 1-14",
+        "Покраснение и небольшие корочки проходят"
+      ],
+      [
+        "Недели 2-4",
+        "Пересаженные волосы выпадают"
+      ],
+      [
+        "Месяцы 3-6",
+        "Начинают расти новые волосы"
+      ],
+      [
+        "Месяцы 6-12",
+        "Волосы становятся гуще"
+      ],
+      [
+        "Около 12 месяцев",
+        "Окончательный результат"
+      ]
+    ],
+    "tl_note": "Иллюстративная кривая, а не измерение. Сроки и результат у разных пациентов различаются.",
+    "local_title": "Живёте в Турции?",
+    "local_text": "Начать можно и с фото. Отправьте их в WhatsApp, задайте вопросы на своём языке и запишитесь на консультацию в Стамбуле, когда будете готовы.",
+    "local_cta": "Написать в WhatsApp",
+    "guides_title": "Статьи о пересадке волос",
+    "guides_intro": "Понятные ответы с источниками на вопросы, которые пациенты задают до выбора клиники.",
+    "contact_title": "Свяжитесь с нами",
+    "contact_text": "Отправьте три фото и короткое сообщение. Затем вы получите план, проверенный врачом.",
+    "faq": [
+      [
+        "Какие фото нужно отправить?",
+        "Спереди, сверху, сзади и с обеих сторон головы, при дневном свете и без головного убора."
+      ],
+      [
+        "Нужно ли приезжать до получения плана?",
+        "Нет. Можно начать с фото в WhatsApp. Окончательный план подтверждает врач."
+      ],
+      [
+        "Когда я увижу результат?",
+        "Пересаженные волосы обычно выпадают в первые недели и затем отрастают. Большинство пациентов видят заметный результат примерно через 6 месяцев, окончательный примерно через 12 месяцев."
+      ],
+      [
+        "Подхожу ли я для операции?",
+        "Это зависит от донорской зоны, качества волос и стабильности выпадения. Врач проверяет это по вашим фото."
+      ]
+    ],
+    "form": {
+      "title": "Бесплатная консультация по волосам",
+      "sub": "Ваши данные попадут в сообщение WhatsApp для нашей команды.",
+      "country": "Страна проживания",
+      "gender": "Пол",
+      "g": [
+        "Мужской",
+        "Женский"
+      ],
+      "name": "Имя и фамилия",
+      "phone": "Телефон",
+      "lang": "Язык",
+      "submit": "Продолжить в WhatsApp",
+      "note": "На сайте ничего не сохраняется. Данные лишь заполняют ваше сообщение в WhatsApp.",
+      "countries": [
+        "Турция",
+        "Германия",
+        "Великобритания",
+        "Франция",
+        "Нидерланды",
+        "Саудовская Аравия",
+        "ОАЭ",
+        "Россия",
+        "США",
+        "Другая"
+      ],
+      "langs": [
+        "Английский",
+        "Турецкий",
+        "Немецкий",
+        "Французский",
+        "Арабский",
+        "Русский"
+      ],
+      "msg": "Страна: {c}\nПол: {g}\nИмя: {n}\nТелефон: {p}\nЯзык: {l}"
+    }
+  }
 }

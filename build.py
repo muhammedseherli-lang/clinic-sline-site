@@ -134,6 +134,26 @@ def load_articles(sub="articles"):
 
 # ---------- page pieces ----------
 
+FLAG = {"en": "🇬🇧", "tr": "🇹🇷", "de": "🇩🇪", "fr": "🇫🇷", "ar": "🇦🇪", "ru": "🇷🇺"}
+
+
+def form_html(lang):
+    f = H[lang]["form"]
+    opt = lambda xs: "".join("<option>%s</option>" % E(x) for x in xs)
+    data = {"wa": "https://wa.me/%s?text=" % WA_NUMBER, "hello": UI[lang]["wa_msg"], "msg": f["msg"], "tag": "[web:%s/form]" % lang}
+    return ('<form class="lead-form" id="lead-form" novalidate><h2>%s</h2><p>%s</p>'
+            '<label>%s<select name="c">%s</select></label>'
+            '<label>%s<select name="g">%s</select></label>'
+            '<label>%s<input name="n" autocomplete="name" required></label>'
+            '<label>%s<span class="ph"><select name="cc" aria-label="+">%s</select><input name="p" type="tel" inputmode="tel" autocomplete="tel-national" required></span></label>'
+            '<label>%s<select name="l">%s</select></label>'
+            '<button class="btn" type="submit">%s</button><p class="gnote">%s</p>'
+            '<script type="application/json" id="lead-data">%s</script></form>') % (
+        E(f["title"]), E(f["sub"]), E(f["country"]), opt(f["countries"]), E(f["gender"]), opt(f["g"]), E(f["name"]), E(f["phone"]),
+        opt(["+90", "+49", "+44", "+33", "+31", "+966", "+971", "+7", "+1", "+43", "+41", "+32"]), E(f["lang"]), opt(f["langs"]),
+        E(f["submit"]), E(f["note"]), json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
+
+
 def wa_link(lang, tag):
     msg = "%s [web:%s]" % (UI[lang]["wa_msg"], tag)
     return "https://wa.me/%s?text=%s" % (WA_NUMBER, urllib.parse.quote(msg))
@@ -152,7 +172,7 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
         hrefl += '<link rel="alternate" hreflang="x-default" href="%s%s">' % (SITE, alts["en"])
     switch = "".join(
         '<li><a href="%s" hreflang="%s" lang="%s"%s>%s</a></li>' % (
-            alts.get(c, "/%s/" % c), c, c, ' aria-current="page"' if c == lang else "", E(LANG_BY[c]["name"]))
+            alts.get(c, "/%s/" % c), c, c, ' aria-current="page"' if c == lang else "", FLAG[c] + " " + E(LANG_BY[c]["code"].upper()))
         for c in LANG_CODES)
     ld_html = "".join(ld_script(x) for x in (ld or []))
     year = date.today().year
@@ -317,11 +337,11 @@ def home_page(lang, arts):
     strands = "".join('<path d="M-20 %d C 200 %d, 380 %d, 640 %d S 980 %d, 1240 %d" style="--d:%ds"/>' % (
         60 + i * 38, 10 + i * 40, 150 + i * 30, 70 + i * 36, 20 + i * 40, 90 + i * 30, 14 + i * 3) for i in range(7))
     hero = ('<section class="hero"><svg class="strands" viewBox="0 0 1200 360" preserveAspectRatio="none" aria-hidden="true">%s</svg>'
-            '<div class="wrap"><p class="eyebrow">%s</p><h1><span class="grad">%s</span></h1><p>%s</p>'
+            '<div class="wrap herogrid"><div><p class="eyebrow">%s</p><h1><span class="grad">%s</span></h1><p>%s</p>'
             '<p class="actions"><a class="btn" href="%s" rel="noopener">%s</a> <a class="btn ghost" href="%s">%s</a></p>'
-            '<ul class="chips">%s</ul></div></section>') % (
+            '<ul class="chips">%s</ul></div>%s</div></section>') % (
         strands, E(h["eyebrow"]), E(u["hero_title"]), E(u["hero_sub"]), E(wa_home), E(u["cta"]),
-        E(lp("process")), E(h["cta2"]), chips)
+        E(lp("process")), E(h["cta2"]), chips, form_html(lang))
 
     words = [t for t, _ in h["treat"]] + list(h["chips"])
     track = "".join("<span>%s</span>" % E(w) for w in words)
