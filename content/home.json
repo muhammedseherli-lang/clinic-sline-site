@@ -139,8 +139,8 @@
       "msg": "Country: {c}\nGender: {g}\nName: {n}\nPhone: {p}\nLanguage: {l}"
     },
     "trust": {
-      "title": "Know everything before you book a flight",
-      "sub": "Four things we put in your hands before you travel, so Istanbul holds no surprises.",
+      "title": "Know everything before your treatment",
+      "sub": "Four things we put in your hands before treatment starts, so there are no surprises.",
       "items": [
         [
           "Your hairline plan",
@@ -152,11 +152,11 @@
         ],
         [
           "Your price, in writing",
-          "One fixed price, written down. No surprises after you land."
+          "One fixed price, written down. No surprises on the day."
         ],
         [
           "Your aftercare plan",
-          "Washing, sleep, sun and photo follow-ups, so you are never alone back home."
+          "Washing, sleep, sun and photo follow-ups, so you always know what comes next."
         ]
       ],
       "note": "Results vary from person to person. Every plan is individual."
@@ -302,8 +302,8 @@
       "msg": "Ülke: {c}\nCinsiyet: {g}\nAd soyad: {n}\nTelefon: {p}\nDil: {l}"
     },
     "trust": {
-      "title": "Uçak bileti almadan önce her şeyi bilin",
-      "sub": "Yola çıkmadan önce elinize dört şey veriyoruz, böylece İstanbul'da sürpriz yaşamazsınız.",
+      "title": "Tedavi olmadan önce her şeyi bilin",
+      "sub": "Tedaviye başlamadan önce elinize dört şey veriyoruz, böylece sürpriz yaşamazsınız.",
       "items": [
         [
           "Saç çizgisi planınız",
@@ -315,11 +315,11 @@
         ],
         [
           "Fiyatınız yazılı",
-          "Tek, sabit ve yazılı bir fiyat. İndikten sonra sürpriz yok."
+          "Tek, sabit ve yazılı bir fiyat. İşlem gününde sürpriz yok."
         ],
         [
           "Bakım planınız",
-          "Yıkama, uyku, güneş ve fotoğrafla takip. Evinize dönünce yalnız kalmazsınız."
+          "Yıkama, uyku, güneş ve fotoğrafla takip. Sonraki adımı hep bilirsiniz."
         ]
       ],
       "note": "Sonuçlar kişiden kişiye değişir. Her plan kişiye özeldir."
@@ -465,8 +465,8 @@
       "msg": "Land: {c}\nGeschlecht: {g}\nName: {n}\nTelefon: {p}\nSprache: {l}"
     },
     "trust": {
-      "title": "Alles wissen, bevor Sie einen Flug buchen",
-      "sub": "Vier Dinge legen wir Ihnen vor der Reise in die Hand, damit Istanbul keine Überraschungen bereithält.",
+      "title": "Alles wissen, bevor die Behandlung beginnt",
+      "sub": "Vier Dinge legen wir Ihnen vor der Behandlung in die Hand, damit es keine Überraschungen gibt.",
       "items": [
         [
           "Ihr Haarlinienplan",
@@ -478,11 +478,11 @@
         ],
         [
           "Ihr Preis, schriftlich",
-          "Ein Festpreis, schwarz auf weiß. Keine Überraschungen nach der Landung."
+          "Ein Festpreis, schwarz auf weiß. Keine Überraschungen am Behandlungstag."
         ],
         [
           "Ihr Nachsorgeplan",
-          "Waschen, Schlafen, Sonne und Foto-Kontrollen, damit Sie zu Hause nicht allein sind."
+          "Waschen, Schlafen, Sonne und Foto-Kontrollen, damit Sie immer wissen, was als Nächstes kommt."
         ]
       ],
       "note": "Ergebnisse sind individuell verschieden. Jeder Plan ist persönlich."
@@ -628,8 +628,8 @@
       "msg": "Pays : {c}\nSexe : {g}\nNom : {n}\nTéléphone : {p}\nLangue : {l}"
     },
     "trust": {
-      "title": "Sachez tout avant de réserver votre vol",
-      "sub": "Quatre choses entre vos mains avant le départ, pour qu'Istanbul ne réserve aucune surprise.",
+      "title": "Sachez tout avant votre traitement",
+      "sub": "Quatre choses entre vos mains avant le début du traitement, pour qu'il n'y ait aucune surprise.",
       "items": [
         [
           "Votre plan de ligne frontale",
@@ -641,11 +641,11 @@
         ],
         [
           "Votre prix, par écrit",
-          "Un prix fixe, noir sur blanc. Aucune surprise à l'arrivée."
+          "Un prix fixe, noir sur blanc. Aucune surprise le jour J."
         ],
         [
           "Votre plan de soins",
-          "Lavage, sommeil, soleil et suivi par photos, pour ne pas être seul une fois rentré."
+          "Lavage, sommeil, soleil et suivi par photos, pour toujours savoir la suite."
         ]
       ],
       "note": "Les résultats varient d'une personne à l'autre. Chaque plan est personnel."
@@ -791,8 +791,8 @@
       "msg": "الدولة: {c}\nالجنس: {g}\nالاسم: {n}\nالهاتف: {p}\nاللغة: {l}"
     },
     "trust": {
-      "title": "اعرف كل شيء قبل أن تحجز تذكرة السفر",
-      "sub": "أربعة أمور نضعها بين يديك قبل السفر، حتى لا تفاجئك إسطنبول بشيء.",
+      "title": "اعرف كل شيء قبل بدء العلاج",
+      "sub": "أربعة أمور نضعها بين يديك قبل بدء العلاج، حتى لا تفاجأ بشيء.",
       "items": [
         [
           "خطة خط الشعر لك",
@@ -804,11 +804,11 @@
         ],
         [
           "سعرك مكتوب",
-          "سعر ثابت واحد مكتوب. لا مفاجآت بعد وصولك."
+          "سعر ثابت واحد مكتوب. لا مفاجآت يوم العملية."
         ],
         [
           "خطة العناية بعد العملية",
-          "الغسل والنوم والشمس والمتابعة بالصور، فلا تكون وحدك بعد عودتك."
+          "الغسل والنوم والشمس والمتابعة بالصور، لتعرف دائمًا ما الخطوة التالية."
         ]
       ],
       "note": "تختلف النتائج من شخص لآخر. كل خطة فردية."
@@ -954,8 +954,8 @@
       "msg": "Страна: {c}\nПол: {g}\nИмя: {n}\nТелефон: {p}\nЯзык: {l}"
     },
     "trust": {
-      "title": "Узнайте всё до покупки билета",
-      "sub": "Четыре вещи, которые вы получите до поездки, чтобы Стамбул не преподнёс сюрпризов.",
+      "title": "Узнайте всё до начала лечения",
+      "sub": "Четыре вещи, которые вы получите до начала лечения, чтобы не было сюрпризов.",
       "items": [
         [
           "Ваш план линии роста",
@@ -967,11 +967,11 @@
         ],
         [
           "Ваша цена в письменном виде",
-          "Одна фиксированная цена на бумаге. Никаких сюрпризов после прилёта."
+          "Одна фиксированная цена на бумаге. Никаких сюрпризов в день операции."
         ],
         [
           "План ухода после операции",
-          "Мытьё, сон, солнце и контроль по фото, чтобы дома вы не остались одни."
+          "Мытьё, сон, солнце и контроль по фото, чтобы вы всегда знали, что дальше."
         ]
       ],
       "note": "Результаты индивидуальны. Каждый план персональный."
