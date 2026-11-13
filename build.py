@@ -324,7 +324,7 @@ def clinic_html(lang):
     if not N_CLINIC:
         return ""
     t, alt = CLINIC[lang]
-    figs = "".join('<picture class="reveal" style="--d:%.2fs"><source srcset="/assets/clinic/clinic-%d.webp" type="image/webp"><img src="/assets/clinic/clinic-%d.jpg" alt="%s" loading="lazy" width="642" height="480"></picture>' % (
+    figs = "".join('<picture class="reveal" style="--d:%.2fs"><source srcset="/assets/clinic/clinic-%d.webp" type="image/webp"><img src="/assets/clinic/clinic-%d.jpg" alt="%s" loading="lazy" width="1200" height="900"></picture>' % (
         (i % 3) * .08, i, i, E(alt)) for i in range(1, N_CLINIC + 1))
     return '<section class="block alt" id="clinic"><div class="wrap"><h2>%s</h2><div class="gallery">%s</div></div></section>' % (E(t), figs)
 
@@ -396,7 +396,7 @@ def home_page(lang, arts):
     chips = "".join('<li>%s</li>' % E(c) for c in h["chips"])
     strands = "".join('<path d="M-20 %d C 200 %d, 380 %d, 640 %d S 980 %d, 1240 %d" style="--d:%ds"/>' % (
         60 + i * 38, 10 + i * 40, 150 + i * 30, 70 + i * 36, 20 + i * 40, 90 + i * 30, 14 + i * 3) for i in range(7))
-    hero = ('<section class="hero"><svg class="strands" viewBox="0 0 1200 360" preserveAspectRatio="none" aria-hidden="true">%s</svg>'
+    hero = ('<section class="hero"><picture class="herobg" aria-hidden="true"><source srcset="/assets/hero.webp" type="image/webp"><img src="/assets/hero.jpg" alt="" width="1600" height="1195" fetchpriority="high"></picture><svg class="strands" viewBox="0 0 1200 360" preserveAspectRatio="none" aria-hidden="true">%s</svg>'
             '<div class="wrap herogrid"><div><p class="eyebrow">%s</p><h1><span class="grad">%s</span></h1><p>%s</p>'
             '<p class="actions"><a class="btn" href="%s" rel="noopener">%s</a> <a class="btn ghost" href="%s">%s</a></p>'
             '<ul class="chips">%s</ul></div>%s</div></section>') % (

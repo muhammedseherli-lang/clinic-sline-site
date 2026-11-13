@@ -304,3 +304,11 @@ section.trust{background:linear-gradient(180deg,color-mix(in srgb,var(--tint) 70
 @keyframes dash{to{stroke-dashoffset:-1200}}
 @media (prefers-reduced-motion:reduce){.bgfx i,.bgfx path{animation:none}}
 @media (max-width:640px){.bgfx i{filter:blur(60px)}}
+
+/* hero: real clinic photo */
+.herobg{position:absolute;inset:0;z-index:-2;display:block}
+.herobg img{width:100%;height:100%;object-fit:cover;object-position:center 60%}
+.hero::before,.hero::after,.strands{display:none}
+.hero{background:#0c1f24}
+.hero::selection{background:transparent}
+.herobg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,22,27,.9) 0,rgba(8,22,27,.62) 42%,rgba(8,22,27,.22) 100%)}
