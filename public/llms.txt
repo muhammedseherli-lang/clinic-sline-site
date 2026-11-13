@@ -1,0 +1,41 @@
+# Clinic Sline
+
+> Hair transplant clinic in Istanbul, Turkey. Patients from Turkey, Europe and Arabic-speaking countries. Languages: English, Türkçe, Deutsch, Français, العربية, Русский.
+
+Every treatment plan is confirmed by a licensed doctor. Articles are medically reviewed. Prices are fixed and given in writing after a doctor reviews the patient's photos.
+
+## English
+- [Clinic Sline](https://clinicsline.example/en/)
+- [Hair transplant cost in Turkey: what the price should include](https://clinicsline.example/en/hair-transplant-cost-turkey/): A fixed hair transplant price in Turkey should list surgery, medication, hotel, transfers and follow-up. Learn what to compare and which questions to ask.
+- [Hair transplant results: what to expect from day 1 to month 12](https://clinicsline.example/en/hair-transplant-results-timeline/): A realistic hair transplant timeline: the first days, shedding, regrowth and final results at about 12 months, plus what to ask your doctor about aftercare.
+- [Sapphire FUE vs DHI: which hair transplant method suits you?](https://clinicsline.example/en/sapphire-fue-vs-dhi/): Sapphire FUE and DHI both use follicular unit extraction but place grafts differently. See how a doctor chooses between them and what to ask a clinic.
+
+## Türkçe
+- [Clinic Sline](https://clinicsline.example/tr/)
+- [İstanbul'da saç ekimi fiyatları: fiyata neler dahil olmalı?](https://clinicsline.example/tr/sac-ekimi-fiyatlari/): Saç ekimi fiyatı operasyonu, ilacı, oteli, transferi ve takibi kapsamalı. Fiyat karşılaştırırken nelere bakacağınızı ve hangi soruları soracağınızı öğrenin.
+- [Saç ekimi sonrası sonuçlar: 1. günden 12. aya neler beklemeli?](https://clinicsline.example/tr/sac-ekimi-sonrasi-sonuc-takvimi/): Gerçekçi bir saç ekimi takvimi: ilk günler, dökülme, yeniden çıkış ve yaklaşık 12. ayda nihai sonuç. Bakım için doktorunuza ne soracağınızı öğrenin.
+- [Safir FUE ve DHI farkı: hangi saç ekimi yöntemi size uygun?](https://clinicsline.example/tr/safir-fue-ve-dhi-farki/): Safir FUE ve DHI, greftleri FUE ile alır ama yerleştirme şekli farklıdır. Doktorun ikisi arasında nasıl seçim yaptığını ve kliniğe ne soracağınızı öğrenin.
+
+## Deutsch
+- [Clinic Sline](https://clinicsline.example/de/)
+- [Haartransplantation in der Türkei: Was der Preis enthalten sollte](https://clinicsline.example/de/haartransplantation-tuerkei-kosten/): Ein Festpreis für eine Haartransplantation in der Türkei sollte Operation, Medikamente, Hotel, Transfers und Nachsorge nennen. Worauf Sie achten und was Sie fragen sollten.
+- [Ergebnisse nach der Haartransplantation: Was Sie von Tag 1 bis Monat 12 erwartet](https://clinicsline.example/de/haartransplantation-ergebnisse-verlauf/): Ein realistischer Verlauf nach der Haartransplantation: erste Tage, Haarausfall, Nachwachsen und Endergebnis nach etwa 12 Monaten sowie Fragen zur Nachsorge.
+- [Saphir-FUE oder DHI: Welche Methode der Haartransplantation passt zu Ihnen?](https://clinicsline.example/de/saphir-fue-oder-dhi/): Saphir-FUE und DHI entnehmen Grafts beide per FUE, setzen sie aber unterschiedlich ein. So entscheidet der Arzt und das sollten Sie die Klinik fragen.
+
+## Français
+- [Clinic Sline](https://clinicsline.example/fr/)
+- [Prix d'une greffe de cheveux en Turquie : ce que le tarif doit inclure](https://clinicsline.example/fr/greffe-de-cheveux-turquie-prix/): Un prix fixe de greffe de cheveux en Turquie doit détailler l'opération, les médicaments, l'hôtel, les transferts et le suivi. Ce qu'il faut comparer et les questions à poser.
+- [Résultats d'une greffe de cheveux : à quoi s'attendre du jour 1 au mois 12](https://clinicsline.example/fr/greffe-de-cheveux-resultats-calendrier/): Un calendrier réaliste après une greffe de cheveux : premiers jours, chute, repousse et résultat final vers 12 mois, avec les questions à poser sur les soins.
+- [FUE Saphir ou DHI : quelle méthode de greffe de cheveux vous convient ?](https://clinicsline.example/fr/fue-saphir-ou-dhi/): La FUE Saphir et la DHI prélèvent toutes deux les greffons par FUE mais les placent différemment. Comment le médecin choisit et quoi demander à la clinique.
+
+## العربية
+- [Clinic Sline](https://clinicsline.example/ar/)
+- [تكلفة زراعة الشعر في تركيا: ما الذي يجب أن يشمله السعر](https://clinicsline.example/ar/taklifat-zira3at-alsha3r-fi-turkia/): يجب أن يوضح السعر الثابت لزراعة الشعر في تركيا العملية والأدوية والفندق والانتقالات والمتابعة. تعرّف على ما تقارنه وما تسأل عنه.
+- [نتائج زراعة الشعر: ماذا تتوقع من اليوم الأول إلى الشهر 12](https://clinicsline.example/ar/natayej-zira3at-alsha3r-aljadwal-alzamani/): جدول زمني واقعي بعد زراعة الشعر: الأيام الأولى وتساقط الشعر المزروع ونموه من جديد والنتيجة النهائية بعد نحو 12 شهراً، مع أسئلة عن الرعاية لطبيبك.
+- [الفرق بين FUE بالياقوت وDHI: أي طريقة لزراعة الشعر تناسبك؟](https://clinicsline.example/ar/farq-safir-fue-dhi/): تعتمد FUE بالياقوت وDHI على استخراج البصيلات بتقنية FUE لكنهما تختلفان في زراعتها. تعرّف على كيفية اختيار الطبيب وما تسأل عنه العيادة.
+
+## Русский
+- [Clinic Sline](https://clinicsline.example/ru/)
+- [Цена пересадки волос в Турции: что должна включать стоимость](https://clinicsline.example/ru/peresadka-volos-v-turtsii-tsena/): Фиксированная цена пересадки волос в Турции должна включать операцию, лекарства, отель, трансферы и наблюдение. Что сравнивать и какие вопросы задать.
+- [Результаты пересадки волос: чего ожидать с 1-го дня до 12-го месяца](https://clinicsline.example/ru/rezultaty-peresadki-volos-hronologiya/): Реалистичная хронология после пересадки волос: первые дни, выпадение, рост и итоговый результат примерно через 12 месяцев, а также вопросы врачу об уходе.
+- [Сапфировая FUE или DHI: какой метод пересадки волос подойдёт вам?](https://clinicsline.example/ru/safirovyj-fue-ili-dhi/): Сапфировая FUE и DHI забирают графты методом FUE, но высаживают их по-разному. Как врач выбирает метод и что спросить в клинике.
