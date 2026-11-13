@@ -44,6 +44,13 @@
     });
   }
 
+  // Language picker closes on outside tap or Escape
+  var ls = document.querySelector(".langsel");
+  if (ls) {
+    document.addEventListener("click", function(e){ if (!ls.contains(e.target)) ls.removeAttribute("open"); });
+    document.addEventListener("keydown", function(e){ if (e.key === "Escape") ls.removeAttribute("open"); });
+  }
+
   // Norwood selector -> WhatsApp message
   var dataEl = document.getElementById("nor-data");
   if (dataEl) {

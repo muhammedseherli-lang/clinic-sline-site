@@ -172,7 +172,7 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
         hrefl += '<link rel="alternate" hreflang="x-default" href="%s%s">' % (SITE, alts["en"])
     switch = "".join(
         '<li><a href="%s" hreflang="%s" lang="%s"%s>%s</a></li>' % (
-            alts.get(c, "/%s/" % c), c, c, ' aria-current="page"' if c == lang else "", FLAG[c] + " " + E(LANG_BY[c]["code"].upper()))
+            alts.get(c, "/%s/" % c), c, c, ' aria-current="page"' if c == lang else "", FLAG[c] + " " + E(LANG_BY[c]["name"]))
         for c in LANG_CODES)
     ld_html = "".join(ld_script(x) for x in (ld or []))
     year = date.today().year
@@ -206,7 +206,7 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
 </head>
 <body>
 <div class="progress" aria-hidden="true"></div>
-<header class="top"><div class="wrap"><a class="brand" href="/{lang}/" aria-label="{brand}"><img src="/assets/logo-header.png" alt="{brand}" width="130" height="40"></a>{menu}<nav aria-label="Language"><ul class="langs">{switch}</ul></nav></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="/{lang}/" aria-label="{brand}"><img src="/assets/logo-header.png" alt="{brand}" width="130" height="40"></a>{menu}<nav aria-label="Language"><details class="langsel"><summary>{curflag} {curcode}</summary><ul class="langs">{switch}</ul></details></nav></div></header>
 <main>
 {body}
 </main>
@@ -216,7 +216,7 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
 </body>
 </html>
 """.format(lang=lang, dir=l["dir"], title=E(title), desc=E(desc), canon=canon, hrefl=hrefl, og=og,
-           brand=E(BRAND), site=SITE, locale=l["locale"], ld=ld_html, switch=switch, menu=nav_html(lang), body=body,
+           brand=E(BRAND), curflag=FLAG[lang], curcode=lang.upper(), site=SITE, locale=l["locale"], ld=ld_html, switch=switch, menu=nav_html(lang), body=body,
            disclaimer=E(u["disclaimer"]), addr=addr, year=year, wa=E(wa_link(lang, lang + "/float")))
 
 

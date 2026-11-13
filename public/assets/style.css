@@ -211,3 +211,17 @@ h2{font-size:clamp(28px,4.6vw,46px);letter-spacing:-.02em}
 
 .brand{display:inline-flex;align-items:center}.brand img{display:block;height:40px;width:auto}
 @media (max-width:640px){.brand img{height:34px}}
+
+/* language picker: one tap opens the list */
+.langsel{position:relative}
+.langsel summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:1px solid rgba(255,255,255,.3);border-radius:999px;font-weight:700;font-size:15px;color:var(--hero-ink);background:rgba(255,255,255,.06);user-select:none}
+.langsel summary::-webkit-details-marker{display:none}
+.langsel summary::after{content:"";width:7px;height:7px;border:solid currentColor;border-width:0 2px 2px 0;transform:rotate(45deg) translateY(-2px);margin-inline-start:4px}
+.langsel[open] summary{background:var(--warm);border-color:var(--warm);color:#1b1205}
+.langsel .langs{position:absolute;inset-inline-end:0;top:calc(100% + 8px);z-index:70;flex-direction:column;flex-wrap:nowrap;gap:2px;min-width:190px;padding:8px;background:#0f2433;border:1px solid rgba(255,255,255,.18);border-radius:16px;box-shadow:0 18px 44px rgba(0,0,0,.5)}
+.langsel .langs a{border:0;border-radius:10px;padding:11px 14px;font-size:16px;display:flex;gap:10px;align-items:center}
+.langsel .langs a:hover{background:rgba(255,255,255,.1)}
+.langsel .langs a[aria-current=page]{background:var(--warm);color:#1b1205}
+@media (max-width:979px){header.top .wrap{flex-wrap:wrap}.langsel summary{padding:7px 12px}}
+details.langsel{background:none;border:0;padding:0;margin:0;border-radius:0}
+@media (max-width:979px){header.top{position:relative;z-index:50}}
