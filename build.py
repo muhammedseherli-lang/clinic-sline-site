@@ -16,6 +16,8 @@ from datetime import date
 
 ROOT = pathlib.Path(__file__).resolve().parent
 OUT = ROOT / "public"
+import hashlib
+ASSET_V = hashlib.md5(b"".join((ROOT / "assets" / f).read_bytes() for f in ("style.css", "site.js"))).hexdigest()[:8]
 CFG = json.loads((ROOT / "site.json").read_text(encoding="utf-8"))
 LANGS = CFG["languages"]
 LANG_CODES = [l["code"] for l in LANGS]
@@ -204,7 +206,7 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
 <link rel="icon" href="/assets/favicon-256.png" sizes="256x256" type="image/png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta name="theme-color" content="#102a3a">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/style.css?v={av}">
 <script>document.documentElement.classList.add("js")</script>
 {ld}
 </head>
@@ -217,11 +219,11 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
 </main>
 <footer class="bottom"><div class="wrap"><p>{disclaimer}</p>{addr}<p>© {year} {brand} · Istanbul</p></div></footer>
 <a class="wa" href="{wa}" rel="noopener">WhatsApp</a>
-<script src="/assets/site.js" defer></script>
+<script src="/assets/site.js?v={av}" defer></script>
 </body>
 </html>
 """.format(lang=lang, dir=l["dir"], title=E(title), desc=E(desc), canon=canon, hrefl=hrefl, og=og,
-           brand=E(BRAND), curflag=FLAG[lang], curcode=lang.upper(), site=SITE, locale=l["locale"], ld=ld_html, switch=switch, menu=nav_html(lang), body=body,
+           av=ASSET_V, brand=E(BRAND), curflag=FLAG[lang], curcode=lang.upper(), site=SITE, locale=l["locale"], ld=ld_html, switch=switch, menu=nav_html(lang), body=body,
            disclaimer=E(u["disclaimer"]), addr=addr, year=year, wa=E(wa_link(lang, lang + "/float")))
 
 
