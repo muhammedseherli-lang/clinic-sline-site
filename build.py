@@ -192,7 +192,13 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{canon}">
 <meta property="og:locale" content="{locale}">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta property="og:image" content="{site}/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/favicon-256.png" sizes="256x256" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta name="theme-color" content="#102a3a">
 <link rel="stylesheet" href="/assets/style.css">
 <script>document.documentElement.classList.add("js")</script>
@@ -200,7 +206,7 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
 </head>
 <body>
 <div class="progress" aria-hidden="true"></div>
-<header class="top"><div class="wrap"><a class="brand" href="/{lang}/">{brand}</a>{menu}<nav aria-label="Language"><ul class="langs">{switch}</ul></nav></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="/{lang}/" aria-label="{brand}"><img src="/assets/logo-header.png" alt="{brand}" width="130" height="40"></a>{menu}<nav aria-label="Language"><ul class="langs">{switch}</ul></nav></div></header>
 <main>
 {body}
 </main>
@@ -210,7 +216,7 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
 </body>
 </html>
 """.format(lang=lang, dir=l["dir"], title=E(title), desc=E(desc), canon=canon, hrefl=hrefl, og=og,
-           brand=E(BRAND), locale=l["locale"], ld=ld_html, switch=switch, menu=nav_html(lang), body=body,
+           brand=E(BRAND), site=SITE, locale=l["locale"], ld=ld_html, switch=switch, menu=nav_html(lang), body=body,
            disclaimer=E(u["disclaimer"]), addr=addr, year=year, wa=E(wa_link(lang, lang + "/float")))
 
 
@@ -399,7 +405,7 @@ def home_page(lang, arts):
     body = hero + marquee + treat_sec + steps_sec + nor_sec + tl_sec + gallery_html(lang) + clinic_html(lang) + local_sec + guides_sec + faq_sec + cta_sec
     alts = {c: "/%s/" % c for c in LANG_CODES}
     ld = [{
-        "@context": "https://schema.org", "@type": "MedicalClinic", "name": BRAND, "url": SITE + "/%s/" % lang,
+        "@context": "https://schema.org", "@type": "MedicalClinic", "name": BRAND, "logo": SITE + "/assets/logo-dark.png", "image": SITE + "/assets/og.png", "url": SITE + "/%s/" % lang,
         "description": u["hero_sub"], "inLanguage": lang, "medicalSpecialty": "Dermatology",
         "address": {"@type": "PostalAddress", "addressLocality": "Istanbul", "addressCountry": "TR"},
         "availableLanguage": [LANG_BY[c]["name"] for c in LANG_CODES],

@@ -208,3 +208,6 @@ h2{font-size:clamp(28px,4.6vw,46px);letter-spacing:-.02em}
 /* masonry: photos keep their own height, no gaps */
 .gallery{display:block;column-width:260px;column-gap:16px}
 .gallery picture{break-inside:avoid;margin:0 0 16px}
+
+.brand{display:inline-flex;align-items:center}.brand img{display:block;height:40px;width:auto}
+@media (max-width:640px){.brand img{height:34px}}
