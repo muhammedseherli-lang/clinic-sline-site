@@ -200,6 +200,11 @@ GALLERY = {
     "ar": ("نتائج المرضى", "مرضى Clinic S Line، تُعرض صورهم بموافقتهم. تختلف النتائج من شخص لآخر ولا تُعدّ ضمانًا. تُحدَّد الملاءمة في الاستشارة الطبية.", "مريض قبل زراعة الشعر وبعدها"),
     "ru": ("Результаты пациентов", "Пациенты Clinic S Line, фото публикуются с их согласия. Результаты индивидуальны и не гарантируются. Показания определяются на консультации врача.", "Пациент до и после пересадки волос"),
 }
+CLINIC = {
+    "en": ("Our clinic", "Clinic interior"), "tr": ("Kliniğimiz", "Klinik içi"), "de": ("Unsere Klinik", "Klinik von innen"),
+    "fr": ("Notre clinique", "Intérieur de la clinique"), "ar": ("عيادتنا", "داخل العيادة"), "ru": ("Наша клиника", "Интерьер клиники"),
+}
+N_CLINIC = len(list((ROOT / "assets" / "clinic").glob("clinic-*.jpg")))
 N_RESULTS = len(list((ROOT / "assets" / "results").glob("result-*.jpg")))
 
 
@@ -281,6 +286,15 @@ def timeline_svg(lang):
         E(h["tl_title"] + ". " + h["tl_note"]), E(h["tl_axis"]), E(TL_UNIT[lang]), ticks, path, marks)
 
 
+def clinic_html(lang):
+    if not N_CLINIC:
+        return ""
+    t, alt = CLINIC[lang]
+    figs = "".join('<img src="/assets/clinic/clinic-%d.jpg" alt="%s" loading="lazy" width="642" height="480" class="reveal" style="--d:%.2fs">' % (
+        i, E(alt), (i % 3) * .08) for i in range(1, N_CLINIC + 1))
+    return '<section class="block alt" id="clinic"><div class="wrap"><h2>%s</h2><div class="gallery">%s</div></div></section>' % (E(t), figs)
+
+
 def gallery_html(lang):
     if not N_RESULTS:
         return ""
@@ -356,7 +370,7 @@ def home_page(lang, arts):
                '<a class="btn" href="%s" rel="noopener">%s</a></aside></div></section>') % (
         E(u["cta_box_title"]), E(u["cta_box_text"]), E(wa_link(lang, lang + "/bottom")), E(u["cta"]))
 
-    body = hero + treat_sec + steps_sec + nor_sec + tl_sec + gallery_html(lang) + local_sec + guides_sec + faq_sec + cta_sec
+    body = hero + treat_sec + steps_sec + nor_sec + tl_sec + gallery_html(lang) + clinic_html(lang) + local_sec + guides_sec + faq_sec + cta_sec
     alts = {c: "/%s/" % c for c in LANG_CODES}
     ld = [{
         "@context": "https://schema.org", "@type": "MedicalClinic", "name": BRAND, "url": SITE + "/%s/" % lang,
