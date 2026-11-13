@@ -141,3 +141,43 @@ dialog.lb img{width:100%;height:auto;border-radius:12px;display:block}
  .chart .curve{stroke-dashoffset:0;animation:none!important}.chart .mk{opacity:1;animation:none!important}
  .tcard:hover,.stage:hover,.btn:hover,.guide:hover{transform:none}
 }
+
+/* ---- v3: bolder look ---- */
+.progress{position:fixed;inset:0 0 auto 0;height:3px;z-index:60;background:linear-gradient(90deg,var(--accent),var(--warm));transform:scaleX(0);transform-origin:0 50%}
+[dir=rtl] .progress{transform-origin:100% 50%}
+header.top{position:sticky;top:0;z-index:50;background:rgba(16,42,58,.82);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);transition:box-shadow .3s}
+header.top.stuck{box-shadow:0 6px 24px rgba(0,0,0,.28)}
+.hero{padding:clamp(70px,12vw,140px) 0 clamp(70px,10vw,120px);background:radial-gradient(1100px 520px at 80% -10%,#14606a 0,transparent 60%),radial-gradient(800px 500px at 0 110%,#2a3f5c 0,transparent 55%),var(--hero)}
+.hero h1{font-size:clamp(38px,7.2vw,84px);letter-spacing:-.03em;line-height:1.04;max-width:14em}
+.grad{background:linear-gradient(100deg,#fff 10%,#9fe6dc 55%,#f0c27a 100%);-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200% auto;animation:sheen 9s linear infinite}
+.hero .btn{padding:17px 30px;font-size:18px;border-radius:14px;box-shadow:0 10px 30px rgba(15,118,110,.45)}
+.hero .btn:not(.ghost){background:linear-gradient(135deg,#14a89a,#0f766e)}
+.hero .wrap>*{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.hero .wrap>*:nth-child(2){animation-delay:.08s}.hero .wrap>*:nth-child(3){animation-delay:.18s}.hero .wrap>*:nth-child(4){animation-delay:.28s}.hero .wrap>*:nth-child(5){animation-delay:.38s}
+.marquee{overflow:hidden;background:var(--warm);color:#1b1205;border-block:1px solid rgba(0,0,0,.15);direction:ltr}
+.mtrack{display:flex;width:max-content;animation:marq 38s linear infinite}
+.marquee:hover .mtrack{animation-play-state:paused}
+.mtrack span{padding:13px 26px;font-weight:700;font-size:15px;letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
+.mtrack span::after{content:"✦";margin-inline-start:52px;opacity:.55}
+section.block{padding:clamp(56px,8vw,96px) 0}
+h2{font-size:clamp(28px,4.6vw,46px);letter-spacing:-.02em}
+.tcard,.guide,.norpanel,.chartbox{position:relative;overflow:hidden}
+.tcard::before,.guide::before{content:"";position:absolute;inset:0;background:radial-gradient(260px circle at var(--mx,50%) var(--my,0),rgba(47,179,166,.2),transparent 70%);opacity:0;transition:opacity .3s;pointer-events:none}
+.tcard:hover::before,.guide:hover::before{opacity:1}
+.tcard b{font-size:22px}
+.steps li{background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:14px;padding:18px}
+.steps li::before{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--accent);color:var(--accent-ink);margin-bottom:6px}
+.gallery{gap:16px}
+.gallery img{transition:transform .35s ease,box-shadow .35s ease;cursor:zoom-in;box-shadow:0 4px 18px rgba(0,0,0,.12)}
+.gallery img:hover{transform:scale(1.025) rotate(-.4deg);box-shadow:0 16px 40px rgba(0,0,0,.28)}
+.ctabox{background:linear-gradient(135deg,var(--hero),#0f4c5c);color:var(--hero-ink);border:0;padding:clamp(28px,5vw,52px)}
+.ctabox p{color:var(--hero-muted)}
+.wa{box-shadow:0 8px 26px rgba(31,168,85,.5);animation:pulse 2.6s ease-out infinite}
+@media (max-width:640px){.wa{inset-inline:12px;bottom:max(12px,env(safe-area-inset-bottom));text-align:center;padding:15px;font-size:17px;border-radius:14px}body{padding-bottom:78px}}
+.btn:active{transform:scale(.97)}
+@keyframes sheen{to{background-position:200% center}}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+@keyframes marq{to{transform:translateX(-50%)}}
+@keyframes pulse{0%{box-shadow:0 8px 26px rgba(31,168,85,.5),0 0 0 0 rgba(31,168,85,.55)}70%,100%{box-shadow:0 8px 26px rgba(31,168,85,.5),0 0 0 18px rgba(31,168,85,0)}}
+@media (prefers-reduced-motion:reduce){.grad,.mtrack,.wa,.hero .wrap>*{animation:none}.progress{display:none}}
+@media (max-width:979px){header.top{position:static}}

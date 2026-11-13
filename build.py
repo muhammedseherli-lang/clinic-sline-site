@@ -172,11 +172,14 @@ def page(lang, title, desc, path, alts, body, ld=None, og="website"):
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{canon}">
 <meta property="og:locale" content="{locale}">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#102a3a">
 <link rel="stylesheet" href="/assets/style.css">
 <script>document.documentElement.classList.add("js")</script>
 {ld}
 </head>
 <body>
+<div class="progress" aria-hidden="true"></div>
 <header class="top"><div class="wrap"><a class="brand" href="/{lang}/">{brand}</a>{menu}<nav aria-label="Language"><ul class="langs">{switch}</ul></nav></div></header>
 <main>
 {body}
@@ -314,12 +317,15 @@ def home_page(lang, arts):
     strands = "".join('<path d="M-20 %d C 200 %d, 380 %d, 640 %d S 980 %d, 1240 %d" style="--d:%ds"/>' % (
         60 + i * 38, 10 + i * 40, 150 + i * 30, 70 + i * 36, 20 + i * 40, 90 + i * 30, 14 + i * 3) for i in range(7))
     hero = ('<section class="hero"><svg class="strands" viewBox="0 0 1200 360" preserveAspectRatio="none" aria-hidden="true">%s</svg>'
-            '<div class="wrap"><p class="eyebrow">%s</p><h1>%s</h1><p>%s</p>'
+            '<div class="wrap"><p class="eyebrow">%s</p><h1><span class="grad">%s</span></h1><p>%s</p>'
             '<p class="actions"><a class="btn" href="%s" rel="noopener">%s</a> <a class="btn ghost" href="%s">%s</a></p>'
             '<ul class="chips">%s</ul></div></section>') % (
         strands, E(h["eyebrow"]), E(u["hero_title"]), E(u["hero_sub"]), E(wa_home), E(u["cta"]),
         E(lp("process")), E(h["cta2"]), chips)
 
+    words = [t for t, _ in h["treat"]] + list(h["chips"])
+    track = "".join("<span>%s</span>" % E(w) for w in words)
+    marquee = '<div class="marquee" aria-hidden="true"><div class="mtrack">%s%s</div></div>' % (track, track)
     treat = "".join('<div class="tcard reveal" style="--d:%.2fs"><b>%s</b><span>%s</span></div>' % (i * .1, E(t), E(d))
                     for i, (t, d) in enumerate(h["treat"]))
     treat_sec = ('<section class="block"><div class="wrap"><h2>%s</h2><div class="tgrid">%s</div>'
@@ -370,7 +376,7 @@ def home_page(lang, arts):
                '<a class="btn" href="%s" rel="noopener">%s</a></aside></div></section>') % (
         E(u["cta_box_title"]), E(u["cta_box_text"]), E(wa_link(lang, lang + "/bottom")), E(u["cta"]))
 
-    body = hero + treat_sec + steps_sec + nor_sec + tl_sec + gallery_html(lang) + clinic_html(lang) + local_sec + guides_sec + faq_sec + cta_sec
+    body = hero + marquee + treat_sec + steps_sec + nor_sec + tl_sec + gallery_html(lang) + clinic_html(lang) + local_sec + guides_sec + faq_sec + cta_sec
     alts = {c: "/%s/" % c for c in LANG_CODES}
     ld = [{
         "@context": "https://schema.org", "@type": "MedicalClinic", "name": BRAND, "url": SITE + "/%s/" % lang,

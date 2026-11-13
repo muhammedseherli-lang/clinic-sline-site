@@ -10,6 +10,24 @@
     els.forEach(function(e){ io.observe(e); });
   }
 
+  // Scroll progress + sticky header shadow
+  var bar = document.querySelector(".progress"), top = document.querySelector("header.top");
+  function onScroll(){
+    var h = document.documentElement, max = h.scrollHeight - h.clientHeight;
+    if (bar) bar.style.transform = "scaleX(" + (max > 0 ? Math.min(1, h.scrollTop / max) : 0) + ")";
+    if (top) top.classList.toggle("stuck", h.scrollTop > 8);
+  }
+  addEventListener("scroll", onScroll, {passive: true}); onScroll();
+
+  // Card spotlight follows the pointer
+  document.querySelectorAll(".tcard,.guide").forEach(function(c){
+    c.addEventListener("pointermove", function(e){
+      var r = c.getBoundingClientRect();
+      c.style.setProperty("--mx", (e.clientX - r.left) + "px");
+      c.style.setProperty("--my", (e.clientY - r.top) + "px");
+    });
+  });
+
   // Norwood selector -> WhatsApp message
   var dataEl = document.getElementById("nor-data");
   if (dataEl) {
