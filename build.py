@@ -432,7 +432,7 @@ def home_page(lang, arts):
     chips = "".join('<li>%s</li>' % E(c) for c in h["chips"])
     strands = "".join('<path d="M-20 %d C 200 %d, 380 %d, 640 %d S 980 %d, 1240 %d" style="--d:%ds"/>' % (
         60 + i * 38, 10 + i * 40, 150 + i * 30, 70 + i * 36, 20 + i * 40, 90 + i * 30, 14 + i * 3) for i in range(7))
-    hero = ('<section class="hero"><picture class="herobg" aria-hidden="true"><source srcset="/assets/hero.webp" type="image/webp"><img src="/assets/hero.jpg" alt="" width="1600" height="1195" fetchpriority="high"></picture><svg class="strands" viewBox="0 0 1200 360" preserveAspectRatio="none" aria-hidden="true">%s</svg>'
+    hero = ('<section class="hero"><div class="herobg" aria-hidden="true"><picture><source srcset="/assets/hero.webp" type="image/webp"><img src="/assets/hero.jpg" alt="" width="1600" height="1195" fetchpriority="high"></picture><video muted loop playsinline preload="metadata" poster="/assets/hero.jpg" width="720" height="1280"><source src="/assets/hero.mp4" type="video/mp4"></video></div><svg class="strands" viewBox="0 0 1200 360" preserveAspectRatio="none" aria-hidden="true">%s</svg>'
             '<div class="wrap herogrid"><div><p class="eyebrow">%s</p><h1><span class="grad">%s</span></h1><p>%s</p>'
             '<p class="actions"><a class="btn" href="%s" rel="noopener">%s</a> <a class="btn ghost" href="%s">%s</a></p>'
             '<ul class="chips">%s</ul></div>%s</div></section>') % (

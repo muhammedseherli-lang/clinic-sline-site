@@ -307,7 +307,11 @@ section.trust{background:linear-gradient(180deg,color-mix(in srgb,var(--tint) 70
 
 /* hero: real clinic photo */
 .herobg{position:absolute;inset:0;z-index:-2;display:block}
-.herobg img{width:100%;height:100%;object-fit:cover;object-position:center 60%}
+.herobg picture{display:contents}
+.herobg img,.herobg video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 55%}
+.herobg video{opacity:0;transition:opacity 1s}
+.herobg video.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.herobg video{display:none}}
 .hero::before,.hero::after,.strands{display:none}
 .hero{background:#0c1f24}
 .hero::selection{background:transparent}

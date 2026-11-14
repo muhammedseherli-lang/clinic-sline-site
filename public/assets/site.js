@@ -133,3 +133,15 @@
     if (m.classList.contains("open") && !m.contains(e.target) && !b.contains(e.target)) set(false);
   });
 })();
+
+/* hero background video: only when allowed, otherwise the photo stays */
+(function () {
+  var v = document.querySelector(".herobg video");
+  if (!v) return;
+  var c = navigator.connection || {};
+  if (c.saveData || window.matchMedia("(prefers-reduced-motion: reduce)").matches) { v.remove(); return; }
+  v.muted = true;
+  v.addEventListener("playing", function () { v.classList.add("on"); });
+  var p = v.play();
+  if (p && p.catch) p.catch(function () { v.remove(); });
+})();
